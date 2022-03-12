@@ -1,13 +1,21 @@
-CREATE TABLE stroke_data_cleaned (
-     gender VARCHAR(6) NOT NULL,
-     age INT NOT NULL,
-	 hypertension INT NOT NULL,
-	 heart_disease INT NOT NULL,
-	 ever_married VARCHAR(40) NOT NULL,
-	 work_type VARCHAR(40) NOT NULL,
-	 residence_type VARCHAR(40) NOT NULL,
-	 avg_glucose_level DECIMAL(5,2) NOT NULL,
-	 bmi DECIMAL(3,1) NOT NULL,
-	 smoking_status VARCHAR(40),
-	 stroke INT NOT NULL
+CREATE TABLE medical (
+	identifier VARCHAR(40) NOT NULL,
+	age int NOT NULL,
+	gender VARCHAR(6) NOT NULL,
+	hypertension INT NOT NULL,
+	heart_disease INT NOT NULL,
+	avg_glucose_level DECIMAL(5,2) NOT NULL,
+	bmi DECIMAL(3,1) NOT NULL,
+	smoking_status VARCHAR(40),
+	stroke INT NOT NULL
+);
+
+CREATE TABLE personal (
+	identifier VARCHAR(40) NOT NULL,
+    age INT NOT NULL,
+	gender VARCHAR(6) NOT NULL,
+	ever_married VARCHAR(40) NOT NULL,
+	work_type VARCHAR(40) NOT NULL,
+	residence_type VARCHAR(40) NOT NULL,
+	stroke INT NOT NULL
 );
