@@ -7,7 +7,8 @@ CREATE TABLE medical (
 	avg_glucose_level DECIMAL(5,2) NOT NULL,
 	bmi DECIMAL(3,1) NOT NULL,
 	smoking_status VARCHAR(40),
-	stroke INT NOT NULL
+	stroke INT NOT NULL,
+	PRIMARY KEY (identifier)
 );
 
 CREATE TABLE personal (
@@ -17,5 +18,7 @@ CREATE TABLE personal (
 	ever_married VARCHAR(40) NOT NULL,
 	work_type VARCHAR(40) NOT NULL,
 	residence_type VARCHAR(40) NOT NULL,
-	stroke INT NOT NULL
+	stroke INT NOT NULL,
+	FOREIGN KEY (identifier) REFERENCES medical (identifier),
+	PRIMARY KEY (identifier)
 );
