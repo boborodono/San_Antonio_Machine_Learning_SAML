@@ -1,8 +1,10 @@
+
 # Using Stroke Data for Machine Learning Predictions
 
 *Note: The descriptions and explanations required in each segment's deliverables will be updated throughout the course of the project.*
 
 ## Topic
+
 
 The goal of this project is to use patient data to train machine learning models.  
 **We hope to answer:**
@@ -12,6 +14,7 @@ The goal of this project is to use patient data to train machine learning models
 
 This topic is dear to many of our team members. Some of us were personally affected by loved ones having a stroke or actively work in the healthcare industry. Additionally, strokes are on the rise in younger people, and are therefore affecting a larger portion of the population.  
 We are passionate about improving diagnosis options to prevent strokes. Having predictability may encourage preventative care or medication to reduce stroke risk. 
+
 
 
 ## Data Source
@@ -44,10 +47,10 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 
 
 ### Team Members
+
 [Jack Bauer](https://github.com/jackary24)  
 [Kelsey Corcoran](https://github.com/stereo-chemistry)  
 [Katie Hopkins](https://github.com/HopkinsKV)  
 [Angela Pacatte](https://github.com/angepacatte)  
 [Bowen Wilder](https://github.com/boborodono)  
-
 
