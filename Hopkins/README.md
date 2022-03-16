@@ -20,15 +20,38 @@ The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) 
 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [healthcare hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
 
-## Resources
+## Project Outline
 
-- To
-- include
-- list
-- of
-- relevant
-- tech
-- used
+## Data Exploration & Analysis
+
+### Age
+We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.  
+
+### BMI
+We identified that we have a large percentage of NANs for BMI data. At first we decided to exclude these patients from out dataset. However, we determined that this data was still valuable based on the following:
+- Out of 201 Nans, 40 had a stroke. That's 20% of the deleted dated
+- Without the NANs, there are ~200 positive stroke cases, about 4% of the dataset (200/5000)
+- With the NANs, the positivity rate for all the other categories increases 1%, from 4 to ~5% (250/5000)
+- This gives us significantly more data points to help train the model.
+
+
+## Preliminary work
+
+### Data Preprocessing
+
+### Feature Engineering and Selection
+
+### Training and Testing
+
+### Model Choice
+
+## Dashboard
+
+Tools:
+
+Interactive elements:
+
+
 
 ## Communication Protocols
 
