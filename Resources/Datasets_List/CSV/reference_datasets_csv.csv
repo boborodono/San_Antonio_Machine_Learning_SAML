@@ -12,7 +12,4 @@ overweight.csv,"lambda = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI
 underweight.csv,"mu = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\underweight.csv"""
 clean_stroke.csv,"nu = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\clean_stroke.csv"""
 clean_stroke_bmi_removed.csv,"xi = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\clean_stroke_bmi_removed.csv"""
-diabetic_glucose.csv,"omicron = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\diabetic_glucose.csv"""
-normal_glucose.csv,"pi = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\normal_glucose.csv"""
-prediabetic_glucose.csv,"rho = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\prediabetic_glucose.csv"""
 healthcare-dataset-stroke-data.csv,"alpha  = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\healthcare-dataset-stroke-data.csv"""

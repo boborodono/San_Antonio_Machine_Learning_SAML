@@ -12,7 +12,4 @@ lambda,overweight.csv,"lambda = ""C:\Users\Boborodono\Desktop\San_Antonio\Resour
 mu,underweight.csv,"mu = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\underweight.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\underweight.csv
 nu,clean_stroke.csv,"nu = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\clean_stroke.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\clean_stroke.csv
 xi,clean_stroke_bmi_removed.csv,"xi = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\clean_stroke_bmi_removed.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\clean_stroke_bmi_removed.csv
-omicron,diabetic_glucose.csv,"omicron = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\diabetic_glucose.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\diabetic_glucose.csv
-pi,normal_glucose.csv,"pi = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\normal_glucose.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\normal_glucose.csv
-rho,prediabetic_glucose.csv,"rho = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\prediabetic_glucose.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\prediabetic_glucose.csv
 alpha ,healthcare-dataset-stroke-data.csv,"alpha  = ""C:\Users\Boborodono\Desktop\San_Antonio\Resources\healthcare-dataset-stroke-data.csv""",C:\Users\Boborodono\Desktop\San_Antonio\Resources\healthcare-dataset-stroke-data.csv
