@@ -1,0 +1,17 @@
+File_Paths
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Age_Datasets\Parquet\Boomer_stroke.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Age_Datasets\Parquet\gen_X_stroke.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Age_Datasets\Parquet\gen_Y_stroke.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Age_Datasets\Parquet\gen_Z_stroke.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Age_Datasets\Parquet\greatest_gen_stroke.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\Parquet\healthy_weight.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\Parquet\obese_high_risk.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\Parquet\obese_low_risk.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\Parquet\obese_medium_risk.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\Parquet\overweight.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\BMI_Datasets\Parquet\underweight.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\Parquet\clean_stroke.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Cleaned_Dataset\Parquet\clean_stroke_bmi_removed.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\Parquet\diabetic_glucose.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\Parquet\normal_glucose.parquet.gzip
+C:\Users\Boborodono\Desktop\San_Antonio\Resources\Glucose_Datasets\Parquet\prediabetic_glucose.parquet.gzip
