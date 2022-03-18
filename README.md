@@ -19,7 +19,7 @@ The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [healthcare hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
  
 ## Project Outline
- 
+![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
  
 ## Preliminary work
  
@@ -75,9 +75,9 @@ Interactive elements:
  
  
 ### Team Members
-[Jack Bauer](https://github.com/jackary24) 
-[Kelsey Corcoran](https://github.com/stereo-chemistry) 
-[Katie Hopkins](https://github.com/HopkinsKV) 
-[Angela Pacatte](https://github.com/angepacatte) 
-[Bowen Wilder](https://github.com/boborodono) 
+[Jack Bauer](https://github.com/jackary24)  
+[Kelsey Corcoran](https://github.com/stereo-chemistry)  
+[Katie Hopkins](https://github.com/HopkinsKV)  
+[Angela Pacatte](https://github.com/angepacatte)  
+[Bowen Wilder](https://github.com/boborodono)  
  
