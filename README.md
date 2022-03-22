@@ -1,7 +1,7 @@
 # Using Stroke Data for Machine Learning Predictions
 
 ## Presentation
-[Placeholder for link to slide deck](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx) 
+[Slide Deck .pptx format](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx) 
 
 ## Topic
  
