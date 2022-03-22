@@ -44,6 +44,10 @@ We identified that we have a large percentage of NaNs for BMI data. At first we 
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.  
 [Glucose Datasets](/Resources/Glucose_Datasets)
 
+### ERD
+![](Bauer/ERD_Screenshots/ERD-ver-1.png)
+![](Bauer/ERD_Screenshots/ERD-ver-2.png)
+
 
 ## Feature Engineering and Selection
 
