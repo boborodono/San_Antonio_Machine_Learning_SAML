@@ -1,13 +1,48 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20Static%20Header%20-%20Cropped.png)
 <br/><br/>
 
+![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
+
+![Anaconda](https://img.shields.io/badge/Powered_%20by-Anaconda-green.svg)
+
+![Git](https://img.shields.io/badge/Powered_%20by-Git-red.svg)
+
+![Github](https://img.shields.io/badge/Powered_%20by-Github-red.svg)
+
+![Google Drive](https://img.shields.io/badge/Powered_%20by-Google_Drive-blue.svg)
+
+![Jupyter](https://img.shields.io/badge/Powered_%20by-Jupyter-orange.svg)
+
+![Kaggle](https://img.shields.io/badge/Powered_%20by-Kaggle-blue.svg)
+
+![Pandas](https://img.shields.io/badge/Powered_%20by-Pandas-purple.svg)
+
+![Python](https://img.shields.io/badge/Powered_%20by-Python-blue.svg)
+
+![Scikit-Learn](https://img.shields.io/badge/Powered_%20by-Scikit_Learn-orange.svg)
+
+![Slack](https://img.shields.io/badge/Powered_%20by-Slack-purple.svg)
+
+![Zoom](https://img.shields.io/badge/Powered_%20by-Zoom-blue.svg)
+
+![Visual Studio Code](https://img.shields.io/badge/Powered_%20by-VS_Code-blue.svg)
+
+
+
+
+
 
 # Machine Learning for Stroke Predictions
 
 
-## Presentation
-[SAML Powerpoint Presentation](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx)
-https://img.shields.io/endpoint?url=<URL>&style<?style=plastic&logo=appveyor>
+## Presentation ![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
+[SAML Presentation](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx)
+
+![Powerpoint](https://img.shields.io/endpoint?url=https://github.com/boborodono/San_Antonio_Machine_Learning_SAML/blob/main/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx&style=plastic&logo=microsoftpowerpoint)
+
+
+
+![Powerpoint](https://img.shields.io/endpoint?url=https://github.com/boborodono/San_Antonio_Machine_Learning_SAML/blob/main/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx&style=plastic&logo=microsoftpowerpoint&logoWidth=20&logHeight=20)
 
 ## Topic
 
@@ -36,7 +71,8 @@ To explore the data we did a general overview using pivot tables to identify any
 
 #### Age
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
-[Age Datasets](/Resources/Age_Datasets)
+
+</br>[Age Datasets](/Resources/Age_Datasets)
 
 #### BMI
 We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
@@ -45,15 +81,17 @@ We identified that we have a large percentage of NaNs for BMI data. At first we 
 - With the NaNs, the positivity rate for all the other categories increases 1%, from 4 to ~5% (250/5000)
 - This gives us significantly more data points to help train the model.
 
-[BMI Datasets](/Resources/BMI_Datasets)
+</br>[BMI Datasets](/Resources/BMI_Datasets)
 
 #### Glucose
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
-[Glucose Datasets](/Resources/Glucose_Datasets)
 
-### ERD
+</br>[Glucose Datasets](/Resources/Glucose_Datasets)
+
+## ERD
 ![](Bauer/ERD_Screenshots/ERD-ver-1.png)
 ![](Bauer/ERD_Screenshots/ERD-ver-2.png)
+![ERD](https://img.shields.io/badge/Powered%20by-PostgreSQL-blue.svg)
 
 
 ## Feature Engineering and Selection
