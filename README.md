@@ -3,7 +3,9 @@
 
 ![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
 
-![Anaconda](https://img.shields.io/badge/Powered_%20by-Anaconda-green.svg)
+![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic?link=https://www.anaconda.com/&link=https://www.anaconda.com/)
+
+![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=for-the-badge)
 
 ![Git](https://img.shields.io/badge/Powered_%20by-Git-red.svg)
 
@@ -27,22 +29,21 @@
 
 ![Visual Studio Code](https://img.shields.io/badge/Powered_%20by-VS_Code-blue.svg)
 
-
+![ERD](https://img.shields.io/badge/Powered%20by-PostgreSQL-blue.svg)
 
 
 
 
 # Machine Learning for Stroke Predictions
-
+![GitHub contributors](https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/boborodono/San_Antonio_Machine_Learning_SAML?color=ff3b3b&label=Size%20of%20Repo&style=plastic)
+![GitHub watchers](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social)
 
 ## Presentation ![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
 [SAML Presentation](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx)
 
 ![Powerpoint](https://img.shields.io/endpoint?url=https://github.com/boborodono/San_Antonio_Machine_Learning_SAML/blob/main/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx&style=plastic&logo=microsoftpowerpoint)
 
-
-
-![Powerpoint](https://img.shields.io/endpoint?url=https://github.com/boborodono/San_Antonio_Machine_Learning_SAML/blob/main/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx&style=plastic&logo=microsoftpowerpoint&logoWidth=20&logHeight=20)
 
 ## Topic
 
