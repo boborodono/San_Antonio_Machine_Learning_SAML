@@ -81,17 +81,22 @@ Currently, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 
 During early analysis we identified the following: 
 - In general, women have a higher stroke risk.
-- Age is heavily related to stroke risk. The higher the age, the higher the rist. However, after retirement age, women have a much higher risk than men.
+- Age is heavily related to stroke risk. The higher the age, the higher the risk. However, after retirement age, women have a much higher risk than men.
 - Men have heart attacks more often than strokes. There is an increase in chance of cardiac episode once the patient has had a stroke.
 - More of the women in our dataset have a higher instance of hypertension.
 - Even though they had a higher instance of stroke cases, we see that women smoke less overall. 
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender.
  
+## Technology/Tools Utilized
+
+
+
 ## Dashboard
  
 Tools:
  
 Interactive elements:
+
  
  
 ## Communication Protocols
