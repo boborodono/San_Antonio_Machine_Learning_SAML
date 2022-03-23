@@ -39,7 +39,6 @@ This topic is dear to many of our team members. Some of us were personally affec
 We are passionate about improving diagnosis options to prevent strokes. Having predictability may encourage preventative care or medication to reduce stroke risk.
 
 ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic)
-
 ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic)
 
 ## Data Source
@@ -58,6 +57,10 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 
 ## Data Exploration & Preprocessing
 To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
+
+![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic)
+![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic)
+![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
 
 #### Age
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
@@ -141,6 +144,7 @@ Tools:
 Dashboard Storyboard:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
+<br/><br/>
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
@@ -161,7 +165,7 @@ Interactive elements:
 **The following will occur on an as-needed basis:**
 - Video chat through Google Meet
 - Feedback through GitHub pull requests
-
+<br/><br/>
 ![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic)
 ![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic)
 ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic)
