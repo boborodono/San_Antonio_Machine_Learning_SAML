@@ -86,18 +86,16 @@ During early analysis we identified the following:
 - More of the women in our dataset have a higher instance of hypertension.
 - Even though they had a higher instance of stroke cases, we see that women smoke less overall. 
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender.
- 
-## Technology/Tools Utilized
-
-<img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
 
 
 
 
 ## Dashboard
  
-Tools:
- 
+Tools:  
+
+<img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
+
 Interactive elements:
 
  
