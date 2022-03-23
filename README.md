@@ -90,7 +90,6 @@ During early analysis we identified the following:
 ## Technology/Tools Utilized
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
-<img width="1041" alt="image" src="https://user-images.githubusercontent.com/85581208/159752155-ae4691d8-72e5-460d-ac92-68ad3c2836f2.png">
 
 
 
