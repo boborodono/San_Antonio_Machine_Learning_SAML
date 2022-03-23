@@ -3,7 +3,7 @@
 
 ![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
 
-![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic?link=https://www.anaconda.com/&link=https://www.anaconda.com/)
+![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic?link=http://www.anaconda.com/&link=http://www.anaconda.com/)
 
 ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=for-the-badge)
 
