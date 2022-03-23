@@ -1,6 +1,4 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).svg)
-<br/>
-
 # Machine Learning for Stroke Predictions
 <!-- Badges -->
 ![GitHub contributors](https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic)
