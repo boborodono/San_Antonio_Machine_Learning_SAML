@@ -1,48 +1,46 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20Static%20Header%20-%20Cropped.png)
 <br/><br/>
 
-![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
 
-![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic?link_=https://www.anaconda.com/&link_=https://www.anaconda.com/)
+![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic)
+![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
+![Github](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Github&logo=github&style=plastic)
+![Google Drive](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4285F4&label=Google%20Drive&logo=googledrive&style=plastic)
+![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic)
+![Kaggle](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=20BEFF&label=Kaggle&logo=kaggle&style=plastic)
+![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
+![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic)
+![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
+![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic)
+![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic)
+![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic)
+![PostgreSQL](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4169E1&label=PostgreSQL&logo=postgresql&style=plastic)
 
-![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=for-the-badge)
-
-![Git](https://img.shields.io/badge/Powered_%20by-Git-red.svg)
-
-![Github](https://img.shields.io/badge/Powered_%20by-Github-red.svg)
-
-![Google Drive](https://img.shields.io/badge/Powered_%20by-Google_Drive-blue.svg)
-
-![Jupyter](https://img.shields.io/badge/Powered_%20by-Jupyter-orange.svg)
-
-![Kaggle](https://img.shields.io/badge/Powered_%20by-Kaggle-blue.svg)
-
-![Pandas](https://img.shields.io/badge/Powered_%20by-Pandas-purple.svg)
-
-![Python](https://img.shields.io/badge/Powered_%20by-Python-blue.svg)
-
-![Scikit-Learn](https://img.shields.io/badge/Powered_%20by-Scikit_Learn-orange.svg)
-
-![Slack](https://img.shields.io/badge/Powered_%20by-Slack-purple.svg)
-
-![Zoom](https://img.shields.io/badge/Powered_%20by-Zoom-blue.svg)
-
-![Visual Studio Code](https://img.shields.io/badge/Powered_%20by-VS_Code-blue.svg)
-
-![ERD](https://img.shields.io/badge/Powered%20by-PostgreSQL-blue.svg)
 
 
 
 
 # Machine Learning for Stroke Predictions
+<!-- Badges -->
 ![GitHub contributors](https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic)
-![GitHub repo size](https://img.shields.io/github/repo-size/boborodono/San_Antonio_Machine_Learning_SAML?color=ff3b3b&label=Size%20of%20Repo&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/boborodono/San_Antonio_Machine_Learning_SAML?label=Last%20Commit&style=plastic)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/boborodono/San_Antonio_Machine_Learning_SAML/v1.0.0/main?include_prereleases&label=Total%20Commits&style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/boborodono/San_Antonio_Machine_Learning_SAML?color=ff3b3b&label=Repo%20Size&style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&style=plastic)
+![Lines of code](https://img.shields.io/tokei/lines/github/boborodono/San_Antonio_Machine_Learning_SAML?color=dark%20green&label=Lines%20of%20Code&style=plastic)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/boborodono/San_Antonio_Machine_Learning_SAML?color=orange&label=Code%20Size&style=plastic)
+![GitHub followers](https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic)
 ![GitHub watchers](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social)
 
-## Presentation ![Powerpoint](https://img.shields.io/badge/Powered_%20by-Powerpoint-orange.svg)
-[SAML Presentation](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx)
 
-![Powerpoint](https://img.shields.io/endpoint?url=https://github.com/boborodono/San_Antonio_Machine_Learning_SAML/blob/main/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx&style=plastic&logo=microsoftpowerpoint)
+## Presentation
+
+
+[SAML Presentation](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx)<br/>
+
+![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=for-the-badge)
+
+
 
 
 ## Topic
