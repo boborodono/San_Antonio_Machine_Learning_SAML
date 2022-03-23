@@ -1,5 +1,5 @@
-![SAML](Wilder/PowerPoint/Logos/SAML%20Static%20Header%20-%20Cropped.png)
-<br/><br/>
+![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).svg)
+<br/>
 
 # Machine Learning for Stroke Predictions
 <!-- Badges -->
@@ -11,7 +11,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/boborodono/San_Antonio_Machine_Learning_SAML?color=ff3b3b&label=Repo%20Size&style=plastic)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/boborodono/San_Antonio_Machine_Learning_SAML?color=orange&label=Code%20Size&style=plastic)
 
-![Lines of code](https://img.shields.io/tokei/lines/github/boborodono/San_Antonio_Machine_Learning_SAML?color=dark%20green&label=Lines%20of%20Code&style=plastic)
+![Lines of Code](https://img.shields.io/tokei/lines/github/boborodono/San_Antonio_Machine_Learning_SAML?color=dark%20green&label=Lines%20of%20Code&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&style=plastic)
 
 ![GitHub followers](https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic)
