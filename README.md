@@ -53,6 +53,8 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 ## Project Outline
 ![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
 
+![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
+
 
 ## Data Exploration & Preprocessing
 To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
@@ -109,6 +111,7 @@ Currently, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 * Figure below gives 03/20/2022 AdaBoostClassifier ML model result using SMOTE oversampling and KNNImputer population of missing BMI data
 
 ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png)
+
 ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic)
 ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
 
@@ -121,6 +124,7 @@ During early analysis we identified the following:
 - More of the women in our dataset have a higher instance of hypertension.
 - Even though they had a higher instance of stroke cases, we see that women smoke less overall.
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender.
+
 ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
 
 
@@ -132,12 +136,13 @@ Tools:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
 
+![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
+
 Dashboard Storyboard:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
-
 ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
 
 
@@ -158,15 +163,10 @@ Interactive elements:
 - Feedback through GitHub pull requests
 
 ![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic)
-
 ![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic)
-
 ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic)
-
 ![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
-
 ![Github](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Github&logo=github&style=plastic)
-
 ![Google Drive](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4285F4&label=Google%20Drive&logo=googledrive&style=plastic)
 
 
