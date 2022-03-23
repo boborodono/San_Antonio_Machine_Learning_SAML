@@ -141,7 +141,7 @@ Tools:
 
 Dashboard Storyboard:
 
-![SAML Dashboard Storyboard](img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png")
+<img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
