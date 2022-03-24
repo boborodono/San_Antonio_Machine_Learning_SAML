@@ -10,6 +10,7 @@
 ## Presentation
 
 [SAML Presentation](/Wilder/PowerPoint/SAML_Stroke_presentation.pdf)<br/>
+<embed src="https://bobordono.github.io/sample.pdf" type="application/pdf" />
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 <br/>
