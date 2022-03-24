@@ -46,11 +46,11 @@ The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) 
 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [Healthcare Hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
 
-#### 🛠 Tools: ![Kaggle](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=20BEFF&label=Kaggle&logo=kaggle&style=plastic)
+#### **🛠:** ![Kaggle](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=20BEFF&label=Kaggle&logo=kaggle&style=plastic)
 
 ## Project Outline
 ![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
-#### 🛠 Tools: ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
+#### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 
 
 ## Data Exploration & Preprocessing
@@ -77,13 +77,13 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 </br>[Glucose Datasets](/Resources/Glucose_Datasets)
 
-#### 🛠 Tools: ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
+#### **🛠:** ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
 
 
 ## ERD
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/46633669/159823572-67fb980d-88d2-4350-991f-9f589144daac.png">
 
-#### 🛠 Tools: ![PostgreSQL](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4169E1&label=PostgreSQL&logo=postgresql&style=plastic)
+#### **🛠:** ![PostgreSQL](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4169E1&label=PostgreSQL&logo=postgresql&style=plastic)
 
 
 ## Feature Engineering and Selection
@@ -114,7 +114,7 @@ Currently, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 
 ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png)
 
-#### 🛠 Tools: ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
+#### **🛠:** ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
 
 ## Data Analysis
 
@@ -126,7 +126,7 @@ During early analysis we identified the following:
 - Even though they had a higher instance of stroke cases, we see that women smoke less overall.
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender#.
 
-#### 🛠 Tools: ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
+#### **🛠:** ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
 
 
 ## Dashboard
@@ -135,21 +135,18 @@ During early analysis we identified the following:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
 
-#### 🛠 Tools: ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
+#### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 
 ### Dashboard Storyboard:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
 
-#### 🛠 Tools: ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic) ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
+#### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic) ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
 
 
 ### Interactive elements:
 
 
-#### 🛠 Tools:
-#### **🛠 Tools**:
-#### 🛠:
 #### **🛠:**
 
 
@@ -166,7 +163,7 @@ During early analysis we identified the following:
 - Feedback through GitHub pull requests
 <br/><br/>
 
-#### **🛠** **Tools:** ![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic) ![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic) ![Google Drive](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4285F4&label=Google%20Drive&logo=googledrive&style=plastic) ![Github](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Github&logo=github&style=plastic)
+#### **🛠:** ![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic) ![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic) ![Google Drive](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4285F4&label=Google%20Drive&logo=googledrive&style=plastic) ![Github](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Github&logo=github&style=plastic)
 <br/>
 
 ## Authors 👯‍♀️
@@ -181,5 +178,4 @@ During early analysis we identified the following:
 
 
 
-![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic)
-![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
+#### **🛠:** ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic) ![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
