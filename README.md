@@ -75,7 +75,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 <br/>
 
 ## ERD
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/46633669/159823572-67fb980d-88d2-4350-991f-9f589144daac.png">
+<img width="750" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
 
 #### **🛠:** ![PostgreSQL](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4169E1&label=PostgreSQL&logo=postgresql&style=plastic)
 <br/>
