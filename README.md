@@ -89,7 +89,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 
 ## ERD
-<img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159823572-67fb980d-88d2-4350-991f-9f589144daac.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/46633669/159823572-67fb980d-88d2-4350-991f-9f589144daac.png">
 
 #### 🛠 Tools:
 
