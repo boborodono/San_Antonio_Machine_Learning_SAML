@@ -9,7 +9,7 @@
 
 ## Presentation
 
-[SAML Presentation](/Wilder/PowerPoint/Stroke%20ML%20Slide%20Deck.pptx)<br/>
+[SAML Presentation](/Wilder/PowerPoint/SAML_Stroke_presentation.pdf)<br/>
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 <br/>
