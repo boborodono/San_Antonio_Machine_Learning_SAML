@@ -46,7 +46,7 @@ The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) 
 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [Healthcare Hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
 
-Tools Utilized:
+### 🛠 Tools:
 
 ![Kaggle](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=20BEFF&label=Kaggle&logo=kaggle&style=plastic)
 
@@ -81,7 +81,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 </br>[Glucose Datasets](/Resources/Glucose_Datasets)
 
-Tools Utilized:
+### 🛠 Tools:
 
 ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic)
 ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic)
@@ -91,7 +91,8 @@ Tools Utilized:
 ## ERD
 ![](Bauer/ERD_Screenshots/ERD-ver-1.png)
 ![](Bauer/ERD_Screenshots/ERD-ver-2.png)
-Tools Utilized:
+
+### 🛠 Tools:
 
 ![PostgreSQL](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4169E1&label=PostgreSQL&logo=postgresql&style=plastic)
 
@@ -124,7 +125,7 @@ Currently, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 
 ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png)
 
-Tools Utilized:
+### 🛠 Tools:
 
 ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic)
 ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic)
@@ -153,11 +154,11 @@ Tools Utilized:
 
 ## Dashboard
 
-### Tools:
+### 🛠 Tools:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
 
-Tools Utilized:
+### 🛠 Tools:
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 
@@ -165,7 +166,7 @@ Tools Utilized:
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
 
-Tools Utilized:
+### 🛠 Tools:
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
@@ -174,7 +175,7 @@ Tools Utilized:
 ### Interactive elements:
 
 
-Tools Utilized:
+### 🛠 Tools:
 
 ## Communication Protocols
 
@@ -189,7 +190,7 @@ Tools Utilized:
 - Feedback through GitHub pull requests
 <br/><br/>
 
-Tools Utilized:
+### 🛠 Tools:
 
 ![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic)
 ![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic)
