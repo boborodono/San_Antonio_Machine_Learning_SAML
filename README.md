@@ -30,7 +30,7 @@ The goal of this project is to use patient data to train machine learning models
 **We hope to answer:**
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
-
+3. Can we link stroke risk to any specific factor using our machine learning model?
 
 ## Data Source
 The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) includes 5110 observations with 11 attributes. These attributes include medical and personal aspects of the patient such as age, average glucose level, BMI, marital status, and if the patient lives in a rural or urban area.
@@ -142,7 +142,7 @@ During early analysis we identified the following:
 <br/>
 
 ### Interactive elements:
-
+The dashboard will include filters to allow the user to separate the data based on gender and incidence of stroke.
 
 #### **🛠:**
 <br/>
