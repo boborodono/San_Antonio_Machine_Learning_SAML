@@ -115,27 +115,6 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 #### Categorical Metrics
 
-| Category | Options |
-| :-------- | :--------|
-| Gender | Male |
-|  | Female |
-| Hypertension | Yes |
-|  | No |
-| Heart Disease | Yes |
-|  | No | 
-| Ever Married | Yes |
-|  | No |
-| Work Type | Private |
-|  | Self-Employed |
-|  | Government Job |
-|  | Children |
-| Residence Type | Urban |
-|  | Rural |
-| Smoker | Never |
-|  | Former |
-|  | Current |
-|  | Unknown |
-
 |Personal Criteria | Medical Criteria |
 |--|--|
 |<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr>Smoker<td></td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>| 
