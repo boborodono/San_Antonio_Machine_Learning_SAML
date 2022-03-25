@@ -191,7 +191,7 @@ During early analysis we identified the following:
 ### Interactive Elements:
 The dashboard will include filters to allow the user to separate the data based on gender and incidence of stroke.
 
-#### **🛠:**
+#### **🛠:** ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
 <hr>
 
 
