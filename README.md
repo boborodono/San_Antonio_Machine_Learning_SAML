@@ -31,7 +31,8 @@
 
 ## Presentation
 
-[SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) [Github Pages]("https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf")<br/>
+[SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) 
+[Github Pages](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 <br/>
