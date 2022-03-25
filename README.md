@@ -138,7 +138,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 |Personal Criteria | Medical Criteria |
 |--|--|
-|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>Hypertension</td><td>Yes</td></tr> </table>| <table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr> </table>|
+|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr> </table>| <table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td>Ever Married</td><td>Yes</td></tr> </table>|
 
 #### Splitting the Data into Medical and Personal Criteria 
 
