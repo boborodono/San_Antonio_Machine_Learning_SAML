@@ -31,8 +31,8 @@
 
 ## Presentation
 
-[SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) 
-[Github Pages](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
+[SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) <br/>
+[SAML PDF(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 <br/>
@@ -60,7 +60,8 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 <hr>
 
 ## Project Outline
-![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png
+![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
+
 #### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 <hr>
 
