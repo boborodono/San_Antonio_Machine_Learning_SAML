@@ -9,7 +9,7 @@
 
 ## Presentation
 
-[SAML Presentation](Wilder/PowerPoint/SAML_Stroke_Presentation.pdf)<br/>
+[SAML Presentation](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf)<br/>
 
 
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
@@ -75,7 +75,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 <br/>
 
 ## ERD
-<img width="750" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
+<img width="1123" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
 
 #### **🛠:** ![PostgreSQL](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4169E1&label=PostgreSQL&logo=postgresql&style=plastic)
 <br/>
@@ -135,7 +135,7 @@ During early analysis we identified the following:
 #### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 
 ### Dashboard Storyboard:
-
+[SAML Dashboard Storyboard](/Wilder/PowerPoint/Dash_Storyboard.pdf)<br/>
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
 
 #### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic) ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
