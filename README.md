@@ -84,15 +84,31 @@ We identified that the dataset includes information on children. After discussio
 <hr>
 
 #### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
+- The dataset was split into generational bins for further analysis
+| BMI Class | BMI Range | 
+| :-------- | :------- |
+| Underweight | 0 - 18.5 | 
+| Healthy Weight | 18.5 - 25 | 
+| Overweight | 25 - 30 | 
+| Obese(Low-Risk) | 30 - 35 | 
+| Obese(Medium-Risk) | 35 - 40 |
+| Obese(High-Risk) | 40 - 100 |
 We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
 - Out of 201 NaNs, 40 had a stroke. That's 20% of the deleted data.
 - Without the NaNs, there are ~200 positive stroke cases, about 4% of the dataset (200/5000)
 - With the NaNs, the positivity rate for all the other categories increases 1%, from 4 to ~5% (250/5000)
 - This gives us significantly more data points to help train the model.
+
 <hr>
 
 #### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
+- The dataset was split into generational bins for further analysis
+| Glucose Level Class | Glucose Range | 
+| :-------- | :------- |
+| Normal | 0 - 100 | 
+| Prediabetic | 100 - 125 | 
+| Diabetic | >125 |
 
 #### **🛠:** ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
 <hr>
