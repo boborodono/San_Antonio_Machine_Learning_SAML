@@ -28,7 +28,7 @@
 - [Dashboard](#dashboard)
   * [Technologies:](#technologies-)
   * [Dashboard Storyboard:](#dashboard-storyboard-)
-  * [Interactive elements:](#interactive-elements-)
+  * [Interactive Elements:](#interactive-elements-)
 - [Communication Protocols](#communication-protocols)
 - [Authors 👯‍♀️](#authors------)
 
@@ -190,7 +190,7 @@ During early analysis we identified the following:
 <hr>
 
 
-### Interactive elements:
+### Interactive Elements:
 The dashboard will include filters to allow the user to separate the data based on gender and incidence of stroke.
 
 #### **🛠:**
