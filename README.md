@@ -85,6 +85,7 @@ We identified that the dataset includes information on children. After discussio
 
 #### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 - The dataset was split into generational bins for further analysis
+
 | BMI Class | BMI Range | 
 | :-------- | :------- |
 | Underweight | 0 - 18.5 | 
@@ -104,6 +105,7 @@ We identified that we have a large percentage of NaNs for BMI data. At first we 
 #### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
 - The dataset was split into generational bins for further analysis
+
 | Glucose Level Class | Glucose Range | 
 | :-------- | :------- |
 | Normal | 0 - 100 | 
