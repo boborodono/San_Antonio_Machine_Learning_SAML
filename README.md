@@ -129,11 +129,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 |  | Self-Employed |
 |  | Government Job |
 |  | Children |
-| Residence Type |
-|  | Urban |
+| Residence Type | Urban |
 |  | Rural |
-| Smoker |
-|  | Never |
+| Smoker | Never |
 |  | Former |
 |  | Current |
 |  | Unknown |
