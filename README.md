@@ -232,5 +232,3 @@ The dashboard will include filters to allow the user to separate the data based 
 <br/><br/>
 
 #### **🛠:** ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic) ![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
