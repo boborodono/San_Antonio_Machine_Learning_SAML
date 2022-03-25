@@ -6,16 +6,38 @@
 ![GitHub followers](https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic)
 ![GitHub watchers](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social)
 
+## Table of Contents
+- [Predicting Strokes with Machine Learning](#predicting-strokes-with-machine-learning)
+  * [Presentation](#presentation)
+  * [Topic](#topic)
+    + [Why Choose This Topic?](#why-choose-this-topic-)
+    + [Questions We Want to Answer...](#questions-we-want-to-answer)
+  * [Data Source](#data-source)
+  * [Project Outline](#project-outline)
+  * [Data Exploration & Preprocessing](#data-exploration---preprocessing)
+  * [ERD](#erd)
+  * [Feature Engineering and Selection](#feature-engineering-and-selection)
+    + [Feature Selection](#feature-selection)
+    + [Categorical Data](#categorical-data)
+    + [Null Data](#null-data)
+    + [Feature Scaling](#feature-scaling)
+    + [Resampling](#resampling)
+    + [Training and Testing](#training-and-testing)
+    + [Model Choice](#model-choice) 
+  * [Data Analysis](#data-analysis)
+  * [Dashboard](#dashboard)
+    + [Technologies:](#technologies-)
+    + [Dashboard Storyboard:](#dashboard-storyboard-)
+    + [Interactive elements:](#interactive-elements-)
+  * [Communication Protocols](#communication-protocols)
+  * [Authors 👯‍♀️](#authors------)
 
 ## Presentation
 
 [SAML Presentation](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf)<br/>
 
-
 ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
 <br/>
-
-
 
 ## Topic
 
@@ -23,7 +45,6 @@
 This topic is dear to many of our team members. Some of us were personally affected by loved ones having a stroke or actively work in the healthcare industry. Additionally, strokes are on the rise in younger people, and are therefore affecting a larger portion of the population.
 We are passionate about improving diagnosis options to prevent strokes. Having predictability may encourage preventative care or medication to reduce stroke risk.
 <br></br>
-
 
 ### Questions We Want to Answer...
 The goal of this project is to use patient data to train machine learning models.
@@ -35,11 +56,9 @@ The goal of this project is to use patient data to train machine learning models
 ## Data Source
 The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) includes 5110 observations with 11 attributes. These attributes include medical and personal aspects of the patient such as age, average glucose level, BMI, marital status, and if the patient lives in a rural or urban area.
 
-
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [Healthcare Hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
 
 #### **🛠:** ![Kaggle](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=20BEFF&label=Kaggle&logo=kaggle&style=plastic)
-
 <br/>
 
 ## Project Outline
@@ -51,13 +70,9 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 ## Data Exploration & Preprocessing
 To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
 
-
-
 #### Age 📃 [(Datasets)](/Resources/Age_Datasets)
 
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
-
-
 
 #### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
@@ -65,8 +80,6 @@ We identified that we have a large percentage of NaNs for BMI data. At first we 
 - Without the NaNs, there are ~200 positive stroke cases, about 4% of the dataset (200/5000)
 - With the NaNs, the positivity rate for all the other categories increases 1%, from 4 to ~5% (250/5000)
 - This gives us significantly more data points to help train the model.
-
-
 
 #### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
@@ -109,7 +122,6 @@ Currently, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png)
 
 #### **🛠:** ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
-
 <br/>
 
 ## Data Analysis
@@ -125,11 +137,9 @@ During early analysis we identified the following:
 #### **🛠:** ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
 <br/>
 
-
 ## Dashboard
 
 ### Technologies:
-
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
 
 #### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
@@ -155,7 +165,6 @@ The dashboard will include filters to allow the user to separate the data based 
 - Meeting at 6:30PM CT before class on Tuesdays and Thursdays
 - Tracking deliverables through the Project Management spreadsheet
 
-
 **The following will occur on an as-needed basis:**
 - Video chat through Google Meet
 - Feedback through GitHub pull requests
@@ -164,7 +173,6 @@ The dashboard will include filters to allow the user to separate the data based 
 <br/>
 
 ## Authors 👯‍♀️
-
 | Name | My Repo     |  LinkedIn                |
 | :-------- | :------- | :------------------------- |
 | Jack Bauer | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/jackary24)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jack-bauer-/) |
@@ -172,36 +180,8 @@ The dashboard will include filters to allow the user to separate the data based 
 | Katie Hopkins | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/HopkinsKV)     | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hopkinskv/)                |
 | Angela Pacatte | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/angepacatte)     | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angela-barker-pacatte/)                |
 | Bowen Wilder | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/boborodono)     | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bowenwilder/)                |
-
 <br/><br/>
 
 #### **🛠:** ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic) ![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
 
-- [Predicting Strokes with Machine Learning](#predicting-strokes-with-machine-learning)
-  * [Presentation](#presentation)
-  * [Topic](#topic)
-    + [Why Choose This Topic?](#why-choose-this-topic-)
-    + [Questions We Want to Answer...](#questions-we-want-to-answer)
-  * [Data Source](#data-source)
-  * [Project Outline](#project-outline)
-  * [Data Exploration & Preprocessing](#data-exploration---preprocessing)
-  * [ERD](#erd)
-  * [Feature Engineering and Selection](#feature-engineering-and-selection)
-    + [Feature Selection](#feature-selection)
-    + [Categorical Data](#categorical-data)
-    + [Null Data](#null-data)
-    + [Feature Scaling](#feature-scaling)
-    + [Resampling](#resampling)
-    + [Training and Testing](#training-and-testing)
-    + [Model Choice](#model-choice) 
-  * [Data Analysis](#data-analysis)
-  * [Dashboard](#dashboard)
-    + [Technologies:](#technologies-)
-    + [Dashboard Storyboard:](#dashboard-storyboard-)
-    + [Interactive elements:](#interactive-elements-)
-  * [Communication Protocols](#communication-protocols)
-  * [Authors 👯‍♀️](#authors------)
-
-
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
