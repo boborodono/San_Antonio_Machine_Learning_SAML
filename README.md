@@ -73,6 +73,7 @@ To explore the data we did a general overview using pivot tables to identify any
 
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
 - The dataset was split into generational bins for further analysis
+- 
 | Generation | Age Range | 
 | :-------- | :------- |
 | Gen Z | 0 - 20 | 
@@ -80,6 +81,7 @@ We identified that the dataset includes information on children. After discussio
 | Gen X | 40 - 60 | 
 | Boomer | 60 - 80 | 
 | Greatest Gen | 80 - 100 | 
+
 <hr>
 
 #### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
@@ -199,6 +201,7 @@ The dashboard will include filters to allow the user to separate the data based 
 | Katie Hopkins | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/HopkinsKV)     | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hopkinskv/)                |
 | Angela Pacatte | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/angepacatte)     | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angela-barker-pacatte/)                |
 | Bowen Wilder | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/boborodono)     | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bowenwilder/)                |
+
 <br/><br/>
 
 #### **🛠:** ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic) ![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
