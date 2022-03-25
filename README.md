@@ -73,18 +73,13 @@ To explore the data we did a general overview using pivot tables to identify any
 
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
 - The dataset was split into generational bins for further analysis
-  * Gen Z: 0 - 20
-  * Millenial: 20 - 40
-  * Gen X: 40 - 60
-  * Boomer: 60 - 80
-  * Greatest Gen: 80 - 100
-  * | Generation | Age Range | 
-  * | :-------- | :------- |
-  * | Gen Z | 0 - 20 | 
-  * | Millenial | 20 - 40 | 
-  * | Gen X | 40 - 60 | 
-  * | Boomer | 60 - 80 | 
-  * | Greatest Gen | 80 - 100 | 
+| Generation | Age Range | 
+| :-------- | :------- |
+| Gen Z | 0 - 20 | 
+| Millenial | 20 - 40 | 
+| Gen X | 40 - 60 | 
+| Boomer | 60 - 80 | 
+| Greatest Gen | 80 - 100 | 
 <hr>
 
 #### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
