@@ -78,8 +78,13 @@ We identified that the dataset includes information on children. After discussio
   * Gen X: 40 - 60
   * Boomer: 60 - 80
   * Greatest Gen: 80 - 100
-  * |Gen Z | 0 - 20| 
-| :-------- | :------- | :------------------------- |
+  * | Generation | Age Range | 
+  * | :-------- | :------- |
+  * | Gen Z | 0 - 20 | 
+  * | Millenial | 20 - 40 | 
+  * | Gen X | 40 - 60 | 
+  * | Boomer | 60 - 80 | 
+  * | Greatest Gen | 80 - 100 | 
 <hr>
 
 #### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
