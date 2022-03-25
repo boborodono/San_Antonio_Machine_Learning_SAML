@@ -94,6 +94,7 @@ We identified that the dataset includes information on children. After discussio
 | Obese(Low-Risk) | 30 - 35 | 
 | Obese(Medium-Risk) | 35 - 40 |
 | Obese(High-Risk) | 40 - 100 |
+
 We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
 - Out of 201 NaNs, 40 had a stroke. That's 20% of the deleted data.
 - Without the NaNs, there are ~200 positive stroke cases, about 4% of the dataset (200/5000)
