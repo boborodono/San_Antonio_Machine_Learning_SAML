@@ -111,6 +111,37 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Prediabetic | 100 - 125 | 
 | Diabetic | >125 |
 
+<hr>
+
+#### Categorical Metrics
+
+| Category | Options |
+| :-------- | :--------|
+| Gender | Male |
+|  | Female |
+| Hypertension | Yes |
+|  | No |
+| Heart Disease | Yes |
+|  | No | 
+| Ever Married | Yes |
+|  | No |
+| Work Type | Private |
+|  | Self-Employed |
+|  | Government Job |
+|  | Children |
+| Residence Type |
+|  | Urban |
+|  | Rural |
+| Smoker |
+|  | Never |
+|  | Former |
+|  | Current |
+|  | Unknown |
+
+
+#### Splitting the Data into Medical and Personal Criteria 
+
+
 #### **🛠:** ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic)
 <hr>
 
