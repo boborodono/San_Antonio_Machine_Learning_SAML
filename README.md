@@ -177,21 +177,14 @@ The dashboard will include filters to allow the user to separate the data based 
 
 #### **🛠:** ![Anaconda](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=f3f3f3f&label=Anaconda&logo=anaconda&style=plastic) ![Git](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Git&logo=git&style=plastic)
 
-
 - [Predicting Strokes with Machine Learning](#predicting-strokes-with-machine-learning)
   * [Presentation](#presentation)
   * [Topic](#topic)
     + [Why Choose This Topic?](#why-choose-this-topic-)
     + [Questions We Want to Answer...](#questions-we-want-to-answer)
-
   * [Data Source](#data-source)
   * [Project Outline](#project-outline)
-     
   * [Data Exploration & Preprocessing](#data-exploration---preprocessing)
-      - [Age 📃 [(Datasets)](/Resources/Age_Datasets)](#age------datasets----resources-age-datasets-)
-      - [BMI 📃 [(Datasets)](/Resources/BMI_Datasets)](#bmi------datasets----resources-bmi-datasets-)
-      - [Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)](#glucose------datasets----resources-glucose-datasets-)
-      
   * [ERD](#erd)
   * [Feature Engineering and Selection](#feature-engineering-and-selection)
     + [Feature Selection](#feature-selection)
@@ -200,16 +193,12 @@ The dashboard will include filters to allow the user to separate the data based 
     + [Feature Scaling](#feature-scaling)
     + [Resampling](#resampling)
     + [Training and Testing](#training-and-testing)
-    + [Model Choice](#model-choice)
-      
+    + [Model Choice](#model-choice) 
   * [Data Analysis](#data-analysis)
   * [Dashboard](#dashboard)
     + [Technologies:](#technologies-)
-      
     + [Dashboard Storyboard:](#dashboard-storyboard-)
-     
     + [Interactive elements:](#interactive-elements-)
-     
   * [Communication Protocols](#communication-protocols)
   * [Authors 👯‍♀️](#authors------)
 
