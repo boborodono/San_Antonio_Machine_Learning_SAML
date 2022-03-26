@@ -31,6 +31,8 @@
 - [Communication Protocols](#communication-protocols)
 - [Authors 👯‍♀️](#authors------)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 ## Presentation
 
 [SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) - [(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
