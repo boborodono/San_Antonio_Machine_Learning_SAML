@@ -3,6 +3,11 @@
 
 iframe
 [iframe]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/iframe]
+<iframe>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</iframe>
+
+[iframe]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/iframe]
+<iframe>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</iframe>
+
 
 embed src
 <embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"></embed>
@@ -12,6 +17,10 @@ object data
 
 embed
 [embed]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/embed]
+<embed>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</embed>
+
+[embed]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/embed]
+<embed>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</embed>
 
 <!-- Badges -->
 <p align="center">
