@@ -46,7 +46,6 @@
   * [Model Choice](#model-choice) 
 - [Data Analysis](#data-analysis)
 - [Dashboard](#dashboard)
-  * [Technologies:](#technologies-)
   * [Dashboard Storyboard:](#dashboard-storyboard-)
   * [Interactive Elements:](#interactive-elements-)
 - [Communication Protocols](#communication-protocols)
