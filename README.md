@@ -5,6 +5,8 @@
     
 <!--       <embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"> -->
 
+<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'></object>
+
 <!-- Badges -->
 <p align="center">
    <a href=""><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic"/>
