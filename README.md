@@ -1,11 +1,17 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).svg)
 # Predicting Strokes with Machine Learning
 
+iframe
 [iframe]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/iframe]
-    
-<!--       <embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"> -->
 
+embed src
+<embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf">
+
+object data
 <object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'></object>
+
+embed
+[embed]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/embed]
 
 <!-- Badges -->
 <p align="center">
