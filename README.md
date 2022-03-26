@@ -238,13 +238,6 @@ During early analysis we identified the following:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Dashboard
 
-## Technologies:
-<img width="1123" alt="image" src="https://user-images.githubusercontent.com/85581208/159751965-51b9829d-a43f-41d2-a39a-9484d8a8b1c4.png">
-
-### **🛠:** ![Powerpoint](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=B7472A&label=Powerpoint&logo=microsoftpowerpoint&style=plastic)
-
-<hr>
-
 ## Dashboard Storyboard:
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
 
