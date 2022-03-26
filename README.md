@@ -8,7 +8,6 @@ iframe
 [iframe]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/iframe]
 <iframe>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</iframe>
 
-
 embed src
 <embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"></embed>
 
