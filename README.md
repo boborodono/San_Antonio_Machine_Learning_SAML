@@ -1,5 +1,5 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).png)
-    # Predicting Strokes with Machine Learning
+# Predicting Strokes with Machine Learning
 <!-- Badges -->
 <p align=center">
    <img alt="" src=""/> 
