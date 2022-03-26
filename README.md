@@ -53,6 +53,8 @@
 <p align="center">  
    
    <a href="">![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)</a>
+   <a href="">![SAML](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&?logo=saml%20(50%20x%2050%20px)&logoColor=F0F0F0)</a>
+<!--    ?logo=saml (50 × 50 px) -->
    <a href="">![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)</a>
    <a href="">![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)</a>
    <a href="">![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)</a>
