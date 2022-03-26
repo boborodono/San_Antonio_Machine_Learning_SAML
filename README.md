@@ -182,7 +182,7 @@ Currently, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 
 #### **🛠:** ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 ## Data Analysis
 
@@ -196,7 +196,7 @@ During early analysis we identified the following:
 
 #### **🛠:** ![Python](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=3776AB&label=Python&logo=python&style=plastic) ![Pandas](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=150458&label=Pandas&logo=pandas&style=plastic) ![Jupyter](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&logo=jupyter&style=plastic) ![Visual Studio Code](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=007ACC&label=VS%20Code&logo=visualstudiocode&style=plastic) ![Scikit-Learn](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F7931E&label=Scikit-Learn&logo=scikitlearn&style=plastic)
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 ## Dashboard
 
@@ -223,8 +223,7 @@ The dashboard will include filters to allow the user to separate the data based 
 
 #### **🛠:** ![Tableau](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=E97627&label=Tableau&logo=tableau&style=plastic)
 
-<hr>
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 ## Communication Protocols
 
@@ -239,7 +238,7 @@ The dashboard will include filters to allow the user to separate the data based 
 
 #### **🛠:** ![Slack](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4A154B&label=Slack&logo=slack&style=plastic) ![Zoom](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=2D8CFF&label=Zoom&logo=zoom&style=plastic) ![Google Drive](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=4285F4&label=Google%20Drive&logo=googledrive&style=plastic) ![Github](https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=F05032&label=Github&logo=github&style=plastic)
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 ## Authors 👯‍♀️
 | Name | My Repo     |  LinkedIn                |
