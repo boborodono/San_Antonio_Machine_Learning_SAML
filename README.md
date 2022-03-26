@@ -3,13 +3,13 @@
 <!-- Badges -->
 <p align=center">
    <a href=""><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic"/></a>
-   <img alt="GitHub commits since latest release (by date including pre-releases)" src="https://img.shields.io/github/commits-since/boborodono/San_Antonio_Machine_Learning_SAML/v1.0.0/main?include_prereleases&label=Total%20Commits&style=plastic"/></img>
-   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/boborodono/San_Antonio_Machine_Learning_SAML?label=Last%20Commit&style=plastic"/></img>
-   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/boborodono/San_Antonio_Machine_Learning_SAML?color=ff3b3b&label=Repo%20Size&style=plastic"/></img>
-   <img alt="Github Code Size in Bytes" src="https://img.shields.io/github/languages/code-size/boborodono/San_Antonio_Machine_Learning_SAML?color=orange&label=Code%20Size&style=plastic"/></img>
-   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&style=plastic"/></img>
-   <img alt="Github Followers" src="https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic"/></img>
-   <img alt="Github Watchers" src="https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social"/></img>
+   <a href=""><img alt="GitHub commits since latest release (by date including pre-releases)" src="https://img.shields.io/github/commits-since/boborodono/San_Antonio_Machine_Learning_SAML/v1.0.0/main?include_prereleases&label=Total%20Commits&style=plastic"/></a>
+   <a href=""><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/boborodono/San_Antonio_Machine_Learning_SAML?label=Last%20Commit&style=plastic"/></a>
+   <a href=""><img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/boborodono/San_Antonio_Machine_Learning_SAML?color=ff3b3b&label=Repo%20Size&style=plastic"/></a>
+   <a href=""><img alt="Github Code Size in Bytes" src="https://img.shields.io/github/languages/code-size/boborodono/San_Antonio_Machine_Learning_SAML?color=orange&label=Code%20Size&style=plastic"/></a>
+   <a href=""><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&style=plastic"/></a>
+   <a href=""><img alt="Github Followers" src="https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic"/></a>
+   <a href=""><img alt="Github Watchers" src="https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social"/></a>
 </p>
                 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
