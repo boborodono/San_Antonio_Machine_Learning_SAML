@@ -41,7 +41,7 @@ embed
    </a>
 </p>
 
-<h1 align="center">![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)</h1>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Table of Contents
 
 - [Presentation](#presentation)
