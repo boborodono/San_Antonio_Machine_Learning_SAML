@@ -224,8 +224,9 @@ Training & testing data is split using sklearn's train_test_split. Our ML datase
 <hr>
 
 ## Model Choice
+We started with sklearn's Random Forest Classifier (RFC). These models give the highest overall accuracy, but the poorest positive stroke case recall. After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.  
 
-Initially, sklearn's AdaBoostClassifier supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both KNNImputer and SimpleImputer techniques have achieved 48% positive stroke case recall). Currently, sklearn's Support Vector Classifier (SVC) has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the AdaBoostClassifier and RandomForestClassifier models.
+As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both KNNImputer and SimpleImputer techniques have achieved 48% positive stroke case recall). Currently, sklearn's Support Vector Classifier (SVC) has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the AdaBoostClassifier and RandomForestClassifier models.
 * Figure below gives 03/20/2022 AdaBoostClassifier ML model result using SMOTE oversampling and KNNImputer population of missing BMI data
 
 ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png)
