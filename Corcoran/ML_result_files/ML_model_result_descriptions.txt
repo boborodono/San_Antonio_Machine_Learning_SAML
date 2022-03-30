@@ -1,0 +1,337 @@
+
+
+
+1000_SVC_KNNImputer_SMOTE_results
+
+Recall mean: 0.8034199999999998
+Recall mode: 0.8
+Recall median: 0.8
+Recall max: 0.96
+Recall min: 0.6
+Recall standard deviation: 0.054593809942923954
+
+Accuracy mean: 0.7322475538160457
+Accuracy mode: 0.733855
+Accuracy median: 0.7328767123287672
+Accuracy max: 0.7700587084148728
+Accuracy min: 0.6898238747553816
+Accuracy standard deviation: 0.013696025628713233
+
+Precision mean: 0.13227487547784575
+Precision mode: 0.125
+Precision median: 0.1323529411764706
+Precision max: 0.15916955017301038
+Precision min: 0.10749185667752444
+Precision standard deviation: 0.008219481280808584
+
+
+
+1000_SVC_KNNImputer_RandomOverSampler_results
+
+Recall mean: 0.8082600000000002
+Recall mode: 0.8
+Recall median: 0.82
+Recall max: 0.96
+Recall min: 0.62
+Recall standard deviation: 0.054522886434461085
+
+Accuracy mean: 0.7269755381604701
+Accuracy mode: 0.730920, 0.731898
+Accuracy median: 0.7270058708414873
+Accuracy max: 0.7778864970645792
+Accuracy min: 0.6839530332681018
+Accuracy standard deviation: 0.013180496496309528
+
+Precision mean: 0.13053003522082685
+Precision mode: 0.125
+Precision median: 0.13078003787184656
+Precision max: 0.1583011583011583
+Precision min: 0.10606060606060606
+Precision standard deviation: 0.008026558175089259
+
+
+
+1000_SVC_SimpleImputer(median)_SMOTE_results
+
+Recall mean: 0.8017599999999989
+Recall mode: 0    0.8
+dtype: float64
+Recall median: 0.8
+Recall max: 0.96
+Recall min: 0.62
+Recall standard deviation: 0.055612904933973854
+
+Accuracy mean: 0.7331868884540121
+Accuracy mode: 0.732877
+Accuracy median: 0.7328767123287672
+Accuracy max: 0.7778864970645792
+Accuracy min: 0.687866927592955
+Accuracy standard deviation: 0.01369074015460767
+
+Precision mean: 0.13249674912000245
+Precision mode: 0.133333
+Precision median: 0.13230769230769232
+Precision max: 0.15714285714285714
+Precision min: 0.10610932475884244
+Precision standard deviation: 0.008534757158761461
+
+
+
+1000_SVC_SimpleImputer(median)_RandomOverSampler_results
+
+Recall mean: 0.8077400000000001
+Recall mode: 0.82
+Recall median: 0.8
+Recall max: 0.96
+Recall min: 0.6
+Recall standard deviation: 0.054349298488998325
+
+Accuracy mean: 0.7279843444227007
+Accuracy mode: 0.727984
+Accuracy median: 0.7279843444227005
+Accuracy max: 0.7778864970645792
+Accuracy min: 0.684931506849315
+Accuracy standard deviation: 0.013669775844595113
+
+Precision mean: 0.13093271045888666
+Precision mode: 0.133333
+Precision median: 0.13128156565656568
+Precision max: 0.1564625850340136
+Precision min: 0.10491803278688525
+Precision standard deviation: 0.008368215699631986
+
+
+
+1000_SVC_SimpleImputer(mean)_SMOTE_results
+
+Recall mean: 0.8028600000000005
+Recall mode: 0.8
+Recall median: 0.8
+Recall max: 0.94
+Recall min: 0.62
+Recall standard deviation: 0.0522125133138268
+
+Accuracy mean: 0.7327964774951077
+Accuracy mode: 0.728963
+Accuracy median: 0.7328767123287672
+Accuracy max: 0.7749510763209393
+Accuracy min: 0.6898238747553816
+Accuracy standard deviation: 0.013791825559284019
+
+Precision mean: 0.13249345275628135
+Precision mode: 0.130293
+Precision median: 0.13180787158204343
+Precision max: 0.16095890410958905
+Precision min: 0.1076388888888889
+Precision standard deviation: 0.00869520146995054
+
+
+
+1000_SVC_SimpleImputer(mean)_RandomOverSampler_results
+
+Recall mean: 0.8110000000000002
+Recall mode: 0.82
+Recall median: 0.82
+Recall max: 0.96
+Recall min: 0.62
+Recall standard deviation: 0.05350385652140087
+
+Accuracy mean: 0.7276702544031319
+Accuracy mode: 0.72407
+Accuracy median: 0.7279843444227005
+Accuracy max: 0.7720156555772995
+Accuracy min: 0.678082191780822
+Accuracy standard deviation: 0.013898173122390651
+
+Precision mean: 0.131196616103636
+Precision mode: 0.133333
+Precision median: 0.13157894736842105
+Precision max: 0.16058394160583941
+Precision min: 0.102803738317757
+Precision standard deviation: 0.008366054288919685
+
+
+
+1000_SVC_DropGlucose_KNNImputer_SMOTE_result
+
+Recall mean: 0.8014200000000014
+Recall mode: 0.82
+Recall median: 0.8
+Recall max: 0.94
+Recall min: 0.58
+Recall standard deviation: 0.05897339621779879
+
+Accuracy mean: 0.7239814090019568
+Accuracy mode: 0.727006
+Accuracy median: 0.7240704500978473
+Accuracy max: 0.7690802348336595
+Accuracy min: 0.6731898238747553
+Accuracy standard deviation: 0.014490200200385524
+
+Precision mean: 0.1284625037484612
+Precision mode: 0.125
+Precision median: 0.12844036697247707
+Precision max: 0.16206896551724137
+Precision min: 0.09634551495016612
+Precision standard deviation: 0.008709003294116599
+
+
+
+1000_SVC_DropGlucose_KNNImputer_RandomOverSampler_results
+
+Recall mean: 0.8123800000000001
+Recall mode: 0.82
+Recall median: 0.82
+Recall max: 0.96
+Recall min: 0.58
+Recall standard deviation: 0.05930474393041986
+
+Accuracy mean: 0.7226868884540125
+Accuracy mode: 0    0.721135
+dtype: float64
+Accuracy median: 0.7221135029354208
+Accuracy max: 0.7671232876712328
+Accuracy min: 0.6761252446183953
+Accuracy standard deviation: 0.014115569786345367
+
+Precision mean: 0.1291851659249668
+Precision mode: 0.125
+Precision median: 0.1291849210392257
+Precision max: 0.15737704918032788
+Precision min: 0.09523809523809523
+Precision standard deviation: 0.008220642128658305
+
+
+
+1000_SVC_DropGlucose_SimpleImputer(median)_SMOTE_results
+
+Recall mean: 0.8013799999999998
+Recall mode: 0.82
+Recall median: 0.8
+Recall max: 0.98
+Recall min: 0.58
+Recall standard deviation: 0.056519820329598465
+
+Accuracy mean: 0.7242544031311153
+Accuracy mode: 0.723092
+Accuracy median: 0.7240704500978473
+Accuracy max: 0.7700587084148728
+Accuracy min: 0.675146771037182
+Accuracy standard deviation: 0.014358645498602229
+
+Precision mean: 0.12859095782219476
+Precision mode: 0    0.125
+dtype: float64
+Precision median: 0.12833392603129445
+Precision max: 0.15492957746478872
+Precision min: 0.10139860139860139
+Precision standard deviation: 0.008747850489713771
+
+
+
+1000_SVC_DropGlucose_SimpleImputer(median)_RandomOverSampler_results
+
+Recall mean: 0.8049999999999986
+Recall mode: 0.8
+Recall median: 0.8
+Recall max: 0.94
+Recall min: 0.6
+Recall standard deviation: 0.058405575172334315
+
+Accuracy mean: 0.7226526418786707
+Accuracy mode: 0.716243
+Accuracy median: 0.723091976516634
+Accuracy max: 0.7651663405088063
+Accuracy min: 0.675146771037182
+Accuracy standard deviation: 0.014208105183958406
+
+Precision mean: 0.12831294636281185
+Precision mode: 0.125
+Precision median: 0.12803823107435225
+Precision max: 0.1541095890410959
+Precision min: 0.10204081632653061
+Precision standard deviation: 0.008346129915096229
+
+
+
+1000_SVC_DropGlucose_SimpleImputer(mean)_SMOTE_result
+
+Recall mean: 0.7986999999999992
+Recall mode: 0.8
+Recall median: 0.8
+Recall max: 0.96
+Recall min: 0.56
+Recall standard deviation: 0.0591050201201506
+
+Accuracy mean: 0.7258835616438344
+Accuracy mode: 0.731898
+Accuracy median: 0.726027397260274
+Accuracy max: 0.7720156555772995
+Accuracy min: 0.6859099804305284
+Accuracy standard deviation: 0.013920821762183185
+
+Precision mean: 0.1289178076955545
+Precision mode: 0.125
+Precision median: 0.12883435582822086
+Precision max: 0.16423357664233576
+Precision min: 0.0989399293286219
+Precision standard deviation: 0.008511156789320084
+
+
+
+1000_SVC_DropGlucose_SimpleImputer(mean)_RandomOverSampler_result
+
+Recall mean: 0.8055400000000003
+Recall mode: 0.82
+Recall median: 0.8
+Recall max: 0.96
+Recall min: 0.64
+Recall standard deviation: 0.05850411208736648
+
+Accuracy mean: 0.7221917808219187
+Accuracy mode: 0.718200, 0.725049, 0.727984
+Accuracy median: 0.723091976516634
+Accuracy max: 0.764187866927593
+Accuracy min: 0.6771037181996086
+Accuracy standard deviation: 0.01409229661378321
+
+Precision mean: 0.12818223549417915
+Precision mode: 0.125
+Precision median: 0.12803823107435225
+Precision max: 0.15436241610738255
+Precision min: 0.10122699386503067
+Precision standard deviation: 0.008354038664553337
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
