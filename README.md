@@ -103,14 +103,14 @@ embed
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Topic
 
-## Why Choose This Topic?
+## Why Would We Want to Predict Strokes?
 This topic is dear to many of our team members. Some of us were personally affected by loved ones having a stroke or actively work in the healthcare industry. Additionally, strokes are on the rise in younger people, and are therefore affecting a larger portion of the population.
 We are passionate about improving diagnosis options to prevent strokes. Having predictability may encourage preventative care or medication to reduce stroke risk.
 
 <hr>
 
 ## Questions We Want to Answer...
-The goal of this project is to use patient data to train machine learning models.
+The goal of this project is to perform a predictive analysis on stroke patient data using machine learning.
 **We hope to answer:**
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
