@@ -268,7 +268,7 @@ The dashboard will include filters to allow the user to separate the data based 
 **Contact goals:**
 - A minimum of twice weekly conversations through Slack
 - Meeting at 6:30PM CT before class on Tuesdays and Thursdays
-- Tracking deliverables through the Project Management spreadsheet
+- Tracking deliverables through the ![Project Management](https://docs.google.com/spreadsheets/d/1dhVx7JtsV96xwiIY83Ls-zlMphNlS3TNKQlNlZLgGN4/edit?usp=sharing) spreadsheet
 
 **The following will occur on an as-needed basis:**
 - Video chat through Google Meet
