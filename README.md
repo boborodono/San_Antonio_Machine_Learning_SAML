@@ -268,7 +268,7 @@ The dashboard will include filters to allow the user to separate the data based 
 **Contact goals:**
 - A minimum of twice weekly conversations through Slack
 - Meeting at 6:30PM CT before class on Tuesdays and Thursdays
-- Tracking deliverables through the <a href="https://docs.google.com/spreadsheets/d/1dhVx7JtsV96xwiIY83Ls-zlMphNlS3TNKQlNlZLgGN4/edit?usp=sharing">![Project Management](https://img.shields.io/badge/Project%20Management-4285F4?style=social&logo=googledrive&logoColor=white)</a> spreadsheet
+- Tracking deliverables through the <a href="https://docs.google.com/spreadsheets/d/1dhVx7JtsV96xwiIY83Ls-zlMphNlS3TNKQlNlZLgGN4/edit?usp=sharing">![Project Management](https://img.shields.io/badge/Project%20Management-4285F4?style=flat-square&logo=googledrive&logoColor=white)</a> spreadsheet
 
 **The following will occur on an as-needed basis:**
 - Video chat through Google Meet
