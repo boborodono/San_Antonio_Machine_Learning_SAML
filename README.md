@@ -110,7 +110,7 @@ We are passionate about improving diagnosis options to prevent strokes. Having p
 <hr>
 
 ## Questions We Want to Answer...
-The goal of this project is to perform a predictive analysis on stroke patient data using machine learning.
+The goal of this project is to create a predictive analysis from stroke patient data using machine learning.
 **We hope to answer:**
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
