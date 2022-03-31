@@ -44,7 +44,7 @@ embed
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Table of Contents
 
-- [Presentation](#presentation)
+- [Presentation & Dashboard](#presentation-&-dashboard)
 - [Topic](#topic)
   * [Why Choose This Topic?](#why-choose-this-topic-)
   * [Questions We Want to Answer...](#questions-we-want-to-answer)
@@ -61,9 +61,6 @@ embed
   * [Training and Testing](#training-and-testing)
   * [Model Choice](#model-choice) 
 - [Data Analysis](#data-analysis)
-- [Dashboard](#dashboard)
-  * [Dashboard Storyboard:](#dashboard-storyboard-)
-  * [Interactive Elements:](#interactive-elements-)
 - [Communication Protocols](#communication-protocols)
 - [Authors 👯‍♀️](#authors------)
 
@@ -96,11 +93,15 @@ embed
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Presentation
+# Presentation & Dashboard
 
 [SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) - [(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
 
+[SAML Dashboard(Tableau Public)](https://public.tableau.com/app/profile/angela.pacatte/viz/sample-link/needs-update)<br/>
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+ 
 # Topic
 
 ## Why Would We Want to Predict Strokes?
@@ -245,22 +246,6 @@ During early analysis we identified the following:
 - More of the women in our dataset have a higher instance of hypertension.
 - Even though they had a higher instance of stroke cases, we see that women smoke less overall.
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender#.
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Dashboard
-
-## Dashboard Storyboard:
-<img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
-
-[SAML Dashboard Storyboard](/Wilder/PowerPoint/Dash_Storyboard.pdf)<br/>
-
-
-
-
-<hr>
-
-## Interactive Elements:
-The dashboard will include filters to allow the user to separate the data based on gender and incidence of stroke.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Communication Protocols
