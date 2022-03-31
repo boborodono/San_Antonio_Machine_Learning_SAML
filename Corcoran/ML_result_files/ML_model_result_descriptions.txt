@@ -187,8 +187,7 @@ Recall min: 0.58
 Recall standard deviation: 0.05930474393041986
 
 Accuracy mean: 0.7226868884540125
-Accuracy mode: 0    0.721135
-dtype: float64
+Accuracy mode: 0.721135
 Accuracy median: 0.7221135029354208
 Accuracy max: 0.7671232876712328
 Accuracy min: 0.6761252446183953
@@ -308,6 +307,57 @@ Precision standard deviation: 0.008354038664553337
 
 
 
+
+
+
+
+1000_SVC_Medical_SimpleImputer(mean)_RandomOverSampler_results
+
+Recall mean: 0.8063199999999994
+Recall mode: 0.8
+Recall median: 0.8
+Recall max: 0.96
+Recall min: 0.62
+Recall standard deviation: 0.056085677344605574
+
+Accuracy mean: 0.7263473581213309
+Accuracy mode: 0.723092
+Accuracy median: 0.726027397260274
+Accuracy max: 0.7632093933463796
+Accuracy min: 0.6888454011741683
+Accuracy standard deviation: 0.012596105584787569
+
+Precision mean: 0.13001149673204337
+Precision mode: 0.125
+Precision median: 0.13036890645586297
+Precision max: 0.15862068965517243
+Precision min: 0.10264900662251655
+Precision standard deviation: 0.008271121695775055
+
+
+
+1000_SVC_Personal_SimpleImputer(mean)_RandomOverSampler_results
+
+Recall mean: 0.8787599999999997
+Recall mode: 0.9
+Recall median: 0.88
+Recall max: 1.0
+Recall min: 0.6
+Recall standard deviation: 0.05142282281931558
+
+Accuracy mean: 0.3831213307240685
+Accuracy mode: 0.383562
+Accuracy median: 0.3816046966731898
+Accuracy max: 0.5
+Accuracy min: 0.33463796477495106
+Accuracy standard deviation: 0.018727581085859597
+
+Precision mean: 0.06574426481071825
+Precision mode: 0.067164
+Precision median: 0.06578947368421052
+Precision max: 0.07668711656441718
+Precision min: 0.05415162454873646
+Precision standard deviation: 0.003360850230850541
 
 
 
