@@ -44,13 +44,13 @@ embed
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Table of Contents
 
-- [Presentation & Dashboard](#presentation-&-dashboard)
+- [Presentation & Dashboard](#presentation--dashboard)
 - [Topic](#topic)
-  * [Why Choose This Topic?](#why-choose-this-topic-)
+  * [Why Would We Want to Predict Strokes?](#why-would-we-want-to-predict-strokes)
   * [Questions We Want to Answer...](#questions-we-want-to-answer)
 - [Data Source](#data-source)
 - [Project Outline](#project-outline)
-- [Data Exploration & Preprocessing](#data-exploration---preprocessing)
+- [Data Exploration & Preprocessing](#data-exploration--preprocessing)
 - [ERD](#erd)
 - [Feature Engineering and Selection](#feature-engineering-and-selection)
   * [Feature Selection](#feature-selection)
@@ -62,7 +62,7 @@ embed
   * [Model Choice](#model-choice) 
 - [Data Analysis](#data-analysis)
 - [Communication Protocols](#communication-protocols)
-- [Authors 👯‍♀️](#authors------)
+- [Authors](#authors)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Tech Stack
@@ -260,7 +260,7 @@ During early analysis we identified the following:
 - Feedback through GitHub pull requests
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Authors 👯‍♀️
+# Authors
 | Author | My Repo     |  LinkedIn                |
 | :-------- | :------- | :------------------------- |
 | Jack Bauer | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jackary24)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jack-bauer-/) |
