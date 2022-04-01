@@ -97,7 +97,7 @@ embed
 
 [SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) - [(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
 
-[SAML Dashboard(Tableau Public)](https://public.tableau.com/app/profile/angela.pacatte/viz/sample-link/needs-update)<br/>
+[SAML Dashboard(Tableau Public)](https://public.tableau.com/app/profile/katie.hopkins/viz/SAML-StrokeData/MedicalDashboard)<br/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
