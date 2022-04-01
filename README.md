@@ -1,26 +1,6 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).svg)
 <h1 align="center">Predicting Strokes with Machine Learning</h1>
-<!-- iframe
-[iframe]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/iframe]
-<iframe>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</iframe>
 
-[iframe]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/iframe]
-<iframe>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</iframe>
-
-embed src
-<embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"></embed>
-
-object data
-<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'>PPoint</object>
-<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'>"PPoint"</object>
-
-embed
-[embed]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/embed]
-<embed>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</embed>
-
-[embed]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/embed]
-<embed>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</embed>
- -->
 <!-- Badges -->
 <p align="center">
    <a href=""><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic"/>
@@ -187,9 +167,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Initial Dataset EDA
-| Stroke Dataset Stats |
-| :---- |
-| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
+| Stroke Dataset Stats | Age Histogram  |
+| :---- | :---- |
+| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
 
 
 
