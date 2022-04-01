@@ -186,6 +186,18 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 | Age Histogram | Age Stacked Bar | Gender Histogram | Gender Stacked Bar | Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| ![Age_Histogram](https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png)
+ | ![Age_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png)
+ |  | ![Gender_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png)
+ | ![Ever_Married_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337144-a897cf4c-fa70-4857-bd8c-54496a6c9bfe.png)
+ | ![Work_Type_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337167-64497c22-10f6-46e7-add1-282996a11aab.png)
+ | ![Residence_Type_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337196-5fd8f76b-d974-48db-aa66-659a202fea8a.png)
+ |  | ![BMI_Histogram](https://user-images.githubusercontent.com/46633669/161337215-666b14c2-40c2-4b18-9f33-4dc37147eee8.png)
+ | ![BMI_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337226-fea3db85-228f-4430-82f5-3a5041e08cf9.png)
+ | ![Glucose_Histogram](https://user-images.githubusercontent.com/46633669/161337247-95020749-5298-46cc-a5c3-39f44ff3b82f.png)
+ | ![Glucose_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337262-cb52c482-43ec-4aa5-b16c-275163e36972.png)
+ | ![Hypertension_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337278-d4ab810d-7d5a-4c75-867c-4b86b9e08594.png)
+ | ![Heart_Disease_Stacked_Bar](https://user-images.githubusercontent.com/46633669/161337287-5239847c-913d-4416-b027-9cea1bd34190.png) |
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 
