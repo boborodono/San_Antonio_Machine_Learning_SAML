@@ -167,26 +167,37 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Initial Dataset EDA
-| Stroke Dataset Stats | 
+| <center>Stroke Dataset Stats</center> | 
 | :---- |
-| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
+| <center><img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"></center> |
 | Sample Size: 5,109 entries |
 
 #### Age
 Age Histogram  |Age Stacked Bar |
 | :---- | :---- |
 | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="200" height="200"> | 
-| There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. | 
+| There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. | This shows that a higher proportion of positive stroke cases occur as age increases. |
 
 #### Gender
 | Gender Histogram | Gender Stacked Bar |
 |  :---- | :---- |
-| <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="200" height="200"> |
-| This shows that a higher proportion of positive stroke cases occur as age increases. | According to the data, significantly more women were admitted for possible cases of a stroke. | 
+| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="200" height="200"> | 
+|   According to the data, significantly more women were admitted for possible cases of a stroke. | The percentage of positive stroke cases is about even between men and women. |
+ 
+ #### Personal Criteria
  
  
  
-| Stroke Dataset Stats |  Age Histogram  | Age Stacked Bar | Gender Histogram | Gender Stacked Bar | Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Histogram |Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
+ 
+ 
+ 
+ #### Medical Criteria
+ 
+ 
+ 
+ 
+ 
+ Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Histogram |Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
 | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- |
 | <figure><img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png"><figcaption>Sample Size: 5,109 entries</figcaption></figure> |<figure><img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png"><figcaption>There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age.</figcaption></figure> |
 <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="200" height="200"> |
@@ -196,7 +207,22 @@ Age Histogram  |Age Stacked Bar |
 <img src="https://user-images.githubusercontent.com/46633669/161337215-666b14c2-40c2-4b18-9f33-4dc37147eee8.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337226-fea3db85-228f-4430-82f5-3a5041e08cf9.png" width="200" height="200"> |
 <img src="https://user-images.githubusercontent.com/46633669/161337247-95020749-5298-46cc-a5c3-39f44ff3b82f.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337262-cb52c482-43ec-4aa5-b16c-275163e36972.png" width="200" height="200"> |
 <img src="https://user-images.githubusercontent.com/46633669/161337278-d4ab810d-7d5a-4c75-867c-4b86b9e08594.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337287-5239847c-913d-4416-b027-9cea1bd34190.png" width="200" height="200"> |
-| Sample Size: 5,109 entries  | There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age.  | This shows that a higher proportion of positive stroke cases occur as age increases.  | According to the data, significantly more women were admitted for possible cases of a stroke.  | The percentage of positive stroke cases is about even between men and women. | More instances of stroke were reported among patients that were married at one point in time. | "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Govt" organizations. | No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences. | Most patients never smoked but many patient's smoking history is "Unknown". | Most "Former" and "Current" smokers had a higher prevalence of positive stroke cases but the results were not significant. | A majority of patients are "Overweight" or "Obese." | "Overweight" or "Obese" patients have a higher prevalence for developing a stroke. | Most patients were in the "Normal" Glucose Level range. | Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases. | Patients diagnosed with Hypertension had a a higher prevalence of stroke cases. | Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases. |
+| Sample Size: 5,109 entries  
+| There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age.  
+| This shows that a higher proportion of positive stroke cases occur as age increases.  
+| According to the data, significantly more women were admitted for possible cases of a stroke.  
+| The percentage of positive stroke cases is about even between men and women. 
+| More instances of stroke were reported among patients that were married at one point in time. 
+| "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Govt" organizations. 
+| No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences. 
+| Most patients never smoked but many patient's smoking history is "Unknown". 
+| Most "Former" and "Current" smokers had a higher prevalence of positive stroke cases but the results were not significant. 
+| A majority of patients are "Overweight" or "Obese." 
+| "Overweight" or "Obese" patients have a higher prevalence for developing a stroke. 
+| Most patients were in the "Normal" Glucose Level range. 
+| Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases. 
+| Patients diagnosed with Hypertension had a a higher prevalence of stroke cases. 
+| Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases. |
 
 
 ### Splitting the Data into Medical and Personal Criteria 
