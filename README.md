@@ -222,28 +222,28 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
-- 
-- 
+- A majority of patients are "Overweight" or "Obese." 
+- "Overweight" or "Obese" patients have a higher prevalence for developing a stroke.
  
  ### Glucose Levels
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
-- 
-- 
+- Most patients were in the "Normal" Glucose Level range.
+- Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases.
  
  ### Hypertension
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
-- 
+- Patients diagnosed with Hypertension had a a higher prevalence of stroke cases.
 - 
  
  ### Heart Disease
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
-- 
+- Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases.
 - 
   
  
