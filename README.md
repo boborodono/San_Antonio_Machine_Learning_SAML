@@ -180,7 +180,7 @@ Age Histogram  |Age Stacked Bar |
 
 ### Gender
 | Gender Histogram | Gender Stacked Bar |
-|  :----: | :----" |
+|  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | 
 - According to the data, significantly more women were admitted for possible cases of a stroke. 
 - The percentage of positive stroke cases is about even between men and women. 
