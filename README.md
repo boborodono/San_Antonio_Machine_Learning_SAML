@@ -1,26 +1,6 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).svg)
 <h1 align="center">Predicting Strokes with Machine Learning</h1>
-<!-- iframe
-[iframe]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/iframe]
-<iframe>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</iframe>
 
-[iframe]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/iframe]
-<iframe>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</iframe>
-
-embed src
-<embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"></embed>
-
-object data
-<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'>PPoint</object>
-<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'>"PPoint"</object>
-
-embed
-[embed]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/embed]
-<embed>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</embed>
-
-[embed]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/embed]
-<embed>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</embed>
- -->
 <!-- Badges -->
 <p align="center">
    <a href=""><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic"/>
@@ -36,7 +16,7 @@ embed
    <a href=""><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&style=plastic"/>
    </a>
    <a href=""><img alt="Github Followers" src="https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic"/>
-                                                                                                                                </a>
+   </a>
    <a href=""><img alt="Github Watchers" src="https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social"/>
    </a>
 </p>
@@ -59,7 +39,7 @@ embed
   * [Feature Scaling](#feature-scaling)
   * [Resampling](#resampling)
   * [Training and Testing](#training-and-testing)
-  * [Model Choice](#model-choice) 
+  * [Model Choice](#model-choice)
 - [Data Analysis](#data-analysis)
 - [Dashboard](#dashboard)
   * [Dashboard Storyboard:](#dashboard-storyboard-)
@@ -70,8 +50,8 @@ embed
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Tech Stack
 <!-- Badges -->
-<p align="center">  
-   
+<p align="center">
+
    <a href="">![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)</a>
    <a href="">![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)</a>
    <a href="">![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)</a>
@@ -135,25 +115,25 @@ To explore the data we did a general overview using pivot tables to identify any
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
 - The dataset was split into generational bins for further analysis
 
-| Generation | Age Range | 
+| Generation | Age Range |
 | :-------- | :------- |
-| Gen Z | 0 - 20 | 
-| Millenial | 20 - 40 | 
-| Gen X | 40 - 60 | 
-| Boomer | 60 - 80 | 
-| Greatest Gen | 80 - 100 | 
+| Gen Z | 0 - 20 |
+| Millenial | 20 - 40 |
+| Gen X | 40 - 60 |
+| Boomer | 60 - 80 |
+| Greatest Gen | 80 - 100 |
 
 <hr>
 
 ### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 - The dataset was split into BMI Class bins for further analysis
 
-| BMI Class | BMI Range | 
+| BMI Class | BMI Range |
 | :-------- | :------- |
-| Underweight | 0 - 18.5 | 
-| Healthy Weight | 18.5 - 25 | 
-| Overweight | 25 - 30 | 
-| Obese(Low-Risk) | 30 - 35 | 
+| Underweight | 0 - 18.5 |
+| Healthy Weight | 18.5 - 25 |
+| Overweight | 25 - 30 |
+| Obese(Low-Risk) | 30 - 35 |
 | Obese(Medium-Risk) | 35 - 40 |
 | Obese(High-Risk) | 40 - 100 |
 
@@ -169,10 +149,10 @@ We identified that we have a large percentage of NaNs for BMI data. At first we 
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
 - The dataset was split Glucose Level Class bins for further analysis
 
-| Glucose Level Class | Glucose Range | 
+| Glucose Level Class | Glucose Range |
 | :-------- | :------- |
-| Normal | 0 - 100 | 
-| Prediabetic | 100 - 125 | 
+| Normal | 0 - 100 |
+| Prediabetic | 100 - 125 |
 | Diabetic | >125 |
 
 <hr>
@@ -181,9 +161,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 |Personal Criteria | Medical Criteria |
 |--|--|
-|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr><td>Smoker</td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td>0-100</td></tr><tr><td>Glucose</td><td>0-125</td></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>| 
+|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr><td>Smoker</td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td>0-100</td></tr><tr><td>Glucose</td><td>0-125</td></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>|
 
-### Splitting the Data into Medical and Personal Criteria 
+### Splitting the Data into Medical and Personal Criteria
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # ERD
@@ -224,7 +204,7 @@ Training & testing data is split using sklearn's train_test_split. Our ML datase
 <hr>
 
 ## Model Choice
-We started with sklearn's Random Forest Classifier (RFC). These models give the highest overall accuracy, but the poorest positive stroke case recall. After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.  
+We started with sklearn's Random Forest Classifier (RFC). These models give the highest overall accuracy, but the poorest positive stroke case recall. After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
 As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both KNNImputer and SimpleImputer techniques have achieved 48% positive stroke case recall). Currently, sklearn's Support Vector Classifier (SVC) has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the AdaBoostClassifier and RandomForestClassifier models.
 * Figure below gives 03/20/2022 AdaBoostClassifier ML model result using SMOTE oversampling and KNNImputer population of missing BMI data
