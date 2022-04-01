@@ -167,10 +167,15 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Initial Dataset EDA
-| Stroke Dataset Stats | Age Histogram  |Age Stacked Bar | Gender Histogram |
-| :---- | :---- | :---- | :---- |
-| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="200" height="200">
-| Sample Size: 5,109 entries | There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. | This shows that a higher proportion of positive stroke cases occur as age increases. | According to the data, significantly more women were admitted for possible cases of a stroke. |
+| Stroke Dataset Stats | 
+| :---- |
+| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
+| Sample Size: 5,109 entries |
+
+Age Histogram  |Age Stacked Bar | Gender Histogram |
+| :---- | :---- | :---- |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="200" height="200"> |
+| There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. | This shows that a higher proportion of positive stroke cases occur as age increases. | According to the data, significantly more women were admitted for possible cases of a stroke. |
 
 
 | Stroke Dataset Stats |  Age Histogram  | Age Stacked Bar | Gender Histogram | Gender Stacked Bar | Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Histogram |Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
