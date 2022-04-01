@@ -167,15 +167,15 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Initial Dataset EDA
-| <center>Stroke Dataset Stats</center> | 
-| :---- |
-| <center><img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"></center> |
+| Stroke Dataset Stats | 
+| :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
 | Sample Size: 5,109 entries |
 
 #### Age
 Age Histogram  |Age Stacked Bar |
-| :---- | :---- |
-| <center><img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"></center> | <center><img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"></center> | 
+| :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | 
 | There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. | This shows that a higher proportion of positive stroke cases occur as age increases. |
 
 #### Gender
