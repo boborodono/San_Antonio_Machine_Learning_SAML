@@ -189,7 +189,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 ### Initial Dataset EDA
 | Stroke Dataset Stats |
 | :---- |
-| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="100"> |
+| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
 
 
 
