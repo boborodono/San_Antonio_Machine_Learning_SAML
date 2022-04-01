@@ -170,7 +170,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stroke Dataset Stats | Age Histogram  |
 | :---- | :---- |
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="200" height="200"> |
-
+| Sample Size: 5,109 entries  | There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age.  |
 
 
 | Stroke Dataset Stats |  Age Histogram  | Age Stacked Bar | Gender Histogram | Gender Stacked Bar | Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Histogram |Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
