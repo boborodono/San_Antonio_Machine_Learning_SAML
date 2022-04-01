@@ -173,13 +173,14 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Sample Size: 5,109 entries |
 
 ### Age
-Age Histogram  |Age Stacked Bar |
+| Histogram  | Stacked Bar |
 | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | 
-| There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. | This shows that a higher proportion of positive stroke cases occur as age increases. |
+- There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. 
+- This shows that a higher proportion of positive stroke cases occur as age increases.
 
 ### Gender
-| Gender Histogram | Gender Stacked Bar |
+| Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | 
 - According to the data, significantly more women were admitted for possible cases of a stroke. 
@@ -187,18 +188,67 @@ Age Histogram  |Age Stacked Bar |
  
  ## Personal Criteria
  
+ ### Ever Married
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ### Work Type
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ### Residence Type
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ### Smoking Status
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ## Medical Criteria
+ 
+ ### BMI
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ### Glucose Levels
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ### Hypertension
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+ 
+ ### Heart Disease
+| Histogram | Stacked Bar |
+|  :----: | :----: |
+| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+- 
+- 
+  
  
  
- 
- 
- 
- #### Medical Criteria
- 
- 
- 
- 
- 
- Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Histogram |Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
+ |  |  |  |  Ever Married Stacked Bar | Work Type Stacked Bar | Residence Type Stacked Bar | Smoker Histogram |Smoker Bar Chart | BMI Histogram | BMI Stacked Bar | Glucose Histogram | Glucose Stacked Bar | Hypertension Stacked Bar | Heart Disease Stacked Bar |
 | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- | :------- |
 | <figure><img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png"><figcaption>Sample Size: 5,109 entries</figcaption></figure> |<figure><img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png"><figcaption>There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age.</figcaption></figure> |
 <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="200" height="200"> | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="200" height="200"> |
