@@ -163,7 +163,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 ## Initial Dataset Exploratory Data Analysis (EDA)
 | Stroke Dataset Stats | 
 | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
+| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> |
 - Sample Size: 5,109 entries
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
