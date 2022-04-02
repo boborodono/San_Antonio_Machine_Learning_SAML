@@ -214,7 +214,7 @@ We chose to separate the data based on glucose levels as well. This included bre
  ### Residence Type
 | Stacked Bar | Stats |
 |  :----: |  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> |  <img src="" width="300" height="300"> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Residence Type</th><th></th><th></th></tr></thead><tbody><tr><td>Rural</td><td>2,513</td><td>42.9</td></tr><tr><td>Urban</td><td>2,596</td><td>43.5</td></tr></tbody></table> |
 - No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences
  
 <hr> 
