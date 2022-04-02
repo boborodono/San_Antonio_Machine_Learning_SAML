@@ -188,7 +188,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 ### Gender
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | <img src="" width="300" height="300"> |
+| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td>2,994</td><td>43.7</td></tr><tr><td>Male</td><td>2,115</td><td>42.5</td></tr></tbody></table> |
 - According to the data, significantly more women were admitted for possible cases of a stroke
 - The percentage of positive stroke cases is about even between men and women 
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
