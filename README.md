@@ -176,9 +176,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Age
-| Histogram  | Stacked Bar | Stats | TABLE TEST |
-| :----: | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161365227-4ec22d0d-fe7d-4257-b1aa-52780eb1fbb1.png" width="300" height="300"> | <table><thead><tr><th></th><th>Age</th></tr></thead><tbody><tr><td>count</td><td>5109</td></tr><tr><td>mean</td><td>43.22</td></tr><tr><td>std</td><td>22.63</td></tr><tr><td>min</td><td>0.0</td></tr><tr><td>25%</td><td>25</td></tr><tr><td>50%</td><td>45</td></tr><tr><td>75%</td><td>61</td></tr><tr><td>max</td><td>82</td></tr></tbody></table> |
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Age</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>43.22</td></tr><tr><td>std</td><td>22.63</td></tr><tr><td>min</td><td>0.0</td></tr><tr><td>25%</td><td>25.0</td></tr><tr><td>50%</td><td>45.0</td></tr><tr><td>75%</td><td>61.0</td></tr><tr><td>max</td><td>82.0</td></tr></tbody></table> |
 - There are more possible stroke cases from 0 - 60 years old 
   - However, positive stroke cases become more common with age 
 - This shows that a higher proportion of positive stroke cases occur as age increases
@@ -196,9 +196,50 @@ We chose to separate the data based on glucose levels as well. This included bre
  ## Personal Criteria
  
  ### Ever Married
-| Stacked Bar | Stats |
-|  :----: |  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365357-851e221e-2fa0-43ef-9f4f-a8cad050d193.png" width="300" height="300"> |
+| Stacked Bar | Stats |  |
+|  :----: |  :----: |   |
+| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365357-851e221e-2fa0-43ef-9f4f-a8cad050d193.png" width="300" height="300"> | <table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table> |
 - More instances of stroke were reported among patients that were married at one point in time
  
  <hr>
@@ -229,18 +270,100 @@ We chose to separate the data based on glucose levels as well. This included bre
  ## Medical Criteria
  
  ### BMI
-| Histogram  | Stacked Bar | Stats |
-| :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365374-57fe3df6-11db-4be1-9c61-8fec66d579af.png" width="300" height="300"> |
+| Histogram  | Stacked Bar | Stats |  |
+| :----: | :----: | :----: |  |
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365374-57fe3df6-11db-4be1-9c61-8fec66d579af.png" width="300" height="300"> | <table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table> |
 - A majority of patients are "Overweight" or "Obese" 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
 <hr>
 
  ### Glucose Levels
-| Histogram  | Stacked Bar | Stats |
-| :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365383-a6a3001e-efb7-4adf-9660-aa39e6f3c2e9.png" width="300" height="300"> |
+| Histogram  | Stacked Bar | Stats |  |
+| :----: | :----: | :----: |  |
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365383-a6a3001e-efb7-4adf-9660-aa39e6f3c2e9.png" width="300" height="300"> | <table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table> |
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
