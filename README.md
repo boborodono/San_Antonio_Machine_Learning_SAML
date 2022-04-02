@@ -79,11 +79,16 @@
 
 [SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) - [(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
 
-[SAML Presentation Medical Dashboard(Tableau Public)]
+
+   [SAML Presentation Medical Dashboard(Tableau Public)]
   https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes
-[SAML Presentation Personal Dashboard(Tableau Public)] 
+
+
+   [SAML Presentation Personal Dashboard(Tableau Public)] 
    https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes
-[SAML Presentation ML Metrics Dashboard(Tableau Public)]    
+
+
+   [SAML Presentation ML Metrics Dashboard(Tableau Public)]    
    https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
