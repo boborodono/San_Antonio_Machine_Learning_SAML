@@ -196,39 +196,9 @@ We chose to separate the data based on glucose levels as well. This included bre
  ## Personal Criteria
  
  ### Ever Married
-| Stacked Bar | Stats | TEST |
-|  :----: |  :----: |  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365357-851e221e-2fa0-43ef-9f4f-a8cad050d193.png" width="300" height="300"> | <table>
-<thead>
-  <tr>
-    <th></th>
-    <th>Age(in years)</th>
-    <th></th>
-  </tr>
-  <tr>
-    <th></th>
-    <th>count</th>
-    <th>mean</th>
-  </tr>
-  <tr>
-    <th>Ever Married</th>
-    <th></th>
-    <th></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>No</td>
-    <td>1,756</td>
-    <td>22.0 Years</td>
-  </tr>
-  <tr>
-    <td>Yes</td>
-    <td>3,353</td>
-    <td>54.3 Years</td>
-  </tr>
-</tbody>
-</table> |
+| Stacked Bar | Stats |
+|  :----: |  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | <table><thead><tr><th></th><th>Age(in years)</th><th></th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Ever Married</th><th></th><th></th></tr></thead><tbody><tr><td>No</td><td>1,756</td><td>22.0 Years</td></tr><tr><td>Yes</td><td>3,353</td><td>54.3 Years</td></tr></tbody></table> |
 - More instances of stroke were reported among patients that were married at one point in time
  
  <hr>
