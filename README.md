@@ -237,10 +237,10 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 <hr>
 
- ### Glucose Levels
+ ### Average Glucose Levels (AGL)
 | Histogram  | Stacked Bar | Stats | 
 | :----: | :----: | :----: | 
-| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Avg Glucose Lvl</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>106.1</td></tr><tr><td>std</td><td>45.3</td></tr><tr><td>min</td><td>55.1</td></tr><tr><td>25%</td><td>77.2</td></tr><tr><td>50%</td><td>91.9</td></tr><tr><td>75%</td><td>114.1</td></tr><tr><td>max</td><td>271.7</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <table><thead><tr><th></th><th>AGL</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>106.1</td></tr><tr><td>std</td><td>45.3</td></tr><tr><td>min</td><td>55.1</td></tr><tr><td>25%</td><td>77.2</td></tr><tr><td>50%</td><td>91.9</td></tr><tr><td>75%</td><td>114.1</td></tr><tr><td>max</td><td>271.7</td></tr></tbody></table> |
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
