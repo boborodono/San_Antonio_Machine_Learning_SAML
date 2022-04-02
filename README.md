@@ -189,32 +189,28 @@ We chose to separate the data based on glucose levels as well. This included bre
  ## Personal Criteria
  
  ### Ever Married
-| Histogram | Stacked Bar |
-|  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | 
-- 
-- 
+| Stacked Bar |
+|  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | 
+- More instances of stroke were reported among patients that were married at one point in time. 
  
  ### Work Type
-| Histogram | Stacked Bar |
-|  :----: | :----: |
+| Stacked Bar |
+|  :----: |
 | <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
-- 
-- 
+- "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Govt" organizations.
  
  ### Residence Type
-| Histogram | Stacked Bar |
-|  :----: | :----: |
+| Stacked Bar |
+|  :----: |
 | <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
-- 
-- 
+- No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences. 
  
  ### Smoking Status
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png)" width="300" height="300"> | 
-- 
-- 
+- Most patients never smoked but many patient's smoking history is "Unknown".
  
  ## Medical Criteria
  
@@ -233,18 +229,16 @@ We chose to separate the data based on glucose levels as well. This included bre
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases.
  
  ### Hypertension
-| Histogram | Stacked Bar |
-|  :----: | :----: |
+| Stacked Bar |
+|  :----: |
 | <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="300" height="300"> | 
 - Patients diagnosed with Hypertension had a a higher prevalence of stroke cases.
-- 
  
  ### Heart Disease
-| Histogram | Stacked Bar |
-|  :----: | :----: |
+| Stacked Bar |
+|  :----: |
 | <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="300" height="300"> | 
 - Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases.
-- 
   
  
  
