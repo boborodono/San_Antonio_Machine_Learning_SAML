@@ -138,12 +138,6 @@ We identified that the dataset includes information on children. After discussio
 | Obese(Medium-Risk) | 35 - 40 |
 | Obese(High-Risk) | 40 - 100 |
 
-We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
-- Out of 201 NaNs, 40 had a stroke. That's 20% of the deleted data.
-- Without the NaNs, there are ~200 positive stroke cases, about 4% of the dataset (200/5000)
-- With the NaNs, the positivity rate for all the other categories increases 1%, from 4 to ~5% (250/5000)
-- This gives us significantly more data points to help train the model.
-
 <hr>
 
 ### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
@@ -166,20 +160,31 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 <hr>
 
-## Initial Dataset EDA
+## Initial Dataset Exploratory Data Analysis (EDA)
 | Stroke Dataset Stats | 
 | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
-| Sample Size: 5,109 entries |
+- Sample Size: 5,109 entries
+- 201 NaNs in "BMI" column
+ -   Out of 201 NaNs, 40 had a stroke. **_20%_ of positive stroke data would be a part of the _deleted data_**
+ -   Without "BMI" NaNs, there are ~200 positive stroke cases. **About _4%_ of the total dataset (200/5000)**
+ -   With the NaNs, the positivity rate for all the other categories increases 1%. **From _~4_ -> _~5%_ (250/5000)**
+   -   We included the missing 201 "BMI" NaNs in the EDA
+   -   We filled in the missing 201 "BMI" NaNs in the ML model with the Median "BMI" value.
 
+
+We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
+-
+
+- 
 <hr>
 
 ### Age
 | Histogram  | Stacked Bar |
 | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | 
-- There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. 
-- This shows that a higher proportion of positive stroke cases occur as age increases.
+- There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age 
+- This shows that a higher proportion of positive stroke cases occur as age increases
 
 <hr>
 
@@ -187,8 +192,8 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | 
-- According to the data, significantly more women were admitted for possible cases of a stroke. 
-- The percentage of positive stroke cases is about even between men and women. 
+- According to the data, significantly more women were admitted for possible cases of a stroke
+- The percentage of positive stroke cases is about even between men and women 
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Personal Criteria
@@ -197,7 +202,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | 
-- More instances of stroke were reported among patients that were married at one point in time. 
+- More instances of stroke were reported among patients that were married at one point in time
  
  <hr>
  
@@ -205,7 +210,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
-- "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Govt" organizations.
+- "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations.
  
 <hr>
  
@@ -213,7 +218,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
-- No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences. 
+- No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences
  
 <hr> 
  
@@ -221,7 +226,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png)" width="300" height="300"> | 
-- Most patients never smoked but many patient's smoking history is "Unknown".
+- Most patients never smoked but many patient's smoking history is "Unknown"
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Medical Criteria
@@ -230,8 +235,8 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> | 
-- A majority of patients are "Overweight" or "Obese." 
-- "Overweight" or "Obese" patients have a higher prevalence for developing a stroke.
+- A majority of patients are "Overweight" or "Obese" 
+- "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
 <hr>
 
@@ -239,8 +244,8 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> | 
-- Most patients were in the "Normal" Glucose Level range.
-- Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases.
+- Most patients were in the "Normal" Glucose Level range
+- Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
  <hr>
  
@@ -248,7 +253,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="300" height="300"> | 
-- Patients diagnosed with Hypertension had a a higher prevalence of stroke cases.
+- Patients diagnosed with Hypertension had a a higher prevalence of stroke cases
  
  <hr>
  
@@ -256,7 +261,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="300" height="300"> | 
-- Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases.
+- Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # ERD
