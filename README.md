@@ -111,18 +111,15 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
-# Data Exploration & Preprocessing
-To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
+# Initial Dataset Exploratory Data Analysis (EDA)
 
-## Initial Dataset Exploratory Data Analysis (EDA)
-
-### Stroke Dataset Overview
+## Stroke Dataset Overview
 | Stats | Correlation Heatmap (Numeric) |
 | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> |  <img src="https://user-images.githubusercontent.com/46633669/161368872-17c35bc4-1b35-44fb-aa99-f21755dd7f22.png" width="400" height="400"> |
 | **Shape:** 5,109 rows, 12 columns | **11 Features:** 8 Categorical, 3 Numerical |
 
-### Missing Data
+## Missing Data
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
   - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
@@ -130,9 +127,9 @@ To explore the data we did a general overview using pivot tables to identify any
     - We included the missing 201 "BMI" NaNs in the Initial EDA
     - We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-### Age 📃 [(Datasets)](/Resources/Age_Datasets)
+## Age 📃 [(Datasets)](/Resources/Age_Datasets)
 
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
 - The dataset was split into generational bins for further analysis
@@ -152,34 +149,30 @@ We identified that the dataset includes information on children. After discussio
   - However, positive stroke cases become more common with age 
 - This shows that a higher proportion of positive stroke cases occur as age increases
 
-<td align="right" valign="middle">
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-<hr>
-
-### Gender
+## Gender
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td align="right" valign="middle">2,994</td><td align="right" valign="middle">43.7</td></tr><tr><td>Male</td><td align="right" valign="middle">2,115</td><td align="right" valign="middle">42.5</td></tr></tbody></table> |
 - According to the data, significantly more women were admitted for possible cases of a stroke
 - The percentage of positive stroke cases is about even between men and women 
 
- ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+ <hr>
  
 |Personal Criteria | Medical Criteria |
 |--|--|
 |<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Work Type</td><td align="right" valign="middle">Private</td></tr><tr><td></td><td align="right" valign="middle">Self-Employed</td></tr><tr><td></td><td align="right" valign="middle">Government Job</td></tr><tr><td></td><td align="right" valign="middle">Children</td></tr><tr><td>Residence Type</td><td align="right" valign="middle">Urban Job</td></tr><tr><td></td><td align="right" valign="middle">Rural</td></tr><tr><td>Smoker</td><td align="right" valign="middle">Never</td></tr><tr><td></td><td align="right" valign="middle">Former</td></tr><tr><td></td><td align="right" valign="middle">Current</td></tr><tr><td></td><td align="right" valign="middle">Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td align="right" valign="middle">0-100</td></tr><tr><td>Glucose</td><td align="right" valign="middle">0-125</td></tr><tr><td>Hypertension</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Heart Disease</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr> </table>| 
-
-<hr>
    
- ## Personal Criteria
+ # Personal Criteria
  
- ### Ever Married
+ ## Ever Married
 | Stacked Bar | Stats |
 |  :----: |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Ever Married</th><th></th><th></th></tr></thead><tbody><tr><td>No</td><td align="right" valign="middle">1,756</td><td align="right" valign="middle">22.0</td></tr><tr><td>Yes</td><td align="right" valign="middle">3,353</td><td align="right" valign="middle">54.3</td></tr></tbody></table> |
 - More instances of stroke were reported among patients that were married at one point in time
  
- <hr>
+ ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
  
  ### Work Type
 | Stacked Bar | Stats | 
@@ -187,7 +180,7 @@ We identified that the dataset includes information on children. After discussio
 | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Work Type</th><th></th><th></th></tr></thead><tbody><tr><td>Government</td><td align="right" valign="middle">657</td><td align="right" valign="middle">50.9</td></tr><tr><td>Never Worked</td><td align="right" valign="middle">22</td><td align="right" valign="middle">16.2</td></tr><tr><td>Private</td><td align="right" valign="middle">2,924</td><td align="right" valign="middle">45.5</td></tr><tr><td>Self-Employed</td><td align="right" valign="middle">819</td><td align="right" valign="middle">60.2</td></tr><tr><td>Child-Rearing</td><td align="right" valign="middle">687</td><td align="right" valign="middle">6.8</td></tr></tbody></table> |
 - "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations
  
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
  
  ### Residence Type
 | Stacked Bar | Stats |
@@ -195,7 +188,7 @@ We identified that the dataset includes information on children. After discussio
 | <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Residence Type</th><th></th><th></th></tr></thead><tbody><tr><td>Rural</td><td align="right" valign="middle">2,513</td><td align="right" valign="middle">42.9</td></tr><tr><td>Urban</td><td align="right" valign="middle">2,596</td><td align="right" valign="middle">43.5</td></tr></tbody></table> |
 - No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences
  
-<hr> 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png) 
  
  ### Smoking Status
 | Histogram  | Stacked Bar | Stats |
@@ -203,7 +196,7 @@ We identified that the dataset includes information on children. After discussio
 | <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td align="right" valign="middle">789</td><td align="right" valign="middle">47.1</td></tr><tr><td>Former</td><td align="right" valign="middle">884</td><td align="right" valign="middle">55.0</td></tr><tr><td>Never</td><td align="right" valign="middle">1,892</td><td align="right" valign="middle">46.7</td></tr><tr><td>Unknown</td><td align="right" valign="middle">1,544</td><td align="right" valign="middle">30.2</td></tr></tbody></table> |
 - Most patients never smoked but many patient's smoking history is "Unknown"
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+<hr>
  
  ## Medical Criteria
     
@@ -218,8 +211,6 @@ We identified that the dataset includes information on children. After discussio
 | Obese(Low-Risk) | 30 - 35 | 
 | Obese(Medium-Risk) | 35 - 40 |
 | Obese(High-Risk) | 40 - 100 |
-
-<hr>
    
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
@@ -227,7 +218,7 @@ We identified that the dataset includes information on children. After discussio
 - A majority of patients are "Overweight" or "Obese" 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
  ### Average Glucose Levels (AGL) 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
@@ -238,8 +229,6 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Normal | 0 - 100 | 
 | Prediabetic | 100 - 125 | 
 | Diabetic | >125 |
-
-<hr>
    
 | Histogram  | Stacked Bar | Stats | 
 | :----: | :----: | :----: | 
@@ -247,7 +236,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
- <hr>
+ ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
     
  ### Hypertension
 | Stacked Bar |
@@ -255,7 +244,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="400" height="400"> | 
 - Patients diagnosed with Hypertension had a a higher prevalence of stroke cases
  
-  <hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
  
  ### Heart Disease
 | Stacked Bar |
