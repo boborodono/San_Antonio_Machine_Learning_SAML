@@ -204,9 +204,9 @@ We chose to separate the data based on glucose levels as well. This included bre
  <hr>
  
  ### Work Type
-| Stacked Bar | Stats | TEST |
-|  :----: |  :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365361-a0bb517a-7ad9-441d-abe4-de9722f5322f.png" width="300" height="300"> |<table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Work Type</th><th></th><th></th></tr></thead><tbody><tr><td>Government</td><td>657</td><td>50.9</td></tr><tr><td>Never Worked</td><td>22</td><td>16.2</td></tr><tr><td>Private</td><td>2,924</td><td>45.5</td></tr><tr><td>Self-Employed</td><td>819</td><td>60.2</td></tr><tr><td>Child-Rearing</td><td>687</td><td>6.8</td></tr></tbody></table> |
+| Stacked Bar | Stats | 
+|  :----: |  :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Work Type</th><th></th><th></th></tr></thead><tbody><tr><td>Government</td><td>657</td><td>50.9</td></tr><tr><td>Never Worked</td><td>22</td><td>16.2</td></tr><tr><td>Private</td><td>2,924</td><td>45.5</td></tr><tr><td>Self-Employed</td><td>819</td><td>60.2</td></tr><tr><td>Child-Rearing</td><td>687</td><td>6.8</td></tr></tbody></table> |
 - "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations
  
 <hr>
@@ -220,27 +220,27 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr> 
  
  ### Smoking Status
-| Histogram  | Stacked Bar | Stats | TEST |
-| :----: | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365366-201b0731-9391-4cc7-92ae-c119ca5d773f.png" width="300" height="300"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td>789</td><td>47.1</td></tr><tr><td>Former</td><td>884</td><td>55.0</td></tr><tr><td>Never</td><td>1,892</td><td>46.7</td></tr><tr><td>Unknown</td><td>1,544</td><td>30.2</td></tr></tbody></table> |
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td>789</td><td>47.1</td></tr><tr><td>Former</td><td>884</td><td>55.0</td></tr><tr><td>Never</td><td>1,892</td><td>46.7</td></tr><tr><td>Unknown</td><td>1,544</td><td>30.2</td></tr></tbody></table> |
 - Most patients never smoked but many patient's smoking history is "Unknown"
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Medical Criteria
  
  ### BMI
-| Histogram  | Stacked Bar | Stats | TEST |
-| :----: | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365374-57fe3df6-11db-4be1-9c61-8fec66d579af.png" width="300" height="300"> | <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td>4,908</td></tr><tr><td>mean</td><td>28.9</td></tr><tr><td>std</td><td>7.8</td></tr><tr><td>min</td><td>10.3</td></tr><tr><td>25%</td><td>23.5</td></tr><tr><td>50%</td><td>28.1</td></tr><tr><td>75%</td><td>33.1</td></tr><tr><td>max</td><td>97.6</td></tr></tbody></table> |
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> |  <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td>4,908</td></tr><tr><td>mean</td><td>28.9</td></tr><tr><td>std</td><td>7.8</td></tr><tr><td>min</td><td>10.3</td></tr><tr><td>25%</td><td>23.5</td></tr><tr><td>50%</td><td>28.1</td></tr><tr><td>75%</td><td>33.1</td></tr><tr><td>max</td><td>97.6</td></tr></tbody></table> |
 - A majority of patients are "Overweight" or "Obese" 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
 <hr>
 
  ### Glucose Levels
-| Histogram  | Stacked Bar | Stats |  |
-| :----: | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365383-a6a3001e-efb7-4adf-9660-aa39e6f3c2e9.png" width="300" height="300"> | <table><thead><tr><th></th><th>Avg Glucose Lvl</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>106.1</td></tr><tr><td>std</td><td>45.3</td></tr><tr><td>min</td><td>55.1</td></tr><tr><td>25%</td><td>77.2</td></tr><tr><td>50%</td><td>91.9</td></tr><tr><td>75%</td><td>114.1</td></tr><tr><td>max</td><td>271.7</td></tr></tbody></table> |
+| Histogram  | Stacked Bar | Stats | 
+| :----: | :----: | :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Avg Glucose Lvl</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>106.1</td></tr><tr><td>std</td><td>45.3</td></tr><tr><td>min</td><td>55.1</td></tr><tr><td>25%</td><td>77.2</td></tr><tr><td>50%</td><td>91.9</td></tr><tr><td>75%</td><td>114.1</td></tr><tr><td>max</td><td>271.7</td></tr></tbody></table> |
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
