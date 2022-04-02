@@ -44,6 +44,7 @@
 - [Data Analysis](#data-analysis)
 - [Communication Protocols](#communication-protocols)
 - [Authors](#authors)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # Tech Stack
@@ -96,16 +97,19 @@ The goal of this project is to create a predictive analysis from stroke patient 
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
 3. Can we link stroke risk to any specific factor using our machine learning model?
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # Data Source
 The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) includes 5110 observations with 11 attributes. These attributes include medical and personal aspects of the patient such as age, average glucose level, BMI, marital status, and if the patient lives in a rural or urban area.
 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [Healthcare Hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # Project Outline
 ![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # Data Exploration & Preprocessing
@@ -231,7 +235,7 @@ We identified that the dataset includes information on children. After discussio
 - The dataset was split into generational bins for further analysis
 
 | Generation | Age Range | 
-| :-------- | :------- |
+| :-------- | -------: |
 | Gen Z | 0 - 20 | 
 | Millenial | 20 - 40 | 
 | Gen X | 40 - 60 | 
@@ -244,7 +248,7 @@ We identified that the dataset includes information on children. After discussio
 - The dataset was split into BMI Class bins for further analysis
 
 | BMI Class | BMI Range | 
-| :-------- | :------- |
+| :-------- | -------: |
 | Underweight | 0 - 18.5 | 
 | Healthy Weight | 18.5 - 25 | 
 | Overweight | 25 - 30 | 
@@ -259,7 +263,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 - The dataset was split Glucose Level Class bins for further analysis
 
 | Glucose Level Class | Glucose Range | 
-| :-------- | :------- |
+| :-------- | -------: |
 | Normal | 0 - 100 | 
 | Prediabetic | 100 - 125 | 
 | Diabetic | >125 |
