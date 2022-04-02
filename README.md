@@ -197,7 +197,7 @@ To explore the data we did a general overview using pivot tables to identify any
 
  ### Average Glucose Levels (AGL)
    
- <center>
+ 
    
 | Histogram  | Stacked Bar | Stats | 
 | :----: | :----: | :----: | 
@@ -205,15 +205,17 @@ To explore the data we did a general overview using pivot tables to identify any
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
- </center><hr>
- 
+ <hr>
+   
+ <center>
+    
  ### Hypertension
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="400" height="400"> | 
 - Patients diagnosed with Hypertension had a a higher prevalence of stroke cases
  
- <hr>
+ </center><hr>
  
  ### Heart Disease
 | Stacked Bar |
