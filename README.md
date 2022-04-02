@@ -176,9 +176,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Age
-| Histogram  | Stacked Bar |
-| :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | 
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161365227-4ec22d0d-fe7d-4257-b1aa-52780eb1fbb1.png" width="300" height="300"> | 
 - There are more possible stroke cases from 0 - 60 years old 
   - However, positive stroke cases become more common with age 
 - This shows that a higher proportion of positive stroke cases occur as age increases
@@ -186,9 +186,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 <hr>
 
 ### Gender
-| Histogram | Stacked Bar |
-|  :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | 
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | <img src="" width="300" height="300"> |
 - According to the data, significantly more women were admitted for possible cases of a stroke
 - The percentage of positive stroke cases is about even between men and women 
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
@@ -196,51 +196,51 @@ We chose to separate the data based on glucose levels as well. This included bre
  ## Personal Criteria
  
  ### Ever Married
-| Stacked Bar |
-|  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | 
+| Stacked Bar | Stats |
+|  :----: |  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365357-851e221e-2fa0-43ef-9f4f-a8cad050d193.png" width="300" height="300"> |
 - More instances of stroke were reported among patients that were married at one point in time
  
  <hr>
  
  ### Work Type
-| Stacked Bar |
-|  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
+| Stacked Bar | Stats |
+|  :----: |  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365361-a0bb517a-7ad9-441d-abe4-de9722f5322f.png" width="300" height="300"> |
 - "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations
  
 <hr>
  
  ### Residence Type
-| Stacked Bar |
-|  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
+| Stacked Bar | Stats |
+|  :----: |  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> |  <img src="" width="300" height="300"> |
 - No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences
  
 <hr> 
  
  ### Smoking Status
-| Histogram | Stacked Bar |
-|  :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="300" height="300"> | 
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365366-201b0731-9391-4cc7-92ae-c119ca5d773f.png" width="300" height="300"> |
 - Most patients never smoked but many patient's smoking history is "Unknown"
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Medical Criteria
  
  ### BMI
-| Histogram | Stacked Bar |
-|  :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> | 
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365374-57fe3df6-11db-4be1-9c61-8fec66d579af.png" width="300" height="300"> |
 - A majority of patients are "Overweight" or "Obese" 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
 <hr>
 
  ### Glucose Levels
-| Histogram | Stacked Bar |
-|  :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> | 
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> |  <img src="https://user-images.githubusercontent.com/46633669/161365383-a6a3001e-efb7-4adf-9660-aa39e6f3c2e9.png" width="300" height="300"> |
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
