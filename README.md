@@ -22,6 +22,7 @@
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Table of Contents
 
 - [Presentation & Dashboard](#presentation--dashboard)
@@ -43,8 +44,8 @@
 - [Data Analysis](#data-analysis)
 - [Communication Protocols](#communication-protocols)
 - [Authors](#authors)
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Tech Stack
 <!-- Badges -->
 <p align="center">  
@@ -79,7 +80,6 @@
 
 [SAML Dashboard(Tableau Public)](https://public.tableau.com/app/profile/katie.hopkins/viz/SAML-StrokeData/MedicalDashboard)<br/>
 
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
 # Topic
@@ -96,18 +96,18 @@ The goal of this project is to create a predictive analysis from stroke patient 
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
 3. Can we link stroke risk to any specific factor using our machine learning model?
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Data Source
 The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) includes 5110 observations with 11 attributes. These attributes include medical and personal aspects of the patient such as age, average glucose level, BMI, marital status, and if the patient lives in a rural or urban area.
 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [Healthcare Hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Project Outline
 ![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Data Exploration & Preprocessing
 To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
 
@@ -172,6 +172,8 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
 | Sample Size: 5,109 entries |
 
+<hr>
+
 ### Age
 | Histogram  | Stacked Bar |
 | :----: | :----: |
@@ -179,12 +181,15 @@ We chose to separate the data based on glucose levels as well. This included bre
 - There are more possible stroke cases from 0 - 60 years old. However, positive stroke cases are more prevalent with age. 
 - This shows that a higher proportion of positive stroke cases occur as age increases.
 
+<hr>
+
 ### Gender
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="300" height="300"> | 
 - According to the data, significantly more women were admitted for possible cases of a stroke. 
 - The percentage of positive stroke cases is about even between men and women. 
+ ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Personal Criteria
  
@@ -194,11 +199,15 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | 
 - More instances of stroke were reported among patients that were married at one point in time. 
  
+ <hr>
+ 
  ### Work Type
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
 - "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Govt" organizations.
+ 
+<hr>
  
  ### Residence Type
 | Stacked Bar |
@@ -206,11 +215,14 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
 - No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences. 
  
+<hr> 
+ 
  ### Smoking Status
 | Histogram | Stacked Bar |
 |  :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png)" width="300" height="300"> | 
 - Most patients never smoked but many patient's smoking history is "Unknown".
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Medical Criteria
  
@@ -220,7 +232,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> | 
 - A majority of patients are "Overweight" or "Obese." 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke.
- 
+
+<hr>
+
  ### Glucose Levels
 | Histogram | Stacked Bar |
 |  :----: | :----: |
@@ -228,19 +242,23 @@ We chose to separate the data based on glucose levels as well. This included bre
 - Most patients were in the "Normal" Glucose Level range.
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases.
  
+ <hr>
+ 
  ### Hypertension
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="300" height="300"> | 
 - Patients diagnosed with Hypertension had a a higher prevalence of stroke cases.
  
+ <hr>
+ 
  ### Heart Disease
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="300" height="300"> | 
 - Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases.
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # ERD
 <img width="1123" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
 
