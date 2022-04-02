@@ -166,11 +166,11 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="200" height="200"> |
 - Sample Size: 5,109 entries
 - 201 NaNs in "BMI" column
-  - 40 NaNs had a stroke. **(_20%_ of positive stroke data would be a part of the _deleted data_)**
-  - Excluding "BMI" NaNs, there are ~200 positive stroke cases. **(About _4%_ of the total dataset [200/5000])**
-  - With NaNs, the stroke positivity rate for the entire dataset increases 1%. **(From _~4_ -> _~5%_ [250/5000])**
+  - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
+  - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
+  - With NaNs, the stroke positivity rate for the entire dataset increases 1% **(From _~4_ -> _~5%_ [250/5000])**
     - We included the missing 201 "BMI" NaNs in the Initial EDA
-    - We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value.
+    - We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value
 
 <hr>
 
@@ -178,7 +178,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Histogram  | Stacked Bar |
 | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> | 
-- There are more possible stroke cases from 0 - 60 years old. 
+- There are more possible stroke cases from 0 - 60 years old 
   - However, positive stroke cases become more common with age 
 - This shows that a higher proportion of positive stroke cases occur as age increases
 
@@ -206,7 +206,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Stacked Bar |
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
-- "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations.
+- "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations
  
 <hr>
  
