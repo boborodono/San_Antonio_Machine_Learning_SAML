@@ -274,11 +274,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 |Personal Criteria | Medical Criteria |
 |--|--|
-|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr><td>Smoker</td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td>0-100</td></tr><tr><td>Glucose</td><td>0-125</td></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>| 
+|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Work Type</td><td align="right" valign="middle">Private</td></tr><tr><td></td><td align="right" valign="middle">Self-Employed</td></tr><tr><td></td><td align="right" valign="middle">Government Job</td></tr><tr><td></td><td align="right" valign="middle">Children</td></tr><tr><td>Residence Type</td><td align="right" valign="middle">Urban Job</td></tr><tr><td></td><td align="right" valign="middle">Rural</td></tr><tr><td>Smoker</td><td align="right" valign="middle">Never</td></tr><tr><td></td><td align="right" valign="middle">Former</td></tr><tr><td></td><td align="right" valign="middle">Current</td></tr><tr><td></td><td align="right" valign="middle">Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td align="right" valign="middle">0-100</td></tr><tr><td>Glucose</td><td align="right" valign="middle">0-125</td></tr><tr><td>Hypertension</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Heart Disease</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr> </table>| 
 
 <hr>
-
-
 
 # ERD
 <img width="1123" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
