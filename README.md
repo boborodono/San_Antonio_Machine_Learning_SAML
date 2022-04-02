@@ -114,10 +114,12 @@ To explore the data we did a general overview using pivot tables to identify any
 ## Initial Dataset Exploratory Data Analysis (EDA)
 
 ### Stroke Dataset Overview
-<center>| Numerical Correlation Heatmap | **Stats** | 
+<center>
+| Numerical Correlation Heatmap | **Stats** | 
 | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161368872-17c35bc4-1b35-44fb-aa99-f21755dd7f22.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> | 
-| **11 Features:** 8 Categorical, 3 Numerical | **Shape:** 5,109 rows, 12 columns | </center>
+| **11 Features:** 8 Categorical, 3 Numerical | **Shape:** 5,109 rows, 12 columns | 
+</center>
 ### Missing Data
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
