@@ -196,13 +196,16 @@ To explore the data we did a general overview using pivot tables to identify any
 <hr>
 
  ### Average Glucose Levels (AGL)
+   
+ <center>
+   
 | Histogram  | Stacked Bar | Stats | 
 | :----: | :----: | :----: | 
 | <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="400" height="400"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="400" height="400"> |  <table><thead><tr><th></th><th>AGL(mg/dL)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">106.1</td></tr><tr><td>std</td><td align="right" valign="middle">45.3</td></tr><tr><td>min</td><td align="right" valign="middle">55.1</td></tr><tr><td>25%</td><td align="right" valign="middle">77.2</td></tr><tr><td>50%</td><td align="right" valign="middle">91.9</td></tr><tr><td>75%</td><td align="right" valign="middle">114.1</td></tr><tr><td>max</td><td align="right" valign="middle">271.7</td></tr></tbody></table> |
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
- <hr>
+ </center><hr>
  
  ### Hypertension
 | Stacked Bar |
