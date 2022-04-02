@@ -178,7 +178,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 ### Age
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="300" height="300"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>43.2</td></tr><tr><td>std</td><td>22.6</td></tr><tr><td>min</td><td>0.0</td></tr><tr><td>25%</td><td>25.0</td></tr><tr><td>50%</td><td>45.0</td></tr><tr><td>75%</td><td>61.0</td></tr><tr><td>max</td><td>82.0</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>43.2</td></tr><tr><td>std</td><td>22.6</td></tr><tr><td>min</td><td>0.0</td></tr><tr><td>25%</td><td>25.0</td></tr><tr><td>50%</td><td>45.0</td></tr><tr><td>75%</td><td>61.0</td></tr><tr><td>max</td><td>82.0</td></tr></tbody></table> |
 - There are more possible stroke cases from 0 - 60 years old 
   - However, positive stroke cases become more common with age 
 - This shows that a higher proportion of positive stroke cases occur as age increases
