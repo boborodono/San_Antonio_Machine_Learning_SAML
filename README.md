@@ -111,61 +111,15 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 # Data Exploration & Preprocessing
 To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
 
-### Age 📃 [(Datasets)](/Resources/Age_Datasets)
-
-We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
-- The dataset was split into generational bins for further analysis
-
-| Generation | Age Range | 
-| :-------- | :------- |
-| Gen Z | 0 - 20 | 
-| Millenial | 20 - 40 | 
-| Gen X | 40 - 60 | 
-| Boomer | 60 - 80 | 
-| Greatest Gen | 80 - 100 | 
-
-<hr>
-
-### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
-- The dataset was split into BMI Class bins for further analysis
-
-| BMI Class | BMI Range | 
-| :-------- | :------- |
-| Underweight | 0 - 18.5 | 
-| Healthy Weight | 18.5 - 25 | 
-| Overweight | 25 - 30 | 
-| Obese(Low-Risk) | 30 - 35 | 
-| Obese(Medium-Risk) | 35 - 40 |
-| Obese(High-Risk) | 40 - 100 |
-
-<hr>
-
-### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
-We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
-- The dataset was split Glucose Level Class bins for further analysis
-
-| Glucose Level Class | Glucose Range | 
-| :-------- | :------- |
-| Normal | 0 - 100 | 
-| Prediabetic | 100 - 125 | 
-| Diabetic | >125 |
-
-<hr>
-
-### Categorical Metrics
-
-|Personal Criteria | Medical Criteria |
-|--|--|
-|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr><td>Smoker</td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td>0-100</td></tr><tr><td>Glucose</td><td>0-125</td></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>| 
-
-<hr>
-
 ## Initial Dataset Exploratory Data Analysis (EDA)
+
+### Overview
 | Stroke Dataset Stats | Numerical Correlation Heatmap | 
 | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161368872-17c35bc4-1b35-44fb-aa99-f21755dd7f22.png" width="400" height="400">  |
-- Shape: 5,109 rows, 12 columns
-- 11 Features: 8 Categorical, 3 Numerical
+| Shape: 5,109 rows, 12 columns | 11 Features: 8 Categorical, 3 Numerical |
+
+### Missing Data
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
   - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
@@ -263,6 +217,57 @@ We chose to separate the data based on glucose levels as well. This included bre
 - Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
+### Age 📃 [(Datasets)](/Resources/Age_Datasets)
+
+We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
+- The dataset was split into generational bins for further analysis
+
+| Generation | Age Range | 
+| :-------- | :------- |
+| Gen Z | 0 - 20 | 
+| Millenial | 20 - 40 | 
+| Gen X | 40 - 60 | 
+| Boomer | 60 - 80 | 
+| Greatest Gen | 80 - 100 | 
+
+<hr>
+
+### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
+- The dataset was split into BMI Class bins for further analysis
+
+| BMI Class | BMI Range | 
+| :-------- | :------- |
+| Underweight | 0 - 18.5 | 
+| Healthy Weight | 18.5 - 25 | 
+| Overweight | 25 - 30 | 
+| Obese(Low-Risk) | 30 - 35 | 
+| Obese(Medium-Risk) | 35 - 40 |
+| Obese(High-Risk) | 40 - 100 |
+
+<hr>
+
+### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
+We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
+- The dataset was split Glucose Level Class bins for further analysis
+
+| Glucose Level Class | Glucose Range | 
+| :-------- | :------- |
+| Normal | 0 - 100 | 
+| Prediabetic | 100 - 125 | 
+| Diabetic | >125 |
+
+<hr>
+
+### Categorical Metrics
+
+|Personal Criteria | Medical Criteria |
+|--|--|
+|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr><td>Smoker</td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td>0-100</td></tr><tr><td>Glucose</td><td>0-125</td></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>| 
+
+<hr>
+
+
 
 # ERD
 <img width="1123" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
