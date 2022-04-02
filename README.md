@@ -119,7 +119,7 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> |  <img src="https://user-images.githubusercontent.com/46633669/161368872-17c35bc4-1b35-44fb-aa99-f21755dd7f22.png" width="400" height="400"> |
 | **Shape:** 5,109 rows, 12 columns | **11 Features:** 8 Categorical, 3 Numerical |
 
-## Missing Data
+### Missing Data
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
   - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
@@ -128,8 +128,9 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
     - We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+## Demographics
 
-## Age 📃 [(Datasets)](/Resources/Age_Datasets)
+### Age 📃 [(Datasets)](/Resources/Age_Datasets)
 
 We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
 - The dataset was split into generational bins for further analysis
@@ -151,7 +152,7 @@ We identified that the dataset includes information on children. After discussio
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-## Gender
+### Gender
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td align="right" valign="middle">2,994</td><td align="right" valign="middle">43.7</td></tr><tr><td>Male</td><td align="right" valign="middle">2,115</td><td align="right" valign="middle">42.5</td></tr></tbody></table> |
@@ -164,9 +165,9 @@ We identified that the dataset includes information on children. After discussio
 |--|--|
 |<table> <tr><th>Category</th><th>Indicator</th></tr><tr><td>Ever Married</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Work Type</td><td align="right" valign="middle">Private</td></tr><tr><td></td><td align="right" valign="middle">Self-Employed</td></tr><tr><td></td><td align="right" valign="middle">Government Job</td></tr><tr><td></td><td align="right" valign="middle">Children</td></tr><tr><td>Residence Type</td><td align="right" valign="middle">Urban Job</td></tr><tr><td></td><td align="right" valign="middle">Rural</td></tr><tr><td>Smoker</td><td align="right" valign="middle">Never</td></tr><tr><td></td><td align="right" valign="middle">Former</td></tr><tr><td></td><td align="right" valign="middle">Current</td></tr><tr><td></td><td align="right" valign="middle">Unknown</td></tr> </table>|<table> <tr><th>Category</th><th>Indicator</th></tr><tr><td>BMI</td><td align="right" valign="middle">0-100</td></tr><tr><td>Glucose</td><td align="right" valign="middle">0-125</td></tr><tr><td>Hypertension</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Heart Disease</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr> </table>| 
    
- # Personal Indicator
+ ## Personal Indicators
  
- ## Ever Married
+ ### Ever Married
 | Stacked Bar | Stats |
 |  :----: |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Ever Married</th><th></th><th></th></tr></thead><tbody><tr><td>No</td><td align="right" valign="middle">1,756</td><td align="right" valign="middle">22.0</td></tr><tr><td>Yes</td><td align="right" valign="middle">3,353</td><td align="right" valign="middle">54.3</td></tr></tbody></table> |
@@ -198,7 +199,7 @@ We identified that the dataset includes information on children. After discussio
 
 <hr>
  
- ## Medical Criteria
+ ## Medical Indicators
     
 ### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 - The dataset was split into BMI Class bins for further analysis
