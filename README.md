@@ -96,7 +96,6 @@ The goal of this project is to create a predictive analysis from stroke patient 
 **We hope to answer:**
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
-3. Can we link stroke risk to any specific factor using our machine learning model?
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
@@ -127,7 +126,7 @@ To explore the data we did a general overview using pivot tables to identify any
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
   - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
-  - With NaNs, the stroke positivity rate for the entire dataset increases 1% **(From _~4_ -> _~5%_ [250/5000])**
+  - With NaNs, the stroke positivity rate for the entire dataset increases 1% **(From _~4_ to _~5%_ [250/5000])**
     - We included the missing 201 "BMI" NaNs in the Initial EDA
     - We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value
 
@@ -145,8 +144,6 @@ We identified that the dataset includes information on children. After discussio
 | Gen X | 40 - 60 | 
 | Boomer | 60 - 80 | 
 | Greatest Gen | 80 - 100 | 
-
-<hr>
 
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
