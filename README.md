@@ -197,13 +197,13 @@ We chose to separate the data based on glucose levels as well. This included bre
  ### Work Type
 | Stacked Bar |
 |  :----: |
-| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
 - "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Govt" organizations.
  
  ### Residence Type
 | Stacked Bar |
 |  :----: |
-| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
 - No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences. 
  
  ### Smoking Status
@@ -231,13 +231,13 @@ We chose to separate the data based on glucose levels as well. This included bre
  ### Hypertension
 | Stacked Bar |
 |  :----: |
-| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="300" height="300"> | 
 - Patients diagnosed with Hypertension had a a higher prevalence of stroke cases.
  
  ### Heart Disease
 | Stacked Bar |
 |  :----: |
-| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="300" height="300"> | 
 - Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases.
   
  
