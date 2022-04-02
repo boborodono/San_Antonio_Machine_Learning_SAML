@@ -111,7 +111,7 @@ The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
-# Initial Dataset Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 ## Stroke Dataset Overview
 | Stats | Correlation Heatmap (Numeric) |
