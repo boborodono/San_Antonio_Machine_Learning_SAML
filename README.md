@@ -132,7 +132,7 @@ To explore the data we did a general overview using pivot tables to identify any
 ### Age
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td>43.2</td></tr><tr><td>std</td><td>22.6</td></tr><tr><td>min</td><td>0.0</td></tr><tr><td>25%</td><td>25.0</td></tr><tr><td>50%</td><td>45.0</td></tr><tr><td>75%</td><td>61.0</td></tr><tr><td>max</td><td>82.0</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">43.2</td></tr><tr><td>std</td><td align="right" valign="middle">22.6</td></tr><tr><td>min</td><td align="right" valign="middle">0.0</td></tr><tr><td>25%</td><td align="right" valign="middle">25.0</td></tr><tr><td>50%</td><td align="right" valign="middle">45.0</td></tr><tr><td>75%</td><td align="right" valign="middle">61.0</td></tr><tr><td>max</td><td align="right" valign="middle">82.0</td></tr></tbody></table> |
 - There are more possible stroke cases from 0 - 60 years old 
   - However, positive stroke cases become more common with age 
 - This shows that a higher proportion of positive stroke cases occur as age increases
@@ -144,7 +144,7 @@ To explore the data we did a general overview using pivot tables to identify any
 ### Gender
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td>2,994</td><td>43.7</td></tr><tr><td>Male</td><td>2,115</td><td>42.5</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td align="right" valign="middle">2,994</td><td align="right" valign="middle">43.7</td></tr><tr><td>Male</td><td align="right" valign="middle">2,115</td><td align="right" valign="middle">42.5</td></tr></tbody></table> |
 - According to the data, significantly more women were admitted for possible cases of a stroke
 - The percentage of positive stroke cases is about even between men and women 
 
@@ -155,7 +155,7 @@ To explore the data we did a general overview using pivot tables to identify any
  ### Ever Married
 | Stacked Bar | Stats |
 |  :----: |  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Ever Married</th><th></th><th></th></tr></thead><tbody><tr><td>No</td><td>1,756</td><td>22.0</td></tr><tr><td>Yes</td><td>3,353</td><td>54.3</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Ever Married</th><th></th><th></th></tr></thead><tbody><tr><td>No</td><td align="right" valign="middle">1,756</td><td align="right" valign="middle">22.0</td></tr><tr><td>Yes</td><td align="right" valign="middle">3,353</td><td align="right" valign="middle">54.3</td></tr></tbody></table> |
 - More instances of stroke were reported among patients that were married at one point in time
  
  <hr>
@@ -163,7 +163,7 @@ To explore the data we did a general overview using pivot tables to identify any
  ### Work Type
 | Stacked Bar | Stats | 
 |  :----: |  :----: | 
-| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Work Type</th><th></th><th></th></tr></thead><tbody><tr><td>Government</td><td>657</td><td>50.9</td></tr><tr><td>Never Worked</td><td>22</td><td>16.2</td></tr><tr><td>Private</td><td>2,924</td><td>45.5</td></tr><tr><td>Self-Employed</td><td>819</td><td>60.2</td></tr><tr><td>Child-Rearing</td><td>687</td><td>6.8</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Work Type</th><th></th><th></th></tr></thead><tbody><tr><td>Government</td><td align="right" valign="middle">657</td><td align="right" valign="middle">50.9</td></tr><tr><td>Never Worked</td><td align="right" valign="middle">22</td><td align="right" valign="middle">16.2</td></tr><tr><td>Private</td><td align="right" valign="middle">2,924</td><td align="right" valign="middle">45.5</td></tr><tr><td>Self-Employed</td><td align="right" valign="middle">819</td><td align="right" valign="middle">60.2</td></tr><tr><td>Child-Rearing</td><td align="right" valign="middle">687</td><td align="right" valign="middle">6.8</td></tr></tbody></table> |
 - "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations
  
 <hr>
@@ -171,7 +171,7 @@ To explore the data we did a general overview using pivot tables to identify any
  ### Residence Type
 | Stacked Bar | Stats |
 |  :----: |  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Residence Type</th><th></th><th></th></tr></thead><tbody><tr><td>Rural</td><td>2,513</td><td>42.9</td></tr><tr><td>Urban</td><td>2,596</td><td>43.5</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Residence Type</th><th></th><th></th></tr></thead><tbody><tr><td>Rural</td><td align="right" valign="middle">2,513</td><td align="right" valign="middle">42.9</td></tr><tr><td>Urban</td><td align="right" valign="middle">2,596</td><td align="right" valign="middle">43.5</td></tr></tbody></table> |
 - No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences
  
 <hr> 
@@ -179,7 +179,7 @@ To explore the data we did a general overview using pivot tables to identify any
  ### Smoking Status
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: | 
-| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td>789</td><td>47.1</td></tr><tr><td>Former</td><td>884</td><td>55.0</td></tr><tr><td>Never</td><td>1,892</td><td>46.7</td></tr><tr><td>Unknown</td><td>1,544</td><td>30.2</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td align="right" valign="middle">789</td><td align="right" valign="middle">47.1</td></tr><tr><td>Former</td><td align="right" valign="middle">884</td><td align="right" valign="middle">55.0</td></tr><tr><td>Never</td><td align="right" valign="middle">1,892</td><td align="right" valign="middle">46.7</td></tr><tr><td>Unknown</td><td align="right" valign="middle">1,544</td><td align="right" valign="middle">30.2</td></tr></tbody></table> |
 - Most patients never smoked but many patient's smoking history is "Unknown"
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
@@ -189,7 +189,7 @@ To explore the data we did a general overview using pivot tables to identify any
  ### BMI
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="400" height="400"> |  <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td>4,908</td></tr><tr><td>mean</td><td>28.9</td></tr><tr><td>std</td><td>7.8</td></tr><tr><td>min</td><td>10.3</td></tr><tr><td>25%</td><td>23.5</td></tr><tr><td>50%</td><td>28.1</td></tr><tr><td>75%</td><td>33.1</td></tr><tr><td>max</td><td>97.6</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="400" height="400"> |  <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">4,908</td></tr><tr><td>mean</td><td align="right" valign="middle">28.9</td></tr><tr><td>std</td><td align="right" valign="middle">7.8</td></tr><tr><td>min</td><td align="right" valign="middle">10.3</td></tr><tr><td>25%</td><td align="right" valign="middle">23.5</td></tr><tr><td>50%</td><td align="right" valign="middle">28.1</td></tr><tr><td>75%</td><td align="right" valign="middle">33.1</td></tr><tr><td>max</td><td align="right" valign="middle">97.6</td></tr></tbody></table> |
 - A majority of patients are "Overweight" or "Obese" 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
@@ -198,7 +198,7 @@ To explore the data we did a general overview using pivot tables to identify any
  ### Average Glucose Levels (AGL)
 | Histogram  | Stacked Bar | Stats | 
 | :----: | :----: | :----: | 
-| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="400" height="400"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="400" height="400"> |  <table><thead><tr><th></th><th>AGL(mg/dL)</th></tr></thead><tbody><tr><td>count</td><td>5,109</td></tr><tr><td>mean</td><td>106.1</td></tr><tr><td>std</td><td>45.3</td></tr><tr><td>min</td><td>55.1</td></tr><tr><td>25%</td><td>77.2</td></tr><tr><td>50%</td><td>91.9</td></tr><tr><td>75%</td><td>114.1</td></tr><tr><td>max</td><td>271.7</td></tr></tbody></table> |
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="400" height="400"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="400" height="400"> |  <table><thead><tr><th></th><th>AGL(mg/dL)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">106.1</td></tr><tr><td>std</td><td align="right" valign="middle">45.3</td></tr><tr><td>min</td><td align="right" valign="middle">55.1</td></tr><tr><td>25%</td><td align="right" valign="middle">77.2</td></tr><tr><td>50%</td><td align="right" valign="middle">91.9</td></tr><tr><td>75%</td><td align="right" valign="middle">114.1</td></tr><tr><td>max</td><td align="right" valign="middle">271.7</td></tr></tbody></table> |
 - Most patients were in the "Normal" Glucose Level range
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
  
