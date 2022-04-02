@@ -191,6 +191,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td>2,994</td><td>43.7</td></tr><tr><td>Male</td><td>2,115</td><td>42.5</td></tr></tbody></table> |
 - According to the data, significantly more women were admitted for possible cases of a stroke
 - The percentage of positive stroke cases is about even between men and women 
+
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Personal Criteria
@@ -224,6 +225,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | :----: | :----: | :----: | 
 | <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td>789</td><td>47.1</td></tr><tr><td>Former</td><td>884</td><td>55.0</td></tr><tr><td>Never</td><td>1,892</td><td>46.7</td></tr><tr><td>Unknown</td><td>1,544</td><td>30.2</td></tr></tbody></table> |
 - Most patients never smoked but many patient's smoking history is "Unknown"
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Medical Criteria
@@ -259,6 +261,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 |  :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="400" height="400"> | 
 - Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # ERD
