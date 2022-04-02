@@ -191,28 +191,28 @@ We chose to separate the data based on glucose levels as well. This included bre
  ### Ever Married
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="300" height="300"> | 
 - 
 - 
  
  ### Work Type
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="300" height="300"> | 
 - 
 - 
  
  ### Residence Type
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="300" height="300"> | 
 - 
 - 
  
  ### Smoking Status
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png)" width="300" height="300"> | 
 - 
 - 
  
@@ -221,28 +221,28 @@ We chose to separate the data based on glucose levels as well. This included bre
  ### BMI
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="300" height="300"> | 
 - A majority of patients are "Overweight" or "Obese." 
 - "Overweight" or "Obese" patients have a higher prevalence for developing a stroke.
  
  ### Glucose Levels
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="300" height="300"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="300" height="300"> | 
 - Most patients were in the "Normal" Glucose Level range.
 - Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases.
  
  ### Hypertension
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="300" height="300"> | 
 - Patients diagnosed with Hypertension had a a higher prevalence of stroke cases.
 - 
  
  ### Heart Disease
 | Histogram | Stacked Bar |
 |  :----: | :----: |
-| <img src="" width="300" height="300"> | <img src="" width="300" height="300"> | 
+| <img src="" width="300" height="300"> | <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="300" height="300"> | 
 - Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases.
 - 
   
