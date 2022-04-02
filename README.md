@@ -165,7 +165,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> |
 - Sample Size: 5,109 rows
-- 12 Features: 8 Categorical, 4 Numerical
+- 11 Features: 8 Categorical, 3 Numerical
 - 201 NaNs in "BMI" column
   - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
   - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
