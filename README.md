@@ -133,7 +133,21 @@ To explore the data we did a general overview using pivot tables to identify any
 
 <hr>
 
-### Age
+### Age 📃 [(Datasets)](/Resources/Age_Datasets)
+
+We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
+- The dataset was split into generational bins for further analysis
+
+| Generation | Age Range | 
+| :-------- | -------: |
+| Gen Z | 0 - 20 | 
+| Millenial | 20 - 40 | 
+| Gen X | 40 - 60 | 
+| Boomer | 60 - 80 | 
+| Greatest Gen | 80 - 100 | 
+
+<hr>
+
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">43.2</td></tr><tr><td>std</td><td align="right" valign="middle">22.6</td></tr><tr><td>min</td><td align="right" valign="middle">0.0</td></tr><tr><td>25%</td><td align="right" valign="middle">25.0</td></tr><tr><td>50%</td><td align="right" valign="middle">45.0</td></tr><tr><td>75%</td><td align="right" valign="middle">61.0</td></tr><tr><td>max</td><td align="right" valign="middle">82.0</td></tr></tbody></table> |
@@ -154,6 +168,12 @@ To explore the data we did a general overview using pivot tables to identify any
 
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
+|Personal Criteria | Medical Criteria |
+|--|--|
+|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Work Type</td><td align="right" valign="middle">Private</td></tr><tr><td></td><td align="right" valign="middle">Self-Employed</td></tr><tr><td></td><td align="right" valign="middle">Government Job</td></tr><tr><td></td><td align="right" valign="middle">Children</td></tr><tr><td>Residence Type</td><td align="right" valign="middle">Urban Job</td></tr><tr><td></td><td align="right" valign="middle">Rural</td></tr><tr><td>Smoker</td><td align="right" valign="middle">Never</td></tr><tr><td></td><td align="right" valign="middle">Former</td></tr><tr><td></td><td align="right" valign="middle">Current</td></tr><tr><td></td><td align="right" valign="middle">Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td align="right" valign="middle">0-100</td></tr><tr><td>Glucose</td><td align="right" valign="middle">0-125</td></tr><tr><td>Hypertension</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Heart Disease</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr> </table>| 
+
+<hr>
+   
  ## Personal Criteria
  
  ### Ever Married
@@ -189,61 +209,7 @@ To explore the data we did a general overview using pivot tables to identify any
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
  ## Medical Criteria
- 
- ### BMI
-| Histogram  | Stacked Bar | Stats |
-| :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="400" height="400"> |  <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">4,908</td></tr><tr><td>mean</td><td align="right" valign="middle">28.9</td></tr><tr><td>std</td><td align="right" valign="middle">7.8</td></tr><tr><td>min</td><td align="right" valign="middle">10.3</td></tr><tr><td>25%</td><td align="right" valign="middle">23.5</td></tr><tr><td>50%</td><td align="right" valign="middle">28.1</td></tr><tr><td>75%</td><td align="right" valign="middle">33.1</td></tr><tr><td>max</td><td align="right" valign="middle">97.6</td></tr></tbody></table> |
-- A majority of patients are "Overweight" or "Obese" 
-- "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
-
-<hr>
-
- ### Average Glucose Levels (AGL)
-   
- 
-   
-| Histogram  | Stacked Bar | Stats | 
-| :----: | :----: | :----: | 
-| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="400" height="400"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="400" height="400"> |  <table><thead><tr><th></th><th>AGL(mg/dL)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">106.1</td></tr><tr><td>std</td><td align="right" valign="middle">45.3</td></tr><tr><td>min</td><td align="right" valign="middle">55.1</td></tr><tr><td>25%</td><td align="right" valign="middle">77.2</td></tr><tr><td>50%</td><td align="right" valign="middle">91.9</td></tr><tr><td>75%</td><td align="right" valign="middle">114.1</td></tr><tr><td>max</td><td align="right" valign="middle">271.7</td></tr></tbody></table> |
-- Most patients were in the "Normal" Glucose Level range
-- Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
- 
- <hr>
-   
- <center>
     
- ### Hypertension
-| Stacked Bar |
-|  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="400" height="400"> | 
-- Patients diagnosed with Hypertension had a a higher prevalence of stroke cases
- 
- </center><hr>
- 
- ### Heart Disease
-| Stacked Bar |
-|  :----: |
-| <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="400" height="400"> | 
-- Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-
-### Age 📃 [(Datasets)](/Resources/Age_Datasets)
-
-We identified that the dataset includes information on children. After discussion, we decided to create age sets of 20 years for the model to run through. We believe that the youngest dataset will not have the same aspects as adults; marriage, smoking, and work type will not apply as frequently for patients under 20.
-- The dataset was split into generational bins for further analysis
-
-| Generation | Age Range | 
-| :-------- | -------: |
-| Gen Z | 0 - 20 | 
-| Millenial | 20 - 40 | 
-| Gen X | 40 - 60 | 
-| Boomer | 60 - 80 | 
-| Greatest Gen | 80 - 100 | 
-
-<hr>
-
 ### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 - The dataset was split into BMI Class bins for further analysis
 
@@ -257,8 +223,16 @@ We identified that the dataset includes information on children. After discussio
 | Obese(High-Risk) | 40 - 100 |
 
 <hr>
+   
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="400" height="400"> |  <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">4,908</td></tr><tr><td>mean</td><td align="right" valign="middle">28.9</td></tr><tr><td>std</td><td align="right" valign="middle">7.8</td></tr><tr><td>min</td><td align="right" valign="middle">10.3</td></tr><tr><td>25%</td><td align="right" valign="middle">23.5</td></tr><tr><td>50%</td><td align="right" valign="middle">28.1</td></tr><tr><td>75%</td><td align="right" valign="middle">33.1</td></tr><tr><td>max</td><td align="right" valign="middle">97.6</td></tr></tbody></table> |
+- A majority of patients are "Overweight" or "Obese" 
+- "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
-### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
+<hr>
+
+ ### Average Glucose Levels (AGL) 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
 - The dataset was split Glucose Level Class bins for further analysis
 
@@ -269,14 +243,30 @@ We chose to separate the data based on glucose levels as well. This included bre
 | Diabetic | >125 |
 
 <hr>
+   
+| Histogram  | Stacked Bar | Stats | 
+| :----: | :----: | :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="400" height="400"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="400" height="400"> |  <table><thead><tr><th></th><th>AGL(mg/dL)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">106.1</td></tr><tr><td>std</td><td align="right" valign="middle">45.3</td></tr><tr><td>min</td><td align="right" valign="middle">55.1</td></tr><tr><td>25%</td><td align="right" valign="middle">77.2</td></tr><tr><td>50%</td><td align="right" valign="middle">91.9</td></tr><tr><td>75%</td><td align="right" valign="middle">114.1</td></tr><tr><td>max</td><td align="right" valign="middle">271.7</td></tr></tbody></table> |
+- Most patients were in the "Normal" Glucose Level range
+- Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
+ 
+ <hr>
+    
+ ### Hypertension
+| Stacked Bar |
+|  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="400" height="400"> | 
+- Patients diagnosed with Hypertension had a a higher prevalence of stroke cases
+ 
+  <hr>
+ 
+ ### Heart Disease
+| Stacked Bar |
+|  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="400" height="400"> | 
+- Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases
 
-### Categorical Metrics
-
-|Personal Criteria | Medical Criteria |
-|--|--|
-|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Work Type</td><td align="right" valign="middle">Private</td></tr><tr><td></td><td align="right" valign="middle">Self-Employed</td></tr><tr><td></td><td align="right" valign="middle">Government Job</td></tr><tr><td></td><td align="right" valign="middle">Children</td></tr><tr><td>Residence Type</td><td align="right" valign="middle">Urban Job</td></tr><tr><td></td><td align="right" valign="middle">Rural</td></tr><tr><td>Smoker</td><td align="right" valign="middle">Never</td></tr><tr><td></td><td align="right" valign="middle">Former</td></tr><tr><td></td><td align="right" valign="middle">Current</td></tr><tr><td></td><td align="right" valign="middle">Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td align="right" valign="middle">0-100</td></tr><tr><td>Glucose</td><td align="right" valign="middle">0-125</td></tr><tr><td>Hypertension</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Heart Disease</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr> </table>| 
-
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # ERD
 <img width="1123" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
