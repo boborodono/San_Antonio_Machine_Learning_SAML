@@ -80,7 +80,7 @@
 [SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) - [(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
 
 
-   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes">![Medical Dashboard(Tableau Public)](https://img.shields.io/badge/Medical%20Dashboard-%E97627CC.svg?&logo=tableau&color=e434343&logoColor=white&style=for-the-badge)
+   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes">![Medical Dashboard(Tableau Public)](https://img.shields.io/badge/Medical%20Dashboard-%E97627CC.svg?&logo=tableau&color=434343&logoColor=white&style=for-the-badge)
 
    <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes">![Personal Dashboard(Tableau Public)](https://img.shields.io/badge/Personal%20Dashboard-%E97627CC.svg?&logo=tableau&color=e97627&logoColor=white&style=for-the-badge)
 
