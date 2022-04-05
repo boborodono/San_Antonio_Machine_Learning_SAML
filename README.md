@@ -82,9 +82,9 @@
 
    <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes">![Medical Dashboard(Tableau Public)](https://img.shields.io/badge/Medical%20Dashboard-%E97627CC.svg?&logo=tableau&color=434343&logoColor=white&style=for-the-badge)
 
-   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes">![Personal Dashboard(Tableau Public)](https://img.shields.io/badge/Personal%20Dashboard-%E97627CC.svg?&logo=tableau&color=e97627&logoColor=white&style=for-the-badge)
+   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes">![Personal Dashboard(Tableau Public)](https://img.shields.io/badge/Personal%20Dashboard-%E97627CC.svg?&logo=tableau&color=ff5b5b&logoColor=white&style=for-the-badge)
 
-   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes">![ML Metrics Dashboard (Tableau Public)](https://img.shields.io/badge/Machine%20Learning%20Dashboard-%E97627CC.svg?&logo=tableau&color=e97627&logoColor=white&style=for-the-badge)
+   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes">![ML Metrics Dashboard (Tableau Public)](https://img.shields.io/badge/Machine%20Learning%20Dashboard-%E97627CC.svg?&logo=tableau&color=666666&logoColor=white&style=for-the-badge)
       
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
