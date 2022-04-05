@@ -82,15 +82,16 @@
 
    [SAML Presentation Medical Dashboard(Tableau Public)]
   https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes
-
+   <a href=" https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes">![Medical Dashboard(Tableau Public)](https://img.shields.io/badge/Tableau-%E97627CC.svg?&logo=tableau&color=e97627&logoColor=white&style=for-the-badge)
 
    [SAML Presentation Personal Dashboard(Tableau Public)] 
    https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes
-
+   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes">![Personal Dashboard(Tableau Public)](https://img.shields.io/badge/Tableau-%E97627CC.svg?&logo=tableau&color=e97627&logoColor=white&style=for-the-badge)
 
    [SAML Presentation ML Metrics Dashboard(Tableau Public)]    
    https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes
-
+   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes">![ML Metrics Dashboard (Tableau Public)](https://img.shields.io/badge/Tableau-%E97627CC.svg?&logo=tableau&color=e97627&logoColor=white&style=for-the-badge)
+      
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
  
 # Topic
