@@ -77,7 +77,12 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Presentation & Dashboards
 
+## Presentation
 <a href="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf">![SAML Presentation](https://img.shields.io/badge/SAML%20Presentation-3e92cc?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)</a>
+
+<hr>
+   
+## Dashboards
 <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes">![Medical Dashboard(Tableau Public)](https://img.shields.io/badge/Medical%20Dashboard-%E97627CC.svg?&logo=tableau&color=434343&logoColor=white&style=for-the-badge)</a>   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes">![Personal Dashboard(Tableau Public)](https://img.shields.io/badge/Personal%20Dashboard-%E97627CC.svg?&logo=tableau&color=ff5b5b&logoColor=white&style=for-the-badge)</a>   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes">![ML Metrics Dashboard (Tableau Public)](https://img.shields.io/badge/Machine%20Learning%20Dashboard-%E97627CC.svg?&logo=tableau&color=666666&logoColor=white&style=for-the-badge)</a>
       
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
