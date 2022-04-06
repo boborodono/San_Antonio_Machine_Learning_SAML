@@ -268,12 +268,12 @@ We chose to separate the data based on glucose levels as well. This included bre
 # Feature Engineering and Selection
 
 ## Feature Selection
-"ID#", a column listing unique identifier values to each sample, is dropped from the feature data in the ML model as it an arbitrary value lacking relationship with other features or target. All other available data features are used in the ML model to predict target stroke cases. A further exploration of ML overfitting will be conducted to determine if any noisy features should be dropped from the ML model.
+*"ID#"*, a column listing unique identifier values to each sample, is dropped from the feature data in the ML model as it an arbitrary value lacking relationship with other features or target. All other available data features are used in the ML model to predict target stroke cases. A further exploration of ML overfitting will be conducted to determine if any noisy features should be dropped from the ML model.
 
 <hr>
 
 ## Categorical Data
-sklearn's OneHotEncoder is used to convert categorical data into numerical data. Categorical data such as "Gender" that contains only two values is split into two converse numerical columns where one of the two is dropped in order to mitigate redundancy in the ML model.
+sklearn's *OneHotEncoder* is used to convert categorical data into numerical data. Categorical data such as "Gender" that contains only two values is split into two converse numerical columns where one of the two is dropped in order to mitigate redundancy in the ML model.
 Our Categorical Data includes:
 - Gender
 - Hypertension
@@ -288,24 +288,24 @@ Our Categorical Data includes:
 ## Null Data
 As discussed above, the BMI feature data consists 201 null values. Since about 20% of our positive stroke cases is contained in these 201 samples, we've decided to populate these null values rather than drop the rows entirely. 
 Two methods of populating BMI null values have been attempted: 
-- sklearn's SimpleImputer replaces null BMI values with median BMI values and...
-- sklearn's KNNImputer predicts and populates null BMI values.
+- sklearn's *SimpleImputer* replaces null BMI values with median BMI values and...
+- sklearn's *KNNImputer* predicts and populates null BMI values.
 
 <hr>
 
 ## Feature Scaling
-sklearn's StandardScaler is used to scale feature data. Prior to scaling, most numerical data features contain only two unique values 0 and 1 as converted by sklearn's OneHotEncoder. Scaling is used to mitigate any ML model issues due to poor gradient descent.
+sklearn's StandardScaler is used to scale feature data. Prior to scaling, most numerical data features contain only two unique values 0 and 1 as converted by sklearn's *OneHotEncoder*. Scaling is used to mitigate any ML model issues due to poor gradient descent.
 
 <hr>
 
 ## Resampling
-As discussed above, our dataset contains mostly negative stroke cases. Possibly due to using overwhelmingly negative stroke case data, ML model prediction prior to resampling showed positive stroke case recall as poor as 0%. A SMOTE oversampling method has been utilized in ML models resulting in positive stroke case recall as high as 48%.
+As discussed above, our dataset contains mostly negative stroke cases. Possibly due to using overwhelmingly negative stroke case data, ML model prediction prior to resampling showed positive stroke case recall as poor as 0%. A *SMOTE* oversampling method has been utilized in ML models resulting in positive stroke case recall as high as 48%.
 
 <hr>
 
 ## Training and Testing
 
-Training & testing data is split using sklearn's **train_test_split**. 
+Training & testing data is split using sklearn's *train_test_split*. 
 - Our ML dataset contains 5109 samples with 80% allocated to training and 20% to testing
   - 4087 training samples and 1022 testing samples
   - There are 17 features in our "X" set against 1 target in our "y" set
@@ -313,13 +313,13 @@ Training & testing data is split using sklearn's **train_test_split**.
 <hr>
 
 ## Model Choice
-We started with sklearn's **Random Forest Classifier (RFC)**. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
+We started with sklearn's *Random Forest Classifier (RFC)*. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
 - After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
-As of now, sklearn's **AdaBoostClassifier** supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both **KNNImputer** and **SimpleImputer** techniques have achieved 48% positive stroke case recall). 
-Currently, sklearn's **Support Vector Classifier (SVC)** has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the **AdaBoostClassifier** and **RandomForestClassifier** models.
+As of now, sklearn's *AdaBoostClassifier* supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both *KNNImputer* and *SimpleImputer* techniques have achieved 48% positive stroke case recall). 
+Currently, sklearn's *Support Vector Classifier (SVC)* has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the *AdaBoostClassifier* and *RandomForestClassifier* models.
 
-* Figure below gives **AdaBoostClassifier** ML model result using **SMOTE oversampling** and **KNNImputer** population of missing BMI data.
+* Figure below gives *AdaBoostClassifier* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data.
 
 <!-- ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
@@ -339,7 +339,7 @@ Currently, sklearn's **Support Vector Classifier (SVC)** has achieved the greate
 | **Stroke-** | 830 | 142 |
 | **Stroke+** | 26 | 24 |
 
-* Figure below gives **SVC** ML model result using **RandomOverSampler** and **SimpleImputer** population of missing BMI data with median BMI feature value.
+* Figure below gives *SVC* ML model result using *RandomOverSampler* and *SimpleImputer* population of missing BMI data with median BMI feature value.
 
 <!-- ![](Corcoran/ML_result_screenshots/SVC_ros_SimpleImputer(median)_03.24.2024.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
