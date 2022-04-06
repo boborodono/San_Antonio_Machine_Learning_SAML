@@ -304,14 +304,14 @@ We started with sklearn's Random Forest Classifier (RFC). These models give the 
 As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both KNNImputer and SimpleImputer techniques have achieved 48% positive stroke case recall). Currently, sklearn's Support Vector Classifier (SVC) has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the AdaBoostClassifier and RandomForestClassifier models.
 * Figure below gives 03/20/2022 AdaBoostClassifier ML model result using SMOTE oversampling and KNNImputer population of missing BMI data
 
-![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png)
+<!-- ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
 |--------------	|-----------:	|--------:	|----------:	|---------:	|
-|          0.0 	|      0.97 	|   0.85 	|     0.91 	|     972 	|
-|          1.0 	|      0.14 	|   0.48 	|     0.22 	|      50 	|
-| Accuracy     	|           	|        	|     0.84 	|    1022 	|
-| Macro Avg    	|      0.56 	|   0.67 	|     0.57 	|    1022 	|
-| Weighted Avg 	|      0.93 	|   0.84 	|     0.87 	|    1022 	|
+|          **0.0** 	|      0.97 	|   0.85 	|     0.91 	|     972 	|
+|          **1.0** 	|      0.14 	|   0.48 	|     0.22 	|      50 	|
+| **Accuracy**     	|           	|        	|     0.84 	|    1022 	|
+| **Macro Avg**    	|      0.56 	|   0.67 	|     0.57 	|    1022 	|
+| **Weighted Avg** 	|      0.93 	|   0.84 	|     0.87 	|    1022 	|
 
 | Accuracy | Precision | Recall |
 | --------: | --------: | --------: |
@@ -319,19 +319,19 @@ As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 
 | | Predicted- | Predicted+ |
 | --------- | --------: | -------: |
-| Stroke- | 830 | 142 |
-| Stroke+ | 26 | 24 |
+| **Stroke-** | 830 | 142 |
+| **Stroke+** | 26 | 24 |
 
 * Figure below gives 03/24/2022 SVC ML model result using RandomOverSampler oversampler and SimpleImputer population of missing BMI data with median BMI feature value.
 
-![](Corcoran/ML_result_screenshots/SVC_ros_SimpleImputer(median)_03.24.2024.png)
+<!-- ![](Corcoran/ML_result_screenshots/SVC_ros_SimpleImputer(median)_03.24.2024.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
 |--------------	|-----------:	|--------:	|----------:	|---------:	|
-|          0.0 	|      0.99 	|   0.72 	|     0.83 	|     972 	|
-|          1.0 	|      0.14 	|   0.92 	|     0.25 	|      50 	|
-| Accuracy     	|           	|        	|     0.73 	|    1022 	|
-| Macro Avg    	|      0.57 	|   0.82 	|     0.54 	|    1022 	|
-| Weighted Avg 	|      0.95 	|   0.73 	|     0.80 	|    1022 	|
+|          **0.0** 	|      0.99 	|   0.72 	|     0.83 	|     972 	|
+|          **1.0** 	|      0.14 	|   0.92 	|     0.25 	|      50 	|
+| **Accuracy**     	|           	|        	|     0.73 	|    1022 	|
+| **Macro Avg**    	|      0.57 	|   0.82 	|     0.54 	|    1022 	|
+| **Weighted Avg** 	|      0.95 	|   0.73 	|     0.80 	|    1022 	|
 
 | Accuracy | Precision | Recall |
 | --------: | --------: | --------: |
@@ -339,8 +339,8 @@ As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 
 | | Predicted- | Predicted+ |
 | --------- | --------: | -------: |
-| Stroke- | 697 | 275 |
-| Stroke+ | 4 | 46 |
+| **Stroke-** | 697 | 275 |
+| **Stroke+** | 4 | 46 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
