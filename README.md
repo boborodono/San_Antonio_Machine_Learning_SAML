@@ -333,6 +333,8 @@ Training & testing data is split using sklearn's *train_test_split*.
 We started with sklearn's *Random Forest Classifier (RFC)*. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
 - After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
+<hr>
+
 ### AdaBoost
 We then moved on to sklearn's *AdaBoostClassifier* supervised ML model which greatly increased our positive stroke case recall. 
 - 48% positive stroke case recall is achieved with an AdaBoostClassifier with the above Feature Engineering and Selection techniques 
@@ -356,6 +358,8 @@ We then moved on to sklearn's *AdaBoostClassifier* supervised ML model which gre
 | --------- | --------: | -------: |
 | **Stroke-** | 830 | 142 |
 | **Stroke+** | 26 | 24 |
+
+<hr>
 
 ### Support Vector (SVC)
 Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest positive stroke case recall (92%) but resulted in a lower overall accuracy than the *AdaBoostClassifier* and *RandomForestClassifier* models.
