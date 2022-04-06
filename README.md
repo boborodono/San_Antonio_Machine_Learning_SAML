@@ -309,6 +309,13 @@ As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 * Figure below gives 03/24/2022 SVC ML model result using RandomOverSampler oversampler and SimpleImputer population of missing BMI data with median BMI feature value.
 
 ![](Corcoran/ML_result_screenshots/SVC_ros_SimpleImputer(median)_03.24.2024.png)
+|              	| Precision 	| Recall 	| F1-Score 	| Support 	|
+|--------------	|-----------	|--------	|----------	|---------	|
+|          0.0 	|      0.99 	|   0.72 	|     0.83 	|     972 	|
+|          1.0 	|      0.14 	|   0.92 	|     0.25 	|      50 	|
+| Accuracy     	|           	|        	|     0.73 	|    1022 	|
+| Macro Avg    	|      0.57 	|   0.82 	|     0.54 	|    1022 	|
+| Weighted Avg 	|      0.95 	|   0.73 	|      0.8 	|    1022 	|
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Data Analysis
