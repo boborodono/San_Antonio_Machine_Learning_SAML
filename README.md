@@ -16,7 +16,7 @@
    <a href=""><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/boborodono/San_Antonio_Machine_Learning_SAML?color=F37626&label=Jupyter%20Notebook&style=plastic"/>
    </a>
    <a href=""><img alt="Github Followers" src="https://img.shields.io/github/followers/boborodono?label=Followers&style=plastic"/>
-                                                                                                                                </a>
+   </a>
    <a href=""><img alt="Github Watchers" src="https://img.shields.io/github/watchers/boborodono/San_Antonio_Machine_Learning_SAML?color=ffffff&label=Watch&logo=github&style=social"/>
    </a>
 </p>
@@ -40,7 +40,7 @@
   * [Feature Scaling](#feature-scaling)
   * [Resampling](#resampling)
   * [Training and Testing](#training-and-testing)
-  * [Model Choice](#model-choice) 
+  * [Model Choice](#model-choice)
 - [Data Analysis](#data-analysis)
 - [Communication Protocols](#communication-protocols)
 - [Authors](#authors)
@@ -49,8 +49,8 @@
 
 # Tech Stack
 <!-- Badges -->
-<p align="center">  
-   
+<p align="center">
+
    <a href="">![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)</a>
    <a href="">![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)</a>
    <a href="">![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)</a>
@@ -147,6 +147,7 @@ We identified that the dataset includes information on children. After discussio
 | Boomer | 60 - 80 | 
 | Greatest Gen | 80 - 100 | 
 
+
 | Histogram  | Stacked Bar | Stats |
 | :----: | :----: | :----: |
 | <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">43.2</td></tr><tr><td>std</td><td align="right" valign="middle">22.6</td></tr><tr><td>min</td><td align="right" valign="middle">0.0</td></tr><tr><td>25%</td><td align="right" valign="middle">25.0</td></tr><tr><td>50%</td><td align="right" valign="middle">45.0</td></tr><tr><td>75%</td><td align="right" valign="middle">61.0</td></tr><tr><td>max</td><td align="right" valign="middle">82.0</td></tr></tbody></table> |
@@ -207,6 +208,7 @@ We identified that the dataset includes information on children. After discussio
     
 ### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 - The dataset was split into BMI Class bins for further analysis
+
 
 | BMI Class | BMI Range | 
 | :-------- | -------: |
@@ -297,7 +299,7 @@ Training & testing data is split using sklearn's train_test_split. Our ML datase
 <hr>
 
 ## Model Choice
-We started with sklearn's Random Forest Classifier (RFC). These models give the highest overall accuracy, but the poorest positive stroke case recall. After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.  
+We started with sklearn's Random Forest Classifier (RFC). These models give the highest overall accuracy, but the poorest positive stroke case recall. After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
 As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both KNNImputer and SimpleImputer techniques have achieved 48% positive stroke case recall). Currently, sklearn's Support Vector Classifier (SVC) has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the AdaBoostClassifier and RandomForestClassifier models.
 * Figure below gives 03/20/2022 AdaBoostClassifier ML model result using SMOTE oversampling and KNNImputer population of missing BMI data
