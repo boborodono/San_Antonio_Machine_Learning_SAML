@@ -274,6 +274,9 @@ We chose to separate the data based on glucose levels as well. This included bre
 
 ## Categorical Data
 sklearn's OneHotEncoder is used to convert categorical data into numerical data. Categorical data such as "Gender" that contains only two values is split into two converse numerical columns where one of the two is dropped in order to mitigate redundancy in the ML model.
+Our Categorical Data includes:
+- Gender
+- 
 
 <hr>
 
@@ -294,15 +297,21 @@ As discussed above, our dataset contains mostly negative stroke cases. Possibly 
 
 ## Training and Testing
 
-Training & testing data is split using sklearn's train_test_split. Our ML dataset contains 5109 samples with 80% allocated to training and 20% to testing; 4087 training samples and 1022 testing samples. There are 17 features in our X set against 1 target in our y set.
+Training & testing data is split using sklearn's **train_test_split**. 
+- Our ML dataset contains 5109 samples with 80% allocated to training and 20% to testing
+  - 4087 training samples and 1022 testing samples
+  - There are 17 features in our "X" set against 1 target in our "y" set
 
 <hr>
 
 ## Model Choice
-We started with sklearn's Random Forest Classifier (RFC). These models give the highest overall accuracy, but the poorest positive stroke case recall. After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
+We started with sklearn's **Random Forest Classifier (RFC)**. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
+- After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
-As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both KNNImputer and SimpleImputer techniques have achieved 48% positive stroke case recall). Currently, sklearn's Support Vector Classifier (SVC) has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the AdaBoostClassifier and RandomForestClassifier models.
-* Figure below gives 03/20/2022 AdaBoostClassifier ML model result using SMOTE oversampling and KNNImputer population of missing BMI data
+As of now, sklearn's **AdaBoostClassifier** supervised ML model returns the greatest positive stroke case recall. 48% positive stroke case recall is achieved with an AdaBoostClassifier and the above Feature Engineering and Selection techniques above (both **KNNImputer** and **SimpleImputer** techniques have achieved 48% positive stroke case recall). 
+Currently, sklearn's **Support Vector Classifier (SVC)** has achieved the greatest 92% positive stroke case recall with lower overall accuracy than the **AdaBoostClassifier** and **RandomForestClassifier** models.
+
+* Figure below gives **AdaBoostClassifier** ML model result using **SMOTE oversampling** and **KNNImputer** population of missing BMI data.
 
 <!-- ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
@@ -322,7 +331,7 @@ As of now, sklearn's AdaBoostClassifier supervised ML model returns the greatest
 | **Stroke-** | 830 | 142 |
 | **Stroke+** | 26 | 24 |
 
-* Figure below gives 03/24/2022 SVC ML model result using RandomOverSampler oversampler and SimpleImputer population of missing BMI data with median BMI feature value.
+* Figure below gives **SVC** ML model result using **RandomOverSampler** and **SimpleImputer** population of missing BMI data with median BMI feature value.
 
 <!-- ![](Corcoran/ML_result_screenshots/SVC_ros_SimpleImputer(median)_03.24.2024.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
