@@ -337,9 +337,6 @@ We then moved on to sklearn's *AdaBoostClassifier* supervised ML model which gre
 - 48% positive stroke case recall is achieved with an AdaBoostClassifier with the above Feature Engineering and Selection techniques 
   - both *KNNImputer* and *SimpleImputer* techniques achieved 48% positive stroke case recall. 
 
-### Support Vector (SVC)
-Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest positive stroke case recall (92%) but resulted in a lower overall accuracy than the *AdaBoostClassifier* and *RandomForestClassifier* models.
-
 * Table below gives *AdaBoostClassifier* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data.
 
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
@@ -359,6 +356,9 @@ Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest posit
 | **Stroke-** | 830 | 142 |
 | **Stroke+** | 26 | 24 |
 
+### Support Vector (SVC)
+Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest positive stroke case recall (92%) but resulted in a lower overall accuracy than the *AdaBoostClassifier* and *RandomForestClassifier* models.
+
 * Table below gives *SVC* ML model result using *RandomOverSampler* and *SimpleImputer* population of missing BMI data with median BMI feature value.
 
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
@@ -377,7 +377,6 @@ Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest posit
 | --------- | --------: | -------: |
 | **Stroke-** | 697 | 275 |
 | **Stroke+** | 4 | 46 |
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
