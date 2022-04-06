@@ -328,18 +328,20 @@ Training & testing data is split using sklearn's *train_test_split*.
 <hr>
 
 ## Model Choice
+### Random Forest (RFC)
 We started with sklearn's *Random Forest Classifier (RFC)*. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
 - After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
+### AdaBoost
 We then moved on to sklearn's *AdaBoostClassifier* supervised ML model which greatly increased our positive stroke case recall. 
 - 48% positive stroke case recall is achieved with an AdaBoostClassifier with the above Feature Engineering and Selection techniques 
   - both *KNNImputer* and *SimpleImputer* techniques achieved 48% positive stroke case recall. 
 
+### Support Vector (SVC)
 Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest positive stroke case recall (92%) but resulted in a lower overall accuracy than the *AdaBoostClassifier* and *RandomForestClassifier* models.
 
-* Figure below gives *AdaBoostClassifier* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data.
+* Table below gives *AdaBoostClassifier* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data.
 
-<!-- ![](Corcoran/ML_result_screenshots/AdaBoost_SMOTE_KNNImputer_03.20.2022.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
 |--------------	|-----------:	|--------:	|----------:	|---------:	|
 |          **0.0** 	|      0.97 	|   0.85 	|     0.91 	|     972 	|
@@ -357,9 +359,8 @@ Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest posit
 | **Stroke-** | 830 | 142 |
 | **Stroke+** | 26 | 24 |
 
-* Figure below gives *SVC* ML model result using *RandomOverSampler* and *SimpleImputer* population of missing BMI data with median BMI feature value.
+* Table below gives *SVC* ML model result using *RandomOverSampler* and *SimpleImputer* population of missing BMI data with median BMI feature value.
 
-<!-- ![](Corcoran/ML_result_screenshots/SVC_ros_SimpleImputer(median)_03.24.2024.png) -->
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
 |--------------	|-----------:	|--------:	|----------:	|---------:	|
 |          **0.0** 	|      0.99 	|   0.72 	|     0.83 	|     972 	|
