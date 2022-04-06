@@ -320,16 +320,10 @@ During early analysis we identified the following:
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender#.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Communication Protocols
 
-**Contact goals:**
-- A minimum of twice weekly conversations through Slack
-- Meeting at 6:30PM CT before class on Tuesdays and Thursdays
 - Tracking deliverables through the <a href="https://docs.google.com/spreadsheets/d/1dhVx7JtsV96xwiIY83Ls-zlMphNlS3TNKQlNlZLgGN4/edit?usp=sharing">![Project Management](https://img.shields.io/badge/Project%20Management-4285F4?style=plastic&logo=googledrive&logoColor=white)</a> spreadsheet
 
-**The following will occur on an as-needed basis:**
-- Video chat through Google Meet
-- Feedback through GitHub pull requests
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Authors
