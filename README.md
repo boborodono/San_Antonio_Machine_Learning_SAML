@@ -204,6 +204,7 @@ We identified that the dataset includes information on children. After discussio
 | :----: | :----: | :----: | 
 | <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td align="right" valign="middle">789</td><td align="right" valign="middle">47.1</td></tr><tr><td>Former</td><td align="right" valign="middle">884</td><td align="right" valign="middle">55.0</td></tr><tr><td>Never</td><td align="right" valign="middle">1,892</td><td align="right" valign="middle">46.7</td></tr><tr><td>Unknown</td><td align="right" valign="middle">1,544</td><td align="right" valign="middle">30.2</td></tr></tbody></table> |
 - Most patients never smoked but many patient's smoking history is "Unknown"
+- Women on average smoke less than men
 
 <!-- <hr>
 
