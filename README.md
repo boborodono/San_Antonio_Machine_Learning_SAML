@@ -203,6 +203,18 @@ We identified that the dataset includes information on children. After discussio
 - Most patients never smoked but many patient's smoking history is "Unknown"
 
 <hr>
+
+# Data Analysis
+
+During early analysis we identified the following:
+- In general, women have a higher stroke risk.
+- Age is heavily related to stroke risk. The higher the age, the higher the risk. However, after retirement age, women have a much higher risk than men.
+- Men have heart attacks more often than strokes. There is an increase in chance of cardiac episode once the patient has had a stroke.
+- More of the women in our dataset have a higher instance of hypertension.
+- Even though they had a higher instance of stroke cases, we see that women smoke less overall.
+- We do not see a preliminary relationship between marriage status or home location as related to stroke and gender#.
+
+<hr>
  
  ## Medical Indicators
     
@@ -361,21 +373,8 @@ Currently, sklearn's *Support Vector Classifier (SVC)* has achieved the greatest
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Data Analysis
-
-During early analysis we identified the following:
-- In general, women have a higher stroke risk.
-- Age is heavily related to stroke risk. The higher the age, the higher the risk. However, after retirement age, women have a much higher risk than men.
-- Men have heart attacks more often than strokes. There is an increase in chance of cardiac episode once the patient has had a stroke.
-- More of the women in our dataset have a higher instance of hypertension.
-- Even though they had a higher instance of stroke cases, we see that women smoke less overall.
-- We do not see a preliminary relationship between marriage status or home location as related to stroke and gender#.
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 - Tracking deliverables through the <a href="https://docs.google.com/spreadsheets/d/1dhVx7JtsV96xwiIY83Ls-zlMphNlS3TNKQlNlZLgGN4/edit?usp=sharing">![Project Management](https://img.shields.io/badge/Project%20Management-4285F4?style=plastic&logo=googledrive&logoColor=white)</a> spreadsheet
-
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 # Authors
