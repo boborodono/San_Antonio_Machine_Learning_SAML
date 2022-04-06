@@ -1,26 +1,6 @@
 ![SAML](Wilder/PowerPoint/Logos/SAML%20(Banner%20(Landscape)).svg)
 <h1 align="center">Predicting Strokes with Machine Learning</h1>
-<!-- iframe
-[iframe]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/iframe]
-<iframe>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</iframe>
 
-[iframe]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/iframe]
-<iframe>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</iframe>
-
-embed src
-<embed src="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="800" height="1200" type="application/pdf"></embed>
-
-object data
-<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'>PPoint</object>
-<object data="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf" width="1000" height="1000" type='application/pdf'>"PPoint"</object>
-
-embed
-[embed]"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"[/embed]
-<embed>"https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf"</embed>
-
-[embed]https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf[/embed]
-<embed>https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf</embed>
- -->
 <!-- Badges -->
 <p align="center">
    <a href=""><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/boborodono/San_Antonio_Machine_Learning_SAML?color=3e92cc&label=Contributors&style=plastic"/>
@@ -42,15 +22,16 @@ embed
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Table of Contents
 
-- [Presentation](#presentation)
+- [Presentation & Dashboard](#presentation--dashboard)
 - [Topic](#topic)
-  * [Why Choose This Topic?](#why-choose-this-topic-)
+  * [Why Would We Want to Predict Strokes?](#why-would-we-want-to-predict-strokes)
   * [Questions We Want to Answer...](#questions-we-want-to-answer)
 - [Data Source](#data-source)
 - [Project Outline](#project-outline)
-- [Data Exploration & Preprocessing](#data-exploration---preprocessing)
+- [Data Exploration & Preprocessing](#data-exploration--preprocessing)
 - [ERD](#erd)
 - [Feature Engineering and Selection](#feature-engineering-and-selection)
   * [Feature Selection](#feature-selection)
@@ -61,13 +42,11 @@ embed
   * [Training and Testing](#training-and-testing)
   * [Model Choice](#model-choice) 
 - [Data Analysis](#data-analysis)
-- [Dashboard](#dashboard)
-  * [Dashboard Storyboard:](#dashboard-storyboard-)
-  * [Interactive Elements:](#interactive-elements-)
 - [Communication Protocols](#communication-protocols)
-- [Authors 👯‍♀️](#authors------)
+- [Authors](#authors)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Tech Stack
 <!-- Badges -->
 <p align="center">  
@@ -96,11 +75,18 @@ embed
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Presentation
+# Presentation & Dashboards
 
-[SAML Presentation(Github)](/Wilder/PowerPoint/SAML_Stroke_Presentation.pdf) - [(Github Pages)](https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf)<br/>
+## Presentation
+<a href="https://boborodono.github.io/SAML_PDF/SAML_Stroke_Presentation.pdf">![SAML Presentation](https://img.shields.io/badge/SAML%20Presentation-3e92cc?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)</a>
 
+<hr>
+   
+## Dashboards
+<a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-MedicalDashboard/MedicalDashboard?publish=yes">![Medical Dashboard(Tableau Public)](https://img.shields.io/badge/Medical%20Dashboard-%E97627CC.svg?&logo=tableau&color=434343&logoColor=white&style=for-the-badge)</a>   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/StrokeData-PersonalDashboard/PersonalDashboard?publish=yes">![Personal Dashboard(Tableau Public)](https://img.shields.io/badge/Personal%20Dashboard-%E97627CC.svg?&logo=tableau&color=ff5b5b&logoColor=white&style=for-the-badge)</a>   <a href="https://public.tableau.com/app/profile/angela.b.pacatte/viz/MLModel-PerformanceMetrics_16489134393570/MLDashboard?publish=yes">![ML Metrics Dashboard (Tableau Public)](https://img.shields.io/badge/Machine%20Learning%20Dashboard-%E97627CC.svg?&logo=tableau&color=666666&logoColor=white&style=for-the-badge)</a>
+      
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+ 
 # Topic
 
 ## Why Would We Want to Predict Strokes?
@@ -114,21 +100,39 @@ The goal of this project is to create a predictive analysis from stroke patient 
 **We hope to answer:**
 1. How successfully can our model be used to predict stroke risk?
 2. Which aspect is more accurate to predict risk: medical or personal data?
-3. Can we link stroke risk to any specific factor using our machine learning model?
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Data Source
 The [source data](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) includes 5110 observations with 11 attributes. These attributes include medical and personal aspects of the patient such as age, average glucose level, BMI, marital status, and if the patient lives in a rural or urban area.
 
 The dataset was submitted to Kaggle by user [fedesoriano](https://www.kaggle.com/fedesoriano). It is listed as a confidential datasource, but appears to be a cleaned subset of the Electronic Health Record (EHR) controlled by McKinsey & Company; originally used as part of their [Healthcare Hackathon](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon).
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # Project Outline
 ![Outline](https://user-images.githubusercontent.com/91762315/158919235-8a4f7e26-c8f1-4b3e-92c1-d9233f8d6670.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Data Exploration & Preprocessing
-To explore the data we did a general overview using pivot tables to identify any inconsistencies or odd data patterns. In doing so, we found the following:
+
+# Exploratory Data Analysis (EDA)
+
+## Stroke Dataset Overview
+| Stats | Correlation Heatmap (Numeric) |
+| :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161340184-364dca84-c274-4aae-ab33-1281bd174f2b.png" width="400" height="400"> |  <img src="https://user-images.githubusercontent.com/46633669/161368872-17c35bc4-1b35-44fb-aa99-f21755dd7f22.png" width="400" height="400"> |
+| **Shape:** 5,109 rows, 12 columns | **11 Features:** 8 Categorical, 3 Numerical |
+
+### Missing Data
+- 201 NaNs in "BMI" column
+  - 40 NaNs had a stroke **(_20%_ of positive stroke data would be a part of the _deleted data_)**
+  - Excluding "BMI" NaNs, there are ~200 positive stroke cases **(About _4%_ of the total dataset [200/5000])**
+  - With NaNs, the stroke positivity rate for the entire dataset increases 1% **(From _~4_ to _~5%_ [250/5000])**
+    - We included the missing 201 "BMI" NaNs in the Initial EDA
+    - We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+## Demographics
 
 ### Age 📃 [(Datasets)](/Resources/Age_Datasets)
 
@@ -136,56 +140,125 @@ We identified that the dataset includes information on children. After discussio
 - The dataset was split into generational bins for further analysis
 
 | Generation | Age Range | 
-| :-------- | :------- |
+| :-------- | -------: |
 | Gen Z | 0 - 20 | 
 | Millenial | 20 - 40 | 
 | Gen X | 40 - 60 | 
 | Boomer | 60 - 80 | 
 | Greatest Gen | 80 - 100 | 
 
-<hr>
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161337039-6099826a-117c-4002-b269-66afbbe97e05.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337083-7a922d01-9188-49f0-a8a2-3bf755ee6e74.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age(years)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">43.2</td></tr><tr><td>std</td><td align="right" valign="middle">22.6</td></tr><tr><td>min</td><td align="right" valign="middle">0.0</td></tr><tr><td>25%</td><td align="right" valign="middle">25.0</td></tr><tr><td>50%</td><td align="right" valign="middle">45.0</td></tr><tr><td>75%</td><td align="right" valign="middle">61.0</td></tr><tr><td>max</td><td align="right" valign="middle">82.0</td></tr></tbody></table> |
+- There are more possible stroke cases from 0 - 60 years old 
+  - However, positive stroke cases become more common with age 
+- This shows that a higher proportion of positive stroke cases occur as age increases
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+
+### Gender
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161338306-cb6b0deb-d357-4837-9c62-c3c53651d39d.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161337113-64cab7dd-efcb-4693-94de-961ce105f4ce.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Gender</th><th></th><th></th></tr></thead><tbody><tr><td>Female</td><td align="right" valign="middle">2,994</td><td align="right" valign="middle">43.7</td></tr><tr><td>Male</td><td align="right" valign="middle">2,115</td><td align="right" valign="middle">42.5</td></tr></tbody></table> |
+- According to the data, significantly more women were admitted for possible cases of a stroke
+- The percentage of positive stroke cases is about even between men and women 
+
+ <hr>
+ 
+|Personal Indicator | Medical Indicator |
+|--|--|
+|<table> <tr><th>Category</th><th>Indicator</th></tr><tr><td>Ever Married</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Work Type</td><td align="right" valign="middle">Private</td></tr><tr><td></td><td align="right" valign="middle">Self-Employed</td></tr><tr><td></td><td align="right" valign="middle">Government Job</td></tr><tr><td></td><td align="right" valign="middle">Children</td></tr><tr><td>Residence Type</td><td align="right" valign="middle">Urban</td></tr><tr><td></td><td align="right" valign="middle">Rural</td></tr><tr><td>Smoker</td><td align="right" valign="middle">Never</td></tr><tr><td></td><td align="right" valign="middle">Former</td></tr><tr><td></td><td align="right" valign="middle">Current</td></tr><tr><td></td><td align="right" valign="middle">Unknown</td></tr> </table>|<table> <tr><th>Category</th><th>Indicator</th></tr><tr><td>BMI</td><td align="right" valign="middle">0-100</td></tr><tr><td>Glucose</td><td align="right" valign="middle">0-125</td></tr><tr><td>Hypertension</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr><tr><td>Heart Disease</td><td align="right" valign="middle">Yes</td></tr><tr><td></td><td align="right" valign="middle">No</td></tr> </table>| 
+   
+ ## Personal Indicators
+ 
+ ### Ever Married
+| Stacked Bar | Stats |
+|  :----: |  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362217-9d3ce554-ec3d-4635-9541-6e1e4f68aecd.png" width="400" height="400"> | <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Ever Married</th><th></th><th></th></tr></thead><tbody><tr><td>No</td><td align="right" valign="middle">1,756</td><td align="right" valign="middle">22.0</td></tr><tr><td>Yes</td><td align="right" valign="middle">3,353</td><td align="right" valign="middle">54.3</td></tr></tbody></table> |
+- More instances of stroke were reported among patients that were married at one point in time
+ 
+ ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+ 
+ ### Work Type
+| Stacked Bar | Stats | 
+|  :----: |  :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362199-bbcdaf97-5a79-4b0f-895e-f55fc3dbe70a.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Work Type</th><th></th><th></th></tr></thead><tbody><tr><td>Government</td><td align="right" valign="middle">657</td><td align="right" valign="middle">50.9</td></tr><tr><td>Never Worked</td><td align="right" valign="middle">22</td><td align="right" valign="middle">16.2</td></tr><tr><td>Private</td><td align="right" valign="middle">2,924</td><td align="right" valign="middle">45.5</td></tr><tr><td>Self-Employed</td><td align="right" valign="middle">819</td><td align="right" valign="middle">60.2</td></tr><tr><td>Child-Rearing</td><td align="right" valign="middle">687</td><td align="right" valign="middle">6.8</td></tr></tbody></table> |
+- "Self-Employed" workers have the highest prevalance of positive stroke cases but not statistically different from patients employed by "Private" or "Government" organizations
+ 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+ 
+ ### Residence Type
+| Stacked Bar | Stats |
+|  :----: |  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362187-8b328d21-86a9-4266-8fa4-212c2511a764.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Residence Type</th><th></th><th></th></tr></thead><tbody><tr><td>Rural</td><td align="right" valign="middle">2,513</td><td align="right" valign="middle">42.9</td></tr><tr><td>Urban</td><td align="right" valign="middle">2,596</td><td align="right" valign="middle">43.5</td></tr></tbody></table> |
+- No perceivable difference detected in instances of stroke between those in "Rural" v. "Urban" Residences
+ 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png) 
+ 
+ ### Smoking Status
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362168-3e8a9fbb-6d36-47f6-a18e-52bcdd33d04e.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362163-51056cc9-5593-473a-9bdb-904df20554ca.png" width="400" height="400"> |  <table><thead><tr><th></th><th>Age</th><th>(years)</th></tr><tr><th></th><th>count</th><th>mean</th></tr><tr><th>Smoker</th><th></th><th></th></tr></thead><tbody><tr><td>Current</td><td align="right" valign="middle">789</td><td align="right" valign="middle">47.1</td></tr><tr><td>Former</td><td align="right" valign="middle">884</td><td align="right" valign="middle">55.0</td></tr><tr><td>Never</td><td align="right" valign="middle">1,892</td><td align="right" valign="middle">46.7</td></tr><tr><td>Unknown</td><td align="right" valign="middle">1,544</td><td align="right" valign="middle">30.2</td></tr></tbody></table> |
+- Most patients never smoked but many patient's smoking history is "Unknown"
+
+<hr>
+ 
+ ## Medical Indicators
+    
 ### BMI 📃 [(Datasets)](/Resources/BMI_Datasets)
 - The dataset was split into BMI Class bins for further analysis
 
 | BMI Class | BMI Range | 
-| :-------- | :------- |
+| :-------- | -------: |
 | Underweight | 0 - 18.5 | 
 | Healthy Weight | 18.5 - 25 | 
 | Overweight | 25 - 30 | 
 | Obese(Low-Risk) | 30 - 35 | 
 | Obese(Medium-Risk) | 35 - 40 |
 | Obese(High-Risk) | 40 - 100 |
+   
+| Histogram  | Stacked Bar | Stats |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362112-a4295eb7-d38f-4336-8424-99161907754a.png" width="400" height="400"> | <img src="https://user-images.githubusercontent.com/46633669/161362110-4fad7fa9-3f86-4392-8c95-62ddfa4b9367.png" width="400" height="400"> |  <table><thead><tr><th></th><th>BMI</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">4,908</td></tr><tr><td>mean</td><td align="right" valign="middle">28.9</td></tr><tr><td>std</td><td align="right" valign="middle">7.8</td></tr><tr><td>min</td><td align="right" valign="middle">10.3</td></tr><tr><td>25%</td><td align="right" valign="middle">23.5</td></tr><tr><td>50%</td><td align="right" valign="middle">28.1</td></tr><tr><td>75%</td><td align="right" valign="middle">33.1</td></tr><tr><td>max</td><td align="right" valign="middle">97.6</td></tr></tbody></table> |
+- A majority of patients are "Overweight" or "Obese" 
+- "Overweight" or "Obese" patients have a higher prevalence for developing a stroke
 
-We identified that we have a large percentage of NaNs for BMI data. At first we decided to exclude these patients from our dataset. However, we determined that this data was still valuable based on the following:
-- Out of 201 NaNs, 40 had a stroke. That's 20% of the deleted data.
-- Without the NaNs, there are ~200 positive stroke cases, about 4% of the dataset (200/5000)
-- With the NaNs, the positivity rate for all the other categories increases 1%, from 4 to ~5% (250/5000)
-- This gives us significantly more data points to help train the model.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-<hr>
-
-### Glucose 📃 [(Datasets)](/Resources/Glucose_Datasets)
+ ### Average Glucose Levels (AGL) 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
 - The dataset was split Glucose Level Class bins for further analysis
 
 | Glucose Level Class | Glucose Range | 
-| :-------- | :------- |
+| :-------- | -------: |
 | Normal | 0 - 100 | 
 | Prediabetic | 100 - 125 | 
 | Diabetic | >125 |
-
-<hr>
-
-### Categorical Metrics
-
-|Personal Criteria | Medical Criteria |
-|--|--|
-|<table> <tr><th>Personal Category</th><th>Criteria</th></tr><tr><td>Ever Married</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Work Type</td><td>Private</td></tr><tr><td></td><td>Self-Employed</td></tr><tr><td></td><td>Government Job</td></tr><tr><td></td><td>Children</td></tr><tr><td>Residence Type</td><td>Urban Job</td></tr><tr><td></td><td>Rural</td></tr><tr><td>Smoker</td><td>Never</td></tr><tr><td></td><td>Former</td></tr><tr><td></td><td>Current</td></tr><tr><td></td><td>Unknown</td></tr> </table>|<table> <tr><th>Medical Category</th><th>Criteria</th></tr><tr><td>BMI</td><td>0-100</td></tr><tr><td>Glucose</td><td>0-125</td></tr><tr><td>Hypertension</td><td>Yes</td></tr><tr><td></td><td>No</td></tr><tr><td>Heart Disease</td><td>Yes</td></tr><tr><td></td><td>No</td></tr> </table>| 
-
-### Splitting the Data into Medical and Personal Criteria 
+   
+| Histogram  | Stacked Bar | Stats | 
+| :----: | :----: | :----: | 
+| <img src="https://user-images.githubusercontent.com/46633669/161362103-bda8b1c3-fa77-4336-a253-6a05f3d84179.png" width="400" height="400"> |<img src="https://user-images.githubusercontent.com/46633669/161362098-67733154-b776-483b-bee5-a5e4a333ef6b.png" width="400" height="400"> |  <table><thead><tr><th></th><th>AGL(mg/dL)</th></tr></thead><tbody><tr><td>count</td><td align="right" valign="middle">5,109</td></tr><tr><td>mean</td><td align="right" valign="middle">106.1</td></tr><tr><td>std</td><td align="right" valign="middle">45.3</td></tr><tr><td>min</td><td align="right" valign="middle">55.1</td></tr><tr><td>25%</td><td align="right" valign="middle">77.2</td></tr><tr><td>50%</td><td align="right" valign="middle">91.9</td></tr><tr><td>75%</td><td align="right" valign="middle">114.1</td></tr><tr><td>max</td><td align="right" valign="middle">271.7</td></tr></tbody></table> |
+- Most patients were in the "Normal" Glucose Level range
+- Patients diagnosed as "Diabetic" had a higher prevalence of stroke cases
+ 
+ ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+    
+ ### Hypertension
+| Stacked Bar |
+|  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362092-758d3c1d-bbd6-4cef-ac00-05ee33153a81.png" width="400" height="400"> | 
+- Patients diagnosed with Hypertension had a a higher prevalence of stroke cases
+ 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+ 
+ ### Heart Disease
+| Stacked Bar |
+|  :----: |
+| <img src="https://user-images.githubusercontent.com/46633669/161362075-10d41552-2433-454e-af5d-3079f3318a70.png" width="400" height="400"> | 
+- Patients diagnosed with Heart Disease had a a higher prevalence of stroke cases
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 # ERD
 <img width="1123" alt = "image" src="https://user-images.githubusercontent.com/46633669/159843815-3ba834eb-1571-480d-99c8-b2f9a88b496a.svg">
 
@@ -247,35 +320,13 @@ During early analysis we identified the following:
 - We do not see a preliminary relationship between marriage status or home location as related to stroke and gender#.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Dashboard
 
-## Dashboard Storyboard:
-<img width="1123" alt="image" src="https://user-images.githubusercontent.com/46633669/159814732-7a407669-d7f6-4e67-b8a6-aefe8244c710.png">
-
-[SAML Dashboard Storyboard](/Wilder/PowerPoint/Dash_Storyboard.pdf)<br/>
-
-
-
-
-<hr>
-
-## Interactive Elements:
-The dashboard will include filters to allow the user to separate the data based on gender and incidence of stroke.
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Communication Protocols
-
-**Contact goals:**
-- A minimum of twice weekly conversations through Slack
-- Meeting at 6:30PM CT before class on Tuesdays and Thursdays
 - Tracking deliverables through the <a href="https://docs.google.com/spreadsheets/d/1dhVx7JtsV96xwiIY83Ls-zlMphNlS3TNKQlNlZLgGN4/edit?usp=sharing">![Project Management](https://img.shields.io/badge/Project%20Management-4285F4?style=plastic&logo=googledrive&logoColor=white)</a> spreadsheet
 
-**The following will occur on an as-needed basis:**
-- Video chat through Google Meet
-- Feedback through GitHub pull requests
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-# Authors 👯‍♀️
+# Authors
 | Author | My Repo     |  LinkedIn                |
 | :-------- | :------- | :------------------------- |
 | Jack Bauer | [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jackary24)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jack-bauer-/) |
