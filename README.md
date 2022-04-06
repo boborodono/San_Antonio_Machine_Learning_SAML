@@ -268,7 +268,7 @@ We chose to separate the data based on glucose levels as well. This included bre
 # Feature Engineering and Selection
 
 ## Feature Selection
-"ID#", a column listing unique identifier values to each sample, is dropped from the feature data in the ML model as it an arbitrary value lacking relationship with other features or target. So far, all other available data features are used in the ML model to predict target stroke cases. A further exploration of ML overfitting will be conducted to determine if any noisy features should be dropped from the ML model.
+"ID#", a column listing unique identifier values to each sample, is dropped from the feature data in the ML model as it an arbitrary value lacking relationship with other features or target. All other available data features are used in the ML model to predict target stroke cases. A further exploration of ML overfitting will be conducted to determine if any noisy features should be dropped from the ML model.
 
 <hr>
 
@@ -276,12 +276,20 @@ We chose to separate the data based on glucose levels as well. This included bre
 sklearn's OneHotEncoder is used to convert categorical data into numerical data. Categorical data such as "Gender" that contains only two values is split into two converse numerical columns where one of the two is dropped in order to mitigate redundancy in the ML model.
 Our Categorical Data includes:
 - Gender
-- 
+- Hypertension
+- Heart Disease
+- Ever Married
+- Work Type
+- Residence Type
+- Smoking Status
 
 <hr>
 
 ## Null Data
-As discussed above, the BMI feature data consists 201 null values. Since a chunk of our positive stroke cases is contained in these 201 samples, we've decided to populate these null values rather than drop the rows entirely. So far, two methods of populating BMI null values have been attempted: sklearn's SimpleImputer replaces null BMI values with median BMI values and sklearn's KNNImputer predicts and populates null BMI values.
+As discussed above, the BMI feature data consists 201 null values. Since about 20% of our positive stroke cases is contained in these 201 samples, we've decided to populate these null values rather than drop the rows entirely. 
+Two methods of populating BMI null values have been attempted: 
+- sklearn's SimpleImputer replaces null BMI values with median BMI values and...
+- sklearn's KNNImputer predicts and populates null BMI values.
 
 <hr>
 
