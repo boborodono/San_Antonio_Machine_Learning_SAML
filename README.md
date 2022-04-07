@@ -25,13 +25,18 @@
 
 # Table of Contents
 
-- [Presentation & Dashboard](#presentation--dashboard)
+- [Presentation & Dashboards](#presentation--dashboards)
 - [Topic](#topic)
   * [Why Would We Want to Predict Strokes?](#why-would-we-want-to-predict-strokes)
   * [Questions We Want to Answer...](#questions-we-want-to-answer)
 - [Data Source](#data-source)
 - [Project Outline](#project-outline)
-- [Data Exploration & Preprocessing](#data-exploration--preprocessing)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+  * [Stroke Dataset Overview](#stroke-dataset-overview)
+  * [Demographics](#demographics)
+  * [Splitting the Dataset](#splitting-the-dataset-into-personal-and-medical-indicators)
+    * [Personal Indicators](#personal-indicators)
+    * [Medical Indicators](#medical-indicators)
 - [ERD](#erd)
 - [Feature Engineering and Selection](#feature-engineering-and-selection)
   * [Feature Selection](#feature-selection)
@@ -41,8 +46,6 @@
   * [Resampling](#resampling)
   * [Training and Testing](#training-and-testing)
   * [Model Choice](#model-choice)
-- [Data Analysis](#data-analysis)
-- [Communication Protocols](#communication-protocols)
 - [Authors](#authors)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
@@ -331,7 +334,26 @@ Training & testing data is split using sklearn's *train_test_split*.
 ## Model Choice
 ### Random Forest (RFC)
 We started with sklearn's *Random Forest Classifier (RFC)*. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
-- After preprocessing, RFC models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
+- After preprocessing, *RFC* models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
+
+* Table below gives *RFC* ML model result using *SMOTE oversampling* and *SimpleImputer* population of missing BMI data.
+
+|              	| Precision 	| Recall 	| F1-Score 	| Support 	|
+|--------------	|-----------:	|--------:	|----------:	|---------:	|
+|          **0.0** 	|      0.96 	|   0.91 	|     0.93 	|     972 	|
+|          **1.0** 	|      0.15 	|   0.32 	|     0.20 	|      50 	|
+| **Accuracy**     	|           	|        	|     0.88 	|    1022 	|
+| **Macro Avg**    	|      0.56 	|   0.61 	|     0.57 	|    1022 	|
+| **Weighted Avg** 	|      0.92 	|   0.88 	|     0.90 	|    1022 	|
+
+| Accuracy | Precision | Recall |
+| --------: | --------: | --------: |
+| 0.877 | 0.148 | 0.320 |
+
+| | Predicted- | Predicted+ |
+| --------- | --------: | -------: |
+| **Stroke-** | 880 | 92 |
+| **Stroke+** | 34 | 16 |
 
 <hr>
 
