@@ -335,7 +335,7 @@ Training & testing data is split using sklearn's *train_test_split*.
 ## Model Choice
 ### Random Forest (RFC)
 We started with sklearn's *Random Forest Classifier (RFC)*. These models give the highest overall accuracy, but the poorest positive stroke case recall. 
-- After preprocessing, *RFC* models achieve correctly label 28%-40% of positive strokes using different data preprocessing methods.
+- After preprocessing, *RFC* models correctly label 28%-40% of positive strokes using different data preprocessing methods.
 
 * Table below gives *RFC* ML model result using *SMOTE oversampling* and *SimpleImputer* population of missing BMI data.
 
@@ -354,6 +354,31 @@ We started with sklearn's *Random Forest Classifier (RFC)*. These models give th
 | | Predicted- | Predicted+ |
 | --------- | --------: | -------: |
 | **Stroke-** | 880 | 92 |
+| **Stroke+** | 34 | 16 |
+
+<hr>
+
+### K-Neighbors
+We tested sklearn's *K-Nearest Neighbors (KNN)*. 
+- **After preprocessing, *KNN* models tend to score between 20%-32% positive stroke recall and averages around 85% overall accuracy.**
+
+* **Table below gives *KNeighbors* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data with mean BMI feature value.**
+
+|              	| Precision 	| Recall 	| F1-Score 	| Support 	|
+|--------------	|-----------:	|--------:	|----------:	|---------:	|
+|          **0.0** 	|      0.96 	|   0.85 	|     0.90 	|     972 	|
+|          **1.0** 	|      0.10 	|   0.32 	|     0.15 	|      50 	|
+| **Accuracy**     	|           	|        	|     0.82 	|    1022 	|
+| **Macro Avg**    	|      0.53 	|   0.58 	|     0.52 	|    1022 	|
+| **Weighted Avg** 	|      0.92 	|   0.82 	|     0.86 	|    1022 	|
+
+| Accuracy | Precision | Recall |
+| --------: | --------: | --------: |
+| 0.820 | 0.096 | 0.320 |
+
+| | Predicted- | Predicted+ |
+| --------- | --------: | -------: |
+| **Stroke-** | 822 | 150 |
 | **Stroke+** | 34 | 16 |
 
 <hr>
