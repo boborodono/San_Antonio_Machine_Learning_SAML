@@ -360,9 +360,9 @@ We started with sklearn's *Random Forest Classifier (RFC)*. These models give th
 
 ### K-Neighbors
 We tested sklearn's *K-Nearest Neighbors (KNN)*. 
-- **After preprocessing, *KNN* models tend to score between 20%-32% positive stroke recall and averages around 85% overall accuracy.**
+- After preprocessing, *KNN* models tend to score between 20%-32% positive stroke recall and averages around 85% overall accuracy.
 
-* **Table below gives *KNeighbors* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data with mean BMI feature value.**
+* Table below gives *KNeighbors* ML model result using *SMOTE oversampling* and *KNNImputer* population of missing BMI data with mean BMI feature value.
 
 |              	| Precision 	| Recall 	| F1-Score 	| Support 	|
 |--------------	|-----------:	|--------:	|----------:	|---------:	|
