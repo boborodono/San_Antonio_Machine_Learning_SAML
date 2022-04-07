@@ -433,6 +433,8 @@ loops to, 1000 times each, train and test our various ML models without defined 
 utilizing various data preprocessing techniques. Ultimately, we were unable reach our goal in finding a 
 model that consistently scores 95%+ positive stroke recall.
 
+![image](https://user-images.githubusercontent.com/46633669/162129969-6f4ccc1f-ba68-4267-b60d-6d1da21314a0.png)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
 # Authors
