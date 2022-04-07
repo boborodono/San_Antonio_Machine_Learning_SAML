@@ -249,7 +249,7 @@ During early analysis we identified the following:
 
  ### Average Glucose Levels (AGL) 📃 [(Datasets)](/Resources/Glucose_Datasets)
 We chose to separate the data based on glucose levels as well. This included breaking out three groups; normal, prediabetic, and diabetic.
-- The dataset was split Glucose Level Class bins for further analysis
+- The dataset was split into Average Glucose Level Class bins for further analysis
 
 | Glucose Level Class | Glucose Range | 
 | :-------- | -------: |
