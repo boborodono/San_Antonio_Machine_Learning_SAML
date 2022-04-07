@@ -46,6 +46,7 @@
   * [Resampling](#resampling)
   * [Training and Testing](#training-and-testing)
   * [Model Choice](#model-choice)
+- [ML Analysis Conclusions](#ml-analysis-conclusions)
 - [Authors](#authors)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
@@ -404,6 +405,33 @@ Finally, sklearn's *Support Vector Classifier (SVC)* achieved the greatest posit
 | --------- | --------: | -------: |
 | **Stroke-** | 697 | 275 |
 | **Stroke+** | 4 | 46 |
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
+# ML Analysis Conclusions 
+ 
+Support Vector Machines (SVM), specifically Support Vector Classifiers (SVC) with linear kernels, 
+consistently outperformed the other classifier models in terms of positive stroke recall. Utilizing a for 
+loop to split training and testing data, oversample training data with positive stroke cases, scale, and 
+train/test each model 1000 times with various data preprocessing techniques, we found that our best 
+SVC models averaged around 81% positive stroke case recall. Our best results exceed 95% positive 
+stroke case recall, but this is not consistently achieved. Our SVC models consistently and significantly 
+achieve greater positive stroke case recall than other models while simultaneously achieving on average 
+around 73% overall accuracy- a dip in overall accuracy we deem acceptable for the much greater 
+positive stroke case recall. 
+ 
+Future analysis should include a deeper investigation into the best feature selection to improve positive 
+stroke case recall. We experienced some improvement in our SVC model results by creating a new 
+feature column to denote diabetic status calculated from the glucose feature column. Additionally, we 
+did not expect that forest classifier models such as RandomForestClassifier would perform so poorly in 
+terms of positive stroke case recall; perhaps better results can be achieved with better feature 
+reduction. 
+ 
+While some of our initially trained SVC models exceeded 90% positive stroke case recall, even our best 
+performing SVC model averaged a positive stroke recall of about 81%. This was tested by compiling for 
+loops to, 1000 times each, train and test our various ML models without defined random states and 
+utilizing various data preprocessing techniques. Ultimately, we were unable reach our goal in finding a 
+model that consistently scores 95%+ positive stroke recall.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
 
