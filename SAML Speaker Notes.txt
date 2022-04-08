@@ -1,0 +1,119 @@
+﻿Speaker Notes:
+
+Angela:
+Intro/Purpose:  
+* Welcome        
+* Our team
+* What is a stroke?
+   * A stroke is a disruption in blood flow to the brain for a period of time.  It can be caused by many pathophysiologies
+   * Symptoms
+   * Why is it so hard to predict a stroke?
+         * result of many different pathophysologies
+         * most common pathways associated with strokes are
+            * Vessel dysfunction such as aneurysm
+            * Inflammation
+            * Thrombosis- heart arrhythmia can lead to a clot being thrown from the heart
+            * Sustained high blood pressure
+* Purpose:  Can we use a machine learning model to predict strokes based on certain data points.  Then identify people that are at risk and possibly prevent them from having a stroke
+* Why we chose this topic?
+   * Some of us have had family members affected
+   * There is an increase in strokes in younger people
+        
+                
+Bowen:
+EDA:
+       MISSING DATA:
+* 201 NaNs in "BMI" column
+   * 40 NaNs had a stroke (20% of positive stroke data would be a part of the deleted data)
+   * Excluding "BMI" NaNs, there are ~200 positive stroke cases (About 4% of the total dataset [200/5000])
+   * With NaNs, the stroke positivity rate for the entire dataset increases 1% (From ~4 to ~5% [250/5000])
+      * We included the missing 201 "BMI" NaNs in the Initial EDA
+      * We filled in the missing 201 "BMI" NaNs in the ML model (and further EDA) with the Median "BMI" value
+
+
+Kelsey:
+ML Model:
+1. Using the SVC models, the personal dataset ended up having a significant improvement in positive stroke case recall. It correctly labeled more positive strokes, and a significant decline in overall accuracy.
+2. We tried testing the same model with the full dataset (minus the BMI data) to see if no longer dealing with null values in that feature improves the model recall similarly, but it doesn't. For some reason, the SVC ML model is better at predicting positive stroke cases with just personal data
+
+
+What is data preprocessing?
+Oversampling - only 249 positive stroke cases in 5109 cases
+ML model biased toward negative stroke cases without oversampling
+RandomOverSampler duplicates existing data
+SMOTE generates new data based on existing data
+Missing BMI feature data - SimpleImputer(mean/median), KNNImputer, drop null rows or entire feature column
+201 null BMI values; 40 of our already few 249 positive strokes are in these rows
+Feature selection / reduction / creation
+Dropped redundant columns, experimented with dropping additional features
+Tested personal data vs. medical data
+Created new features such as Diabetic status calculated from glucose or BMI_imputed status
+Convert to numerical data types to train and test ML model
+Standardizing data to improve SVM & Unsupervised ML results (tree classifier models less sensitive to unscaled data)
+
+
+Supervised ML analysis:
+Supervised models: AdaBoostClassifier, RandomForestClassifier, KNeighborsClassifier, SupportVectorClassification(linear)
+AdaBoost_SMOTE_KNNImputer - top
+SVC_ros_SimpleImputer(median) - bottom
+Recall > precision; recall > accuracy
+Tested each model / preprocessing technique 1000 times via for loop and stored results in csv files
+Accuracy: RFC > KNEIGHBORSC > ADABOOSTC > SVC(linear)
+Recall: SVC(linear) > ADABOOSTC > KNEIGHBORSC > RFC
+Best model: SVC(linear kernel), SimpleImputer(mean) imputation of BMI null data, RandomOverSampler generation of positive stroke cases, added diabetic_status feature calculated from avg_glucose_level feature
+Average positive stroke recall: 0.81 (mean & median) & 0.80 (mode)
+Max stroke recall: 0.96 with 3/1000 runs; 62/1000 runs >= 90% recall; 652/1000 runs >= 80% recall
+Min stroke recall: 0.62 with 40/1000 runs <= 70% recall
+Max accuracy: 0.768; min accuracy: 0.687; average accuracy: 0.728
+
+
+Jack:
+Tools:
+* scikit learning is a collection of machine learning modules in the Tools part of the presentation
+* Wide variety of tools used, important to see how all we have learned from the past months has come together to produce the project.
+* For our presentation we used Tableau for its visual appeal, as well as its interactivity.
+
+
+Dashboard:
+Medical
+* An important predictor of strokes is medical data, which we have split into its own slide.
+* There are four separate charts here, which filter with the above metrics.
+   * One pie chart on the prevalence of hypertension
+   * One pie chart on the prevalence of heart disease
+   * A histogram for BMI, sorted into bins.
+   * A heat map of avg glucose levels among different generations
+Personal
+* Another common predictors of strokes is lifestyle, which is the next dashboard
+* We have also included 4 charts here, which interact with the same filters.
+   * One pie chart for rural/urban observations.
+   * One pie chart for marital status
+   * One bar chart for smoking status
+   * A horizontal bar chart for employment sector. 
+
+
+Our hopes with these two dashboards is to allow our audience to go through the filters to see if they can recognize their own patterns in the training data.
+
+
+Machine Learning
+* Our final dashboard shows the results of the machine learning models used, with our 4 highest performers being listed.
+* Although accuracy is higher among some, we decided to use the KNeighbors model due to the nature of our data and the high recall rate.
+   * Its much more important to include as many people into our predictions who may be at risk for a stroke, even if that means including some who wont end up having a stroke. 
+
+
+Katie:
+Conclusions:
+We didn’t hit our 95% goal. 
+Actual avg ~ 81% recall using the best model. 
+About 10% wind up being 90%+ with randomized data, but training and testing with the actual data wasn’t perfect. Occasionally we could hit up to 96% but it wasn’t consistent.
+
+We were surprised that RFC did not give the best results as expected. Forest classifiers struggle to achieve high recall, which was what we originally thought would be the best. Not nearly as good as SVC for positive recall. 
+
+We also identified that there was a higher success rate when using personal data over medical data. 
+
+Recommendations (What we would have done differently):
+1. Find a dataset with more datapoints (specifically one with more positive stroke cases)
+2. Exhaust options for ML Models
+3. Go deeper into finding correlations between features/combination-of-features with target
+4. Attempt a Supervised ML model first and not focus so intently on supervised models
+5. Attempt a Deep Learning model as we believe it would be well suited for this dataset
+6. Develop a webpage using Javascript that allows users to input their information and assess their personal stroke risk
